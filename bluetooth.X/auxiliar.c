@@ -1,7 +1,6 @@
 #include <xc.h>
 #include "lcd_t.h"
 #include "config.h"
-#include "uart.h"
 #include "timer0.h"
 #include "bds.h"
 

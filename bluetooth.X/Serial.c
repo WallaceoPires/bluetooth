@@ -1,14 +1,19 @@
 #include <xc.h>
 #include "Serial.h"
 #include "config.h"
-#include "uart.h"
+#include "eusart.h"
+#include "fifo.h"
+
+char tuni;
+char tdez;
+char rhex = 0;
 
 void initSerial(void) 
 {
-    PORTB       = 0x00;               // Valor inicial do PORT    
-    CCP1CON    &= 0xF0;            // Capture/Compare/PWM of    
-    ANSELH      = 0x00;            // Desabilita entradas anologicas      
-    TRISB       = 0b00000010;         // Direção de dados 
+    PORTB       = 0x00;                 // Valor inicial do PORT    
+    CCP1CON    &= 0xF0;                 // Capture/Compare/PWM of    
+    ANSELH      = 0x00;                 // Desabilita entradas anologicas      
+    TRISB       = 0b00000010;           // Direção de dados 
     
     PORTBbits.RB4 = 1;
     serialOut(0x00);
@@ -82,8 +87,8 @@ void transmite (void)
     if(serial != comp)
     {
         convHexToAnsc(serialIn());
-        writeUART(tdez);
-        writeUART(tuni); 
+        writeEUSART(tdez);
+        writeEUSART(tuni); 
         comp = serial;
     }
 }
@@ -94,17 +99,17 @@ void convAsciToHex (void)
     char uni;
 
     if (RCIF)
-        dez = readUART();
+        dez = readEUSART();
     
     if(dez > 0x40)
         dez -= 0x37;
     else
         dez -= 0x30;
     
-    __delay_ms(200);
+    //__delay_ms(200);
     
     if (RCIF)
-        uni = readUART();
+        uni = readEUSART();
     
     if(uni > 0x40)
         uni -= 0x37;
@@ -121,9 +126,9 @@ void recebe (void)
 {    
     if (RCIF)
     {
+        
         convAsciToHex();
         serialOut(rhex);
-        __delay_ms(100);
         RCIF = 0;
     }      
 }

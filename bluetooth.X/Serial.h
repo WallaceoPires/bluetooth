@@ -7,9 +7,7 @@
 #define clk     PORTBbits.RB2
 #define strobe  PORTBbits.RB3
 
-char tuni;
-char tdez;
-char rhex =0;
+
 
 void initSerial(void); 
 void serialOut (unsigned char d);

@@ -5,9 +5,10 @@
 #include "lcd_t.h"                                                              // Aciona Biblioteca desejada.
 #include "auxiliar.h"                                                           // Aciona Biblioteca desejada.
 #include "timer0.h"                                                             // Aciona Biblioteca desejada.
-#include "uart.h"                                                               // Aciona Biblioteca desejada.
+#include "eusart.h"                                                             // Aciona Biblioteca desejada.
 #include "bluetooth.h"                                                          // Aciona Biblioteca desejada.
 #include "Serial.h"
+#include "fifo.h"
 
 //void __interrupt() interrup(void)
 //{
@@ -23,11 +24,11 @@ void main(void)
     initBT();                                                                   // Inicialização dos Botões.
     initLCD();                                                                  // Inicialização do LCD para 4Bits.
     initTimer0();                                                               // Inicialização do Timer0. 
-    initUART(9600);                                                             // Inicialização da Comunicação UART.
+    initEUSART(9600);                                                           // Inicialização da Comunicação UART.
     initSerial();
     
     
-    unsigned int aux = 0;                                                       // Variavel de modelo Interiro.
+    unsigned int aux = 210;                                                       // Variavel de modelo Interiro.
     unsigned char a  = 0;                                                       // Variavel de modelo Char.
     unsigned char i  = 0;                                                       // Variavel de modelo Char.
     
@@ -135,8 +136,8 @@ void main(void)
                 break;
                     
             case 210:
-                if(B1() & B2()) aux = 20;
-                if(bordaSubidaB3())
+                //if(B1() & B2()) aux = 20;
+                //if(bordaSubidaB3())
                 {
                     cmdLCD(LCD_CLEAR);
                     writeLCD(0,0,"    TROCANDO    ");
@@ -149,10 +150,10 @@ void main(void)
                     while(t)
                     {
 
-                       recebe();     
-//                        transmite();
+                        recebe();     
+                        transmite();
                         
-                        if(B1() & B2()) t = 0;
+                        //if(B1() & B2()) t = 0;
                     }
                     PORTBbits.RB4 = 1;
                     aux = 2;

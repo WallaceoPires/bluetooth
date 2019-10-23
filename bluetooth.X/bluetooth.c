@@ -1,10 +1,10 @@
 #include <xc.h>
-#include "uart.h"
+#include "eusart.h"
 #include "config.h"
 
 void master1(void) 
 {
-    initUART(9600);
+    initEUSART(9600);
     writeString("AT+UART=9600,0,0\r\n");
     writeString("AT+ROLE=1\r\n");                           //Definir função do módulo como escravo
     __delay_ms(100);
@@ -16,13 +16,12 @@ void master1(void)
     __delay_ms(100);
     writeString("AT+INQ\r\n");                              //informação do dispositivo 
     __delay_ms(100);
-    writeString("AT+PSWD=\"0910\"\r\n");
-    
+    writeString("AT+PSWD=\"0910\"\r\n");   
 }
 
 void slave1(void) 
 {
-    initUART(9600);  
+    initEUSART(9600);  
     writeString("AT+UART=9600,0,0\r\n");
     writeString("AT+RMAAD\r\n");                            //Exclua todos os dispositivos autenticados na lista de pares
     __delay_ms(100);
@@ -37,13 +36,12 @@ void slave1(void)
     writeString("AT+NAME=\"Escravo\"\r\n");
     __delay_ms(100);
     writeString("AT+PSWD=\"0910\"\r\n");             
-    initUART(9600);
     
 }
 
 void modulo1(void) 
 {
-   initUART(9600);   
+   initEUSART(9600);   
    writeString("AT+PAIR=3DBA,88,687A74,20\r\n");
    __delay_ms(100);
     writeString("AT+LINK=3DBA,88,687A74\r\n");
@@ -55,7 +53,7 @@ void modulo1(void)
 
 void modulo2(void) 
 {
-   initUART(9600);
+   initEUSART(9600);
    writeString("AT+PAIR=0013,EF,0014BB,20\r\n");
    __delay_ms(100);
    writeString("AT+LINK=0013,EF,0014BB\r\n");
@@ -67,7 +65,7 @@ void modulo2(void)
 
 void modulo3(void) 
 {
-   initUART(9600);
+   initEUSART(9600);
    writeString("AT+PAIR=98D3,B1,FD43E9,20\r\n");
    __delay_ms(100);
    writeString("AT+LINK=98D3,B1,FD43E9\r\n");
