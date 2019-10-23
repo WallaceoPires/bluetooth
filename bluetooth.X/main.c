@@ -1,5 +1,4 @@
 #include <xc.h>                                                                 // Aciona Biblioteca desejada.
-#include <stdio.h>
 #include "bds.h"                                                                // Aciona Biblioteca desejada.
 #include "config.h"                                                             // Aciona Biblioteca desejada.
 #include "lcd_t.h"                                                              // Aciona Biblioteca desejada.
@@ -10,14 +9,23 @@
 #include "Serial.h"
 #include "fifo.h"
 
-//void __interrupt() interrup(void)
-//{
-//    if( INTCONbits.T0IE && INTCONbits.T0IF )
-//    {
-//        INTCONbits.T0IF = 0;
-//        intt0_1ms();
-//    }
-//}
+void __interrupt() geral( void )
+{
+    INTCONbits.GIE = 0;
+
+    if( PIE1bits.RCIE && PIR1bits.RCIF )
+    {
+        interrupt_EUSART_RX();
+    }
+    
+    if( INTCONbits.T0IE && INTCONbits.T0IF )
+    {
+        INTCONbits.T0IF = 0;
+        intt0_1ms();
+    }
+    
+    INTCONbits.GIE = 1;
+}
 
 void main(void) 
 {
@@ -136,8 +144,8 @@ void main(void)
                 break;
                     
             case 210:
-                //if(B1() & B2()) aux = 20;
-                //if(bordaSubidaB3())
+//                if(B1() & B2()) aux = 20;
+//                if(bordaSubidaB3())
                 {
                     cmdLCD(LCD_CLEAR);
                     writeLCD(0,0,"    TROCANDO    ");
@@ -149,11 +157,31 @@ void main(void)
                     
                     while(t)
                     {
-
-                        recebe();     
+                        switch( errorRxEUSART() )
+                        {
+                            case 2: writeLCD(0,1, "Overrun Error");
+                                    resetErrorRxEUSART();
+                                    break;
+                            case 1: writeLCD(0,1, "Framing Error");
+                                    resetErrorRxEUSART();
+                                    break;
+                            default:
+                            case 0:
+                                
+                                if( statusFIFO() >= 2 )
+                                {
+                                    unsigned char a1 = getFIFO();
+                                    unsigned char a2 = getFIFO();
+                                   serialOut( asciiToHex( a1, a2 ) );
+                                    
+                                }
+                            break;
+                        }
+                        
+                        serialOut(rhex);
                         transmite();
                         
-                        //if(B1() & B2()) t = 0;
+//                        if(B1() & B2()) t = 0;
                     }
                     PORTBbits.RB4 = 1;
                     aux = 2;
