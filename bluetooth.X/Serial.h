@@ -7,15 +7,15 @@
 #define clk     PORTBbits.RB2
 #define strobe  PORTBbits.RB3
 
-
+char rhex = 0;
 
 void initSerial(void); 
 void serialOut (unsigned char d);
 unsigned char serialIn (void);
-void convHexToAnsc (char dado);
+void hexToAscii (char dado);
 void transmite (void);
-void convAsciToHex (void);
-void recebe (void);
+char asciiToHex( unsigned char a1, unsigned char a2 );
+//void recebe (void);
 
 
 

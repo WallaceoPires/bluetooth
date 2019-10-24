@@ -6,7 +6,7 @@
 
 char tuni;
 char tdez;
-char rhex = 0;
+
 
 void initSerial(void) 
 {
@@ -54,7 +54,7 @@ unsigned char serialIn (void)
     return(dado);
 }
 
-void convHexToAnsc (char dado)
+void hexToAscii (char dado)
 {
     char dez;
     char uni;
@@ -86,30 +86,27 @@ void transmite (void)
     
     if(serial != comp)
     {
-        convHexToAnsc(serialIn());
+        hexToAscii(serialIn());
         writeEUSART(tdez);
         writeEUSART(tuni); 
         comp = serial;
     }
 }
 
-void convAsciToHex (void)
+
+
+char asciiToHex( unsigned char a1, unsigned char a2 )
 {
     char dez;
     char uni;
-
-    if (RCIF)
-        dez = readEUSART();
+    
+    dez = a1;
+    uni = a2;
     
     if(dez > 0x40)
         dez -= 0x37;
     else
         dez -= 0x30;
-    
-    //__delay_ms(200);
-    
-    if (RCIF)
-        uni = readEUSART();
     
     if(uni > 0x40)
         uni -= 0x37;
@@ -120,15 +117,13 @@ void convAsciToHex (void)
     
     rhex = dez | uni;
     
+    return (rhex);
+    
 }
 
-void recebe (void)
-{    
-    if (RCIF)
-    {
-        
-        convAsciToHex();
-        serialOut(rhex);
-        RCIF = 0;
-    }      
-}
+
+//void recebe (void)
+//{    
+//    convAsciToHex();
+//    serialOut(rhex);     
+//}

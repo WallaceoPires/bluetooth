@@ -6,15 +6,6 @@
 int t0final = 0;
 int t0cont;
 
-void __interrupt() interrup(void)
-{
-    if( INTCONbits.T0IE && INTCONbits.T0IF )
-    {
-        INTCONbits.T0IF = 0;
-        intt0_1ms();
-    }
-}
-
 void intt0_1ms( void )              // Configura "estouro" para 1mS e reset contagem
 {
     TMR0 = 100;                     // Ajusta o overflows 

@@ -1,7 +1,7 @@
 Version 3.2 HI-TECH Software Intermediate Code
-[t ~ __interrupt . k ]
-[t T1 __interrupt  ]
-"451 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
+"55 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
+[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
+"451
 [s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S16 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
 "461
@@ -12,10 +12,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S15 . . . ]
 "468
 [v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
-"4 timer0.h
-[v _intt0_1ms `(v ~T0 @X0 0 ef ]
-"55 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
-[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
 "3312
 [v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
 "1383
@@ -1561,177 +1557,149 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _t0cont `i ~T0 @X0 1 e ]
 [; ;timer0.c: 7: int t0cont;
 "9
-[v _interrup `(v ~T1 @X0 1 ef ]
+[v _intt0_1ms `(v ~T0 @X0 1 ef ]
 "10
 {
-[; ;timer0.c: 9: void __interrupt() interrup(void)
+[; ;timer0.c: 9: void intt0_1ms( void )
 [; ;timer0.c: 10: {
-[e :U _interrup ]
-[f ]
-[; ;timer0.c: 11: if( INTCONbits.T0IE && INTCONbits.T0IF )
-"11
-[e $ ! && != -> . . _INTCONbits 0 5 `i -> -> -> 0 `i `Vuc `i != -> . . _INTCONbits 0 2 `i -> -> -> 0 `i `Vuc `i 139  ]
-[; ;timer0.c: 12: {
-"12
-{
-[; ;timer0.c: 13: INTCONbits.T0IF = 0;
-"13
-[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
-[; ;timer0.c: 14: intt0_1ms();
-"14
-[e ( _intt0_1ms ..  ]
-"15
-}
-[e :U 139 ]
-[; ;timer0.c: 15: }
-[; ;timer0.c: 16: }
-"16
-[e :UE 138 ]
-}
-"18
-[v _intt0_1ms `(v ~T0 @X0 1 ef ]
-"19
-{
-[; ;timer0.c: 18: void intt0_1ms( void )
-[; ;timer0.c: 19: {
 [e :U _intt0_1ms ]
 [f ]
-[; ;timer0.c: 20: TMR0 = 100;
-"20
+[; ;timer0.c: 11: TMR0 = 100;
+"11
 [e = _TMR0 -> -> 100 `i `uc ]
-[; ;timer0.c: 22: if( ++t0cont >= t0final )
-"22
-[e $ ! >= =+ _t0cont -> 1 `i _t0final 141  ]
-[; ;timer0.c: 23: {
-"23
+[; ;timer0.c: 13: if( ++t0cont >= t0final )
+"13
+[e $ ! >= =+ _t0cont -> 1 `i _t0final 139  ]
+[; ;timer0.c: 14: {
+"14
 {
-[; ;timer0.c: 24: t0cont = 0;
-"24
+[; ;timer0.c: 15: t0cont = 0;
+"15
 [e = _t0cont -> 0 `i ]
-"25
+"16
 }
-[e :U 141 ]
-[; ;timer0.c: 25: }
-[; ;timer0.c: 26: }
-"26
+[e :U 139 ]
+[; ;timer0.c: 16: }
+[; ;timer0.c: 17: }
+"17
+[e :UE 138 ]
+}
+"19
+[v _setT0 `(v ~T0 @X0 1 ef1`i ]
+"20
+{
+[; ;timer0.c: 19: void setT0( int c )
+[; ;timer0.c: 20: {
+[e :U _setT0 ]
+"19
+[v _c `i ~T0 @X0 1 r1 ]
+"20
+[f ]
+[; ;timer0.c: 21: t0cont = c;
+"21
+[e = _t0cont _c ]
+[; ;timer0.c: 22: }
+"22
 [e :UE 140 ]
 }
-"28
-[v _setT0 `(v ~T0 @X0 1 ef1`i ]
-"29
+"24
+[v _statusT0 `(i ~T0 @X0 1 ef ]
+"25
 {
-[; ;timer0.c: 28: void setT0( int c )
-[; ;timer0.c: 29: {
-[e :U _setT0 ]
-"28
-[v _c `i ~T0 @X0 1 r1 ]
-"29
+[; ;timer0.c: 24: int statusT0( void )
+[; ;timer0.c: 25: {
+[e :U _statusT0 ]
 [f ]
-[; ;timer0.c: 30: t0cont = c;
+[; ;timer0.c: 26: return( t0cont );
+"26
+[e ) _t0cont ]
+[e $UE 141  ]
+[; ;timer0.c: 27: }
+"27
+[e :UE 141 ]
+}
+"29
+[v _setT0limite `(v ~T0 @X0 1 ef1`i ]
 "30
-[e = _t0cont _c ]
-[; ;timer0.c: 31: }
+{
+[; ;timer0.c: 29: void setT0limite( int c )
+[; ;timer0.c: 30: {
+[e :U _setT0limite ]
+"29
+[v _c `i ~T0 @X0 1 r1 ]
+"30
+[f ]
+[; ;timer0.c: 31: t0final = c;
 "31
+[e = _t0final _c ]
+[; ;timer0.c: 32: }
+"32
 [e :UE 142 ]
 }
 "33
-[v _statusT0 `(i ~T0 @X0 1 ef ]
+[v _statusT0limite `(i ~T0 @X0 1 ef ]
 "34
 {
-[; ;timer0.c: 33: int statusT0( void )
+[; ;timer0.c: 33: int statusT0limite( void )
 [; ;timer0.c: 34: {
-[e :U _statusT0 ]
+[e :U _statusT0limite ]
 [f ]
-[; ;timer0.c: 35: return( t0cont );
+[; ;timer0.c: 35: return( t0final );
 "35
-[e ) _t0cont ]
+[e ) _t0final ]
 [e $UE 143  ]
 [; ;timer0.c: 36: }
 "36
 [e :UE 143 ]
 }
 "38
-[v _setT0limite `(v ~T0 @X0 1 ef1`i ]
-"39
-{
-[; ;timer0.c: 38: void setT0limite( int c )
-[; ;timer0.c: 39: {
-[e :U _setT0limite ]
-"38
-[v _c `i ~T0 @X0 1 r1 ]
-"39
-[f ]
-[; ;timer0.c: 40: t0final = c;
-"40
-[e = _t0final _c ]
-[; ;timer0.c: 41: }
-"41
-[e :UE 144 ]
-}
-"42
-[v _statusT0limite `(i ~T0 @X0 1 ef ]
-"43
-{
-[; ;timer0.c: 42: int statusT0limite( void )
-[; ;timer0.c: 43: {
-[e :U _statusT0limite ]
-[f ]
-[; ;timer0.c: 44: return( t0final );
-"44
-[e ) _t0final ]
-[e $UE 145  ]
-[; ;timer0.c: 45: }
-"45
-[e :UE 145 ]
-}
-"47
 [v _initTimer0 `(v ~T0 @X0 1 ef ]
-"48
+"39
 {
-[; ;timer0.c: 47: void initTimer0( void )
-[; ;timer0.c: 48: {
+[; ;timer0.c: 38: void initTimer0( void )
+[; ;timer0.c: 39: {
 [e :U _initTimer0 ]
 [f ]
-[; ;timer0.c: 50: INTCONbits.GIE = 0;
-"50
+[; ;timer0.c: 41: INTCONbits.GIE = 0;
+"41
 [e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
-[; ;timer0.c: 52: ANSEL = 0x00;
-"52
+[; ;timer0.c: 43: ANSEL = 0x00;
+"43
 [e = _ANSEL -> -> 0 `i `uc ]
-[; ;timer0.c: 53: TRISAbits.TRISA4 = 1;
-"53
+[; ;timer0.c: 44: TRISAbits.TRISA4 = 1;
+"44
 [e = . . _TRISAbits 0 4 -> -> 1 `i `uc ]
-[; ;timer0.c: 55: OPTION_REGbits.T0CS = 0;
-"55
+[; ;timer0.c: 46: OPTION_REGbits.T0CS = 0;
+"46
 [e = . . _OPTION_REGbits 0 3 -> -> 0 `i `uc ]
-[; ;timer0.c: 57: OPTION_REGbits.PSA = 0;
-"57
+[; ;timer0.c: 48: OPTION_REGbits.PSA = 0;
+"48
 [e = . . _OPTION_REGbits 0 1 -> -> 0 `i `uc ]
-[; ;timer0.c: 58: OPTION_REGbits.PS2 = 1;
-"58
+[; ;timer0.c: 49: OPTION_REGbits.PS2 = 1;
+"49
 [e = . . _OPTION_REGbits 1 2 -> -> 1 `i `uc ]
-[; ;timer0.c: 59: OPTION_REGbits.PS1 = 0;
-"59
+[; ;timer0.c: 50: OPTION_REGbits.PS1 = 0;
+"50
 [e = . . _OPTION_REGbits 1 1 -> -> 0 `i `uc ]
-[; ;timer0.c: 60: OPTION_REGbits.PS0 = 0;
-"60
+[; ;timer0.c: 51: OPTION_REGbits.PS0 = 0;
+"51
 [e = . . _OPTION_REGbits 1 0 -> -> 0 `i `uc ]
-[; ;timer0.c: 62: OPTION_REGbits.T0SE = 1;
-"62
+[; ;timer0.c: 53: OPTION_REGbits.T0SE = 1;
+"53
 [e = . . _OPTION_REGbits 0 2 -> -> 1 `i `uc ]
-[; ;timer0.c: 64: TMR0 = 100;
-"64
+[; ;timer0.c: 55: TMR0 = 100;
+"55
 [e = _TMR0 -> -> 100 `i `uc ]
-[; ;timer0.c: 66: setT0limite( 700 );
-"66
+[; ;timer0.c: 57: setT0limite( 700 );
+"57
 [e ( _setT0limite (1 -> 700 `i ]
-[; ;timer0.c: 68: INTCONbits.T0IE = 1;
-"68
+[; ;timer0.c: 59: INTCONbits.T0IE = 1;
+"59
 [e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
-[; ;timer0.c: 69: INTCONbits.GIE = 1;
-"69
+[; ;timer0.c: 60: INTCONbits.GIE = 1;
+"60
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
-[; ;timer0.c: 72: }
-"72
-[e :UE 146 ]
+[; ;timer0.c: 63: }
+"63
+[e :UE 144 ]
 }

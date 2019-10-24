@@ -19,14 +19,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _serialOut `(v ~T0 @X0 0 ef1`uc ]
 "8 eusart.h
 [v _writeEUSART `(v ~T0 @X0 0 ef1`uc ]
-"3890 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
-[v _RCIF `Vb ~T0 @X0 0 e@101 ]
-"4 fifo.h
-[v _putFIFO `(v ~T0 @X0 0 ef1`uc ]
-"1109 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
-[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
-"5 eusart.h
-[v _readEUSART `(uc ~T0 @X0 0 ef ]
 [; ;htc.h: 26: extern const char __xc8_OPTIM_SPEED;
 [; ;htc.h: 28: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
@@ -1511,13 +1503,18 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic.h: 192: extern unsigned char __resetbits;
 [; ;pic.h: 193: extern __bit __powerdown;
 [; ;pic.h: 194: extern __bit __timeout;
+"10 Serial.h
+[v _rhex `uc ~T0 @X0 1 e ]
+[i _rhex
+-> -> 0 `i `uc
+]
+[; ;Serial.h: 10: char rhex = 0;
 [; ;Serial.h: 12: void initSerial(void);
 [; ;Serial.h: 13: void serialOut (unsigned char d);
 [; ;Serial.h: 14: unsigned char serialIn (void);
-[; ;Serial.h: 15: void convHexToAnsc (char dado);
+[; ;Serial.h: 15: void hexToAscii (char dado);
 [; ;Serial.h: 16: void transmite (void);
-[; ;Serial.h: 17: void convAsciToHex (void);
-[; ;Serial.h: 18: void recebe (void);
+[; ;Serial.h: 17: char asciiToHex( unsigned char a1, unsigned char a2 );
 "5 config.h
 [p x FOSC=HS ]
 "6
@@ -1560,12 +1557,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 "8
 [v _tdez `uc ~T0 @X0 1 e ]
 [; ;Serial.c: 8: char tdez;
-"9
-[v _rhex `uc ~T0 @X0 1 e ]
-[i _rhex
--> -> 0 `i `uc
-]
-[; ;Serial.c: 9: char rhex = 0;
 "11
 [v _initSerial `(v ~T0 @X0 1 ef ]
 "12
@@ -1719,12 +1710,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :UE 145 ]
 }
 "57
-[v _convHexToAnsc `(v ~T0 @X0 1 ef1`uc ]
+[v _hexToAscii `(v ~T0 @X0 1 ef1`uc ]
 "58
 {
-[; ;Serial.c: 57: void convHexToAnsc (char dado)
+[; ;Serial.c: 57: void hexToAscii (char dado)
 [; ;Serial.c: 58: {
-[e :U _convHexToAnsc ]
+[e :U _hexToAscii ]
 "57
 [v _dado `uc ~T0 @X0 1 r1 ]
 "58
@@ -1811,9 +1802,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;Serial.c: 88: {
 "88
 {
-[; ;Serial.c: 89: convHexToAnsc(serialIn());
+[; ;Serial.c: 89: hexToAscii(serialIn());
 "89
-[e ( _convHexToAnsc (1 ( _serialIn ..  ]
+[e ( _hexToAscii (1 ( _serialIn ..  ]
 [; ;Serial.c: 90: writeEUSART(tdez);
 "90
 [e ( _writeEUSART (1 _tdez ]
@@ -1831,106 +1822,69 @@ Version 3.2 HI-TECH Software Intermediate Code
 "94
 [e :UE 155 ]
 }
-"96
-[v _convAsciToHex `(v ~T0 @X0 1 ef ]
-"97
-{
-[; ;Serial.c: 96: void convAsciToHex (void)
-[; ;Serial.c: 97: {
-[e :U _convAsciToHex ]
-[f ]
 "98
-[v _dez `uc ~T0 @X0 1 a ]
+[v _asciiToHex `(uc ~T0 @X0 1 ef2`uc`uc ]
 "99
-[v _uni `uc ~T0 @X0 1 a ]
-[; ;Serial.c: 98: char dez;
-[; ;Serial.c: 99: char uni;
-[; ;Serial.c: 101: if (RCIF)
-"101
-[e $ ! _RCIF 158  ]
-[; ;Serial.c: 102: putFIFO(RCREG);
-"102
-[e ( _putFIFO (1 _RCREG ]
-[e :U 158 ]
-[; ;Serial.c: 103: dez = readEUSART();
-"103
-[e = _dez ( _readEUSART ..  ]
-[; ;Serial.c: 105: if(dez > 0x40)
-"105
-[e $ ! > -> _dez `i -> 64 `i 159  ]
-[; ;Serial.c: 106: dez -= 0x37;
-"106
-[e =- _dez -> -> 55 `i `uc ]
-[e $U 160  ]
-"107
-[e :U 159 ]
-[; ;Serial.c: 107: else
-[; ;Serial.c: 108: dez -= 0x30;
-"108
-[e =- _dez -> -> 48 `i `uc ]
-[e :U 160 ]
-[; ;Serial.c: 112: if (RCIF)
-"112
-[e $ ! _RCIF 161  ]
-[; ;Serial.c: 113: putFIFO(RCREG);
-"113
-[e ( _putFIFO (1 _RCREG ]
-[e :U 161 ]
-[; ;Serial.c: 114: uni = readEUSART();
-"114
-[e = _uni ( _readEUSART ..  ]
-[; ;Serial.c: 116: if(uni > 0x40)
-"116
-[e $ ! > -> _uni `i -> 64 `i 162  ]
-[; ;Serial.c: 117: uni -= 0x37;
-"117
-[e =- _uni -> -> 55 `i `uc ]
-[e $U 163  ]
-"118
-[e :U 162 ]
-[; ;Serial.c: 118: else
-[; ;Serial.c: 119: uni -= 0x30;
-"119
-[e =- _uni -> -> 48 `i `uc ]
-[e :U 163 ]
-[; ;Serial.c: 121: dez<<=4;
-"121
-[e =<< _dez -> 4 `i ]
-[; ;Serial.c: 123: rhex = dez | uni;
-"123
-[e = _rhex -> | -> _dez `i -> _uni `i `uc ]
-[; ;Serial.c: 125: }
-"125
-[e :UE 157 ]
-}
-"127
-[v _recebe `(v ~T0 @X0 1 ef ]
-"128
 {
-[; ;Serial.c: 127: void recebe (void)
-[; ;Serial.c: 128: {
-[e :U _recebe ]
+[; ;Serial.c: 98: char asciiToHex( unsigned char a1, unsigned char a2 )
+[; ;Serial.c: 99: {
+[e :U _asciiToHex ]
+"98
+[v _a1 `uc ~T0 @X0 1 r1 ]
+[v _a2 `uc ~T0 @X0 1 r2 ]
+"99
 [f ]
-[; ;Serial.c: 129: if (RCIF)
-"129
-[e $ ! _RCIF 165  ]
-[; ;Serial.c: 130: {
-"130
-{
-[; ;Serial.c: 132: convAsciToHex();
-"132
-[e ( _convAsciToHex ..  ]
-[; ;Serial.c: 133: serialOut(rhex);
-"133
-[e ( _serialOut (1 _rhex ]
-[; ;Serial.c: 134: RCIF = 0;
-"134
-[e = _RCIF -> -> 0 `i `b ]
-"135
-}
-[e :U 165 ]
-[; ;Serial.c: 135: }
-[; ;Serial.c: 136: }
-"136
-[e :UE 164 ]
+"100
+[v _dez `uc ~T0 @X0 1 a ]
+"101
+[v _uni `uc ~T0 @X0 1 a ]
+[; ;Serial.c: 100: char dez;
+[; ;Serial.c: 101: char uni;
+[; ;Serial.c: 103: dez = a1;
+"103
+[e = _dez _a1 ]
+[; ;Serial.c: 104: uni = a2;
+"104
+[e = _uni _a2 ]
+[; ;Serial.c: 106: if(dez > 0x40)
+"106
+[e $ ! > -> _dez `i -> 64 `i 158  ]
+[; ;Serial.c: 107: dez -= 0x37;
+"107
+[e =- _dez -> -> 55 `i `uc ]
+[e $U 159  ]
+"108
+[e :U 158 ]
+[; ;Serial.c: 108: else
+[; ;Serial.c: 109: dez -= 0x30;
+"109
+[e =- _dez -> -> 48 `i `uc ]
+[e :U 159 ]
+[; ;Serial.c: 111: if(uni > 0x40)
+"111
+[e $ ! > -> _uni `i -> 64 `i 160  ]
+[; ;Serial.c: 112: uni -= 0x37;
+"112
+[e =- _uni -> -> 55 `i `uc ]
+[e $U 161  ]
+"113
+[e :U 160 ]
+[; ;Serial.c: 113: else
+[; ;Serial.c: 114: uni -= 0x30;
+"114
+[e =- _uni -> -> 48 `i `uc ]
+[e :U 161 ]
+[; ;Serial.c: 116: dez<<=4;
+"116
+[e =<< _dez -> 4 `i ]
+[; ;Serial.c: 118: rhex = dez | uni;
+"118
+[e = _rhex -> | -> _dez `i -> _uni `i `uc ]
+[; ;Serial.c: 120: return (rhex);
+"120
+[e ) _rhex ]
+[e $UE 157  ]
+[; ;Serial.c: 122: }
+"122
+[e :UE 157 ]
 }

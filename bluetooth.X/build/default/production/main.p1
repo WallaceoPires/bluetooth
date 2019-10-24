@@ -1,4 +1,37 @@
 Version 3.2 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt  ]
+"451 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"461
+[s S17 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S17 . . TMR0IF . TMR0IE ]
+"450
+[u S15 `S16 1 `S17 1 ]
+[n S15 . . . ]
+"468
+[v _INTCONbits `VS15 ~T0 @X0 0 e@11 ]
+"1664
+[s S63 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S63 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1663
+[u S62 `S63 1 ]
+[n S62 . . ]
+"1674
+[v _PIE1bits `VS62 ~T0 @X0 0 e@140 ]
+"528
+[s S19 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S19 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"527
+[u S18 `S19 1 ]
+[n S18 . . ]
+"538
+[v _PIR1bits `VS18 ~T0 @X0 0 e@12 ]
+"12 eusart.h
+[v _interrupt_EUSART_RX `(v ~T0 @X0 0 ef ]
+"4 timer0.h
+[v _intt0_1ms `(v ~T0 @X0 0 ef ]
 [p mainexit ]
 "5 bds.h
 [v _initBT `(v ~T0 @X0 0 ef ]
@@ -52,9 +85,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S7 . . ]
 "236
 [v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
-"18 Serial.h
-[v _recebe `(v ~T0 @X0 0 ef ]
-"16
+"7 eusart.h
+[v _resetErrorRxEUSART `(v ~T0 @X0 0 ef ]
+"6 fifo.h
+[v _statusFIFO `(uc ~T0 @X0 0 ef ]
+"5
+[v _getFIFO `(uc ~T0 @X0 0 ef ]
+"13 Serial.h
+[v _serialOut `(v ~T0 @X0 0 ef1`uc ]
+"17
+[v _asciiToHex `(uc ~T0 @X0 0 ef2`uc`uc ]
+"6 eusart.h
+[v _errorRxEUSART `(uc ~T0 @X0 0 ef ]
+"16 Serial.h
 [v _transmite `(v ~T0 @X0 0 ef ]
 [v F1637 `(v ~T0 @X0 1 tf1`ul ]
 "152 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic.h
@@ -1562,36 +1605,6 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;pic.h: 192: extern unsigned char __resetbits;
 [; ;pic.h: 193: extern __bit __powerdown;
 [; ;pic.h: 194: extern __bit __timeout;
-[; ;__size_t.h: 4: typedef unsigned size_t;
-[; ;stdarg.h: 7: typedef void * va_list[1];
-[; ;stdarg.h: 10: extern void * __va_start(void);
-[; ;stdarg.h: 13: extern void * __va_arg(void *, ...);
-[; ;stdio.h: 43: struct __prbuf
-[; ;stdio.h: 44: {
-[; ;stdio.h: 45: char * ptr;
-[; ;stdio.h: 46: void (* func)(char);
-[; ;stdio.h: 47: };
-[; ;errno.h: 29: extern int errno;
-[; ;conio.h: 12: extern void init_uart(void);
-[; ;conio.h: 14: extern char getch(void);
-[; ;conio.h: 15: extern char getche(void);
-[; ;conio.h: 16: extern void putch(char);
-[; ;conio.h: 17: extern void ungetch(char);
-[; ;conio.h: 19: extern __bit kbhit(void);
-[; ;conio.h: 23: extern char * cgets(char *);
-[; ;conio.h: 24: extern void cputs(const char *);
-[; ;stdio.h: 88: extern int cprintf(char *, ...);
-[; ;stdio.h: 93: extern int _doprnt(struct __prbuf *, const register char *, register va_list);
-[; ;stdio.h: 183: extern char * gets(char *);
-[; ;stdio.h: 184: extern int puts(const char *);
-[; ;stdio.h: 185: extern int scanf(const char *, ...) __attribute__((unsupported("scanf() is not supported by this compiler")));
-[; ;stdio.h: 186: extern int sscanf(const char *, const char *, ...) __attribute__((unsupported("sscanf() is not supported by this compiler")));
-[; ;stdio.h: 187: extern int vprintf(const char *, va_list) __attribute__((unsupported("vprintf() is not supported by this compiler")));
-[; ;stdio.h: 188: extern int vsprintf(char *, const char *, va_list) __attribute__((unsupported("vsprintf() is not supported by this compiler")));
-[; ;stdio.h: 189: extern int vscanf(const char *, va_list ap) __attribute__((unsupported("vscanf() is not supported by this compiler")));
-[; ;stdio.h: 190: extern int vsscanf(const char *, const char *, va_list) __attribute__((unsupported("vsscanf() is not supported by this compiler")));
-[; ;stdio.h: 194: extern int sprintf(char *, const char *, ...);
-[; ;stdio.h: 195: extern int printf(const char *, ...);
 [; ;bds.h: 5: void initBT ( void );
 [; ;bds.h: 6: char B1 ( void );
 [; ;bds.h: 7: char B2 ( void );
@@ -1690,973 +1703,1095 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;bluetooth.h: 12: void modulo6(void);
 [; ;bluetooth.h: 13: void modulo7(void);
 [; ;bluetooth.h: 14: void modulo8(void);
+"10 Serial.h
+[v _rhex `uc ~T0 @X0 1 e ]
+[i _rhex
+-> -> 0 `i `uc
+]
+[; ;Serial.h: 10: char rhex = 0;
 [; ;Serial.h: 12: void initSerial(void);
 [; ;Serial.h: 13: void serialOut (unsigned char d);
 [; ;Serial.h: 14: unsigned char serialIn (void);
-[; ;Serial.h: 15: void convHexToAnsc (char dado);
+[; ;Serial.h: 15: void hexToAscii (char dado);
 [; ;Serial.h: 16: void transmite (void);
-[; ;Serial.h: 17: void convAsciToHex (void);
-[; ;Serial.h: 18: void recebe (void);
+[; ;Serial.h: 17: char asciiToHex( unsigned char a1, unsigned char a2 );
 [; ;fifo.h: 4: void putFIFO( unsigned char c );
 [; ;fifo.h: 5: unsigned char getFIFO( void );
 [; ;fifo.h: 6: unsigned char statusFIFO( void );
-"22 main.c
-[v _main `(v ~T0 @X0 1 ef ]
-"23
+"12 main.c
+[v _geral `(v ~T1 @X0 1 ef ]
+"13
 {
-[; ;main.c: 22: void main(void)
-[; ;main.c: 23: {
+[; ;main.c: 12: void __interrupt() geral( void )
+[; ;main.c: 13: {
+[e :U _geral ]
+[f ]
+[; ;main.c: 14: INTCONbits.GIE = 0;
+"14
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+[; ;main.c: 16: if( PIE1bits.RCIE && PIR1bits.RCIF )
+"16
+[e $ ! && != -> . . _PIE1bits 0 5 `i -> -> -> 0 `i `Vuc `i != -> . . _PIR1bits 0 5 `i -> -> -> 0 `i `Vuc `i 143  ]
+[; ;main.c: 17: {
+"17
+{
+[; ;main.c: 18: interrupt_EUSART_RX();
+"18
+[e ( _interrupt_EUSART_RX ..  ]
+"19
+}
+[e :U 143 ]
+[; ;main.c: 19: }
+[; ;main.c: 21: if( INTCONbits.T0IE && INTCONbits.T0IF )
+"21
+[e $ ! && != -> . . _INTCONbits 0 5 `i -> -> -> 0 `i `Vuc `i != -> . . _INTCONbits 0 2 `i -> -> -> 0 `i `Vuc `i 144  ]
+[; ;main.c: 22: {
+"22
+{
+[; ;main.c: 23: INTCONbits.T0IF = 0;
+"23
+[e = . . _INTCONbits 0 2 -> -> 0 `i `uc ]
+[; ;main.c: 24: intt0_1ms();
+"24
+[e ( _intt0_1ms ..  ]
+"25
+}
+[e :U 144 ]
+[; ;main.c: 25: }
+[; ;main.c: 27: INTCONbits.GIE = 1;
+"27
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+[; ;main.c: 28: }
+"28
+[e :UE 142 ]
+}
+"30
+[v _main `(v ~T0 @X0 1 ef ]
+"31
+{
+[; ;main.c: 30: void main(void)
+[; ;main.c: 31: {
 [e :U _main ]
 [f ]
-[; ;main.c: 24: initBT();
-"24
-[e ( _initBT ..  ]
-[; ;main.c: 25: initLCD();
-"25
-[e ( _initLCD ..  ]
-[; ;main.c: 26: initTimer0();
-"26
-[e ( _initTimer0 ..  ]
-[; ;main.c: 27: initEUSART(9600);
-"27
-[e ( _initEUSART (1 -> -> -> 9600 `i `l `ul ]
-[; ;main.c: 28: initSerial();
-"28
-[e ( _initSerial ..  ]
-"31
-[v _aux `ui ~T0 @X0 1 a ]
-[; ;main.c: 31: unsigned int aux = 210;
-[e = _aux -> -> 210 `i `ui ]
+[; ;main.c: 32: initBT();
 "32
-[v _a `uc ~T0 @X0 1 a ]
-[; ;main.c: 32: unsigned char a = 0;
-[e = _a -> -> 0 `i `uc ]
+[e ( _initBT ..  ]
+[; ;main.c: 33: initLCD();
 "33
-[v _i `uc ~T0 @X0 1 a ]
-[; ;main.c: 33: unsigned char i = 0;
-[e = _i -> -> 0 `i `uc ]
-[; ;main.c: 35: while(1)
+[e ( _initLCD ..  ]
+[; ;main.c: 34: initTimer0();
+"34
+[e ( _initTimer0 ..  ]
+[; ;main.c: 35: initEUSART(9600);
 "35
-[e :U 145 ]
-[; ;main.c: 36: {
+[e ( _initEUSART (1 -> -> -> 9600 `i `l `ul ]
+[; ;main.c: 36: initSerial();
 "36
-{
-[; ;main.c: 37: switch (aux)
-"37
-[e $U 148  ]
-[; ;main.c: 38: {
-"38
-{
-[; ;main.c: 39: case 0 :
+[e ( _initSerial ..  ]
 "39
-[e :U 149 ]
-[; ;main.c: 40: logo();
+[v _aux `ui ~T0 @X0 1 a ]
+[; ;main.c: 39: unsigned int aux = 210;
+[e = _aux -> -> 210 `i `ui ]
 "40
-[e ( _logo ..  ]
-[; ;main.c: 41: aux = 1;
+[v _a `uc ~T0 @X0 1 a ]
+[; ;main.c: 40: unsigned char a = 0;
+[e = _a -> -> 0 `i `uc ]
 "41
-[e = _aux -> -> 1 `i `ui ]
-[; ;main.c: 42: break;
-"42
-[e $U 147  ]
-[; ;main.c: 44: case 1:
+[v _i `uc ~T0 @X0 1 a ]
+[; ;main.c: 41: unsigned char i = 0;
+[e = _i -> -> 0 `i `uc ]
+[; ;main.c: 43: while(1)
+"43
+[e :U 147 ]
+[; ;main.c: 44: {
 "44
-[e :U 150 ]
-[; ;main.c: 45: textConfig();
+{
+[; ;main.c: 45: switch (aux)
 "45
-[e ( _textConfig ..  ]
-[; ;main.c: 46: aux = 10;
+[e $U 150  ]
+[; ;main.c: 46: {
 "46
-[e = _aux -> -> 10 `i `ui ]
-[; ;main.c: 47: break;
+{
+[; ;main.c: 47: case 0 :
 "47
-[e $U 147  ]
-[; ;main.c: 49: case 2:
-"49
 [e :U 151 ]
-[; ;main.c: 50: textCMdat();
+[; ;main.c: 48: logo();
+"48
+[e ( _logo ..  ]
+[; ;main.c: 49: aux = 1;
+"49
+[e = _aux -> -> 1 `i `ui ]
+[; ;main.c: 50: break;
 "50
-[e ( _textCMdat ..  ]
-[; ;main.c: 51: aux = 20;
-"51
-[e = _aux -> -> 20 `i `ui ]
-[; ;main.c: 52: break;
+[e $U 149  ]
+[; ;main.c: 52: case 1:
 "52
-[e $U 147  ]
-[; ;main.c: 54: case 3:
-"54
 [e :U 152 ]
-[; ;main.c: 55: textCMpar();
+[; ;main.c: 53: textConfig();
+"53
+[e ( _textConfig ..  ]
+[; ;main.c: 54: aux = 10;
+"54
+[e = _aux -> -> 10 `i `ui ]
+[; ;main.c: 55: break;
 "55
-[e ( _textCMpar ..  ]
-[; ;main.c: 56: aux = 30;
-"56
-[e = _aux -> -> 30 `i `ui ]
-[; ;main.c: 57: break;
+[e $U 149  ]
+[; ;main.c: 57: case 2:
 "57
-[e $U 147  ]
-[; ;main.c: 61: case 10:
-"61
 [e :U 153 ]
-[; ;main.c: 62: if(bordaSubidaB1()) aux = 2;
+[; ;main.c: 58: textCMdat();
+"58
+[e ( _textCMdat ..  ]
+[; ;main.c: 59: aux = 20;
+"59
+[e = _aux -> -> 20 `i `ui ]
+[; ;main.c: 60: break;
+"60
+[e $U 149  ]
+[; ;main.c: 62: case 3:
 "62
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 154  ]
-[e = _aux -> -> 2 `i `ui ]
 [e :U 154 ]
-[; ;main.c: 63: if(bordaSubidaB2()) aux = 3;
+[; ;main.c: 63: textCMpar();
 "63
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 155  ]
-[e = _aux -> -> 3 `i `ui ]
-[e :U 155 ]
-[; ;main.c: 64: if(bordaSubidaB3()) aux = 100;
+[e ( _textCMpar ..  ]
+[; ;main.c: 64: aux = 30;
 "64
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 156  ]
-[e = _aux -> -> 100 `i `ui ]
-[e :U 156 ]
+[e = _aux -> -> 30 `i `ui ]
 [; ;main.c: 65: break;
 "65
-[e $U 147  ]
-[; ;main.c: 67: case 20:
-"67
-[e :U 157 ]
-[; ;main.c: 68: if(bordaSubidaB1()) aux = 3;
-"68
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 158  ]
-[e = _aux -> -> 3 `i `ui ]
-[e :U 158 ]
-[; ;main.c: 69: if(bordaSubidaB2()) aux = 1;
+[e $U 149  ]
+[; ;main.c: 69: case 10:
 "69
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 159  ]
-[e = _aux -> -> 1 `i `ui ]
-[e :U 159 ]
-[; ;main.c: 70: if(bordaSubidaB3()) aux = 200;
+[e :U 155 ]
+[; ;main.c: 70: if(bordaSubidaB1()) aux = 2;
 "70
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 160  ]
-[e = _aux -> -> 200 `i `ui ]
-[e :U 160 ]
-[; ;main.c: 71: break;
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 156  ]
+[e = _aux -> -> 2 `i `ui ]
+[e :U 156 ]
+[; ;main.c: 71: if(bordaSubidaB2()) aux = 3;
 "71
-[e $U 147  ]
-[; ;main.c: 73: case 30:
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 157  ]
+[e = _aux -> -> 3 `i `ui ]
+[e :U 157 ]
+[; ;main.c: 72: if(bordaSubidaB3()) aux = 100;
+"72
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 158  ]
+[e = _aux -> -> 100 `i `ui ]
+[e :U 158 ]
+[; ;main.c: 73: break;
 "73
-[e :U 161 ]
-[; ;main.c: 74: if(bordaSubidaB1()) aux = 1;
-"74
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 162  ]
-[e = _aux -> -> 1 `i `ui ]
-[e :U 162 ]
-[; ;main.c: 75: if(bordaSubidaB2()) aux = 2;
+[e $U 149  ]
+[; ;main.c: 75: case 20:
 "75
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 163  ]
-[e = _aux -> -> 2 `i `ui ]
-[e :U 163 ]
-[; ;main.c: 76: if(bordaSubidaB3()) aux = 300;
+[e :U 159 ]
+[; ;main.c: 76: if(bordaSubidaB1()) aux = 3;
 "76
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 164  ]
-[e = _aux -> -> 300 `i `ui ]
-[e :U 164 ]
-[; ;main.c: 77: if(B2() & B3()) aux = 666;
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 160  ]
+[e = _aux -> -> 3 `i `ui ]
+[e :U 160 ]
+[; ;main.c: 77: if(bordaSubidaB2()) aux = 1;
 "77
-[e $ ! != & -> ( _B2 ..  `i -> ( _B3 ..  `i -> 0 `i 165  ]
-[e = _aux -> -> 666 `i `ui ]
-[e :U 165 ]
-[; ;main.c: 78: break;
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 161  ]
+[e = _aux -> -> 1 `i `ui ]
+[e :U 161 ]
+[; ;main.c: 78: if(bordaSubidaB3()) aux = 200;
 "78
-[e $U 147  ]
-[; ;main.c: 82: case 100:
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 162  ]
+[e = _aux -> -> 200 `i `ui ]
+[e :U 162 ]
+[; ;main.c: 79: break;
+"79
+[e $U 149  ]
+[; ;main.c: 81: case 30:
+"81
+[e :U 163 ]
+[; ;main.c: 82: if(bordaSubidaB1()) aux = 1;
 "82
-[e :U 166 ]
-[; ;main.c: 83: cmdLCD(0x01);
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 164  ]
+[e = _aux -> -> 1 `i `ui ]
+[e :U 164 ]
+[; ;main.c: 83: if(bordaSubidaB2()) aux = 2;
 "83
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 84: writeLCD(0,0,"MODULO  DESEJADO");
-"84
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 1C ]
-[; ;main.c: 85: writeLCD(0,1,"ESTEIRA      CLP");
-"85
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 2C ]
-[; ;main.c: 86: aux = 110;
-"86
-[e = _aux -> -> 110 `i `ui ]
-[; ;main.c: 87: break;
-"87
-[e $U 147  ]
-[; ;main.c: 89: case 110:
-"89
-[e :U 167 ]
-[; ;main.c: 90: switch(i)
-"90
-[e $U 169  ]
-[; ;main.c: 91: {
-"91
-{
-[; ;main.c: 92: case 0:
-"92
-[e :U 170 ]
-[; ;main.c: 93: textSelectionEST();
-"93
-[e ( _textSelectionEST ..  ]
-[; ;main.c: 94: if(bordaSubidaB2()) i = 1;
-"94
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 171  ]
-[e = _i -> -> 1 `i `uc ]
-[e :U 171 ]
-[; ;main.c: 95: if(bordaSubidaB3()) aux = 111;
-"95
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 172  ]
-[e = _aux -> -> 111 `i `ui ]
-[e :U 172 ]
-[; ;main.c: 96: if(B1() & B2()) aux = 10;
-"96
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 173  ]
-[e = _aux -> -> 10 `i `ui ]
-[e :U 173 ]
-[; ;main.c: 97: break;
-"97
-[e $U 168  ]
-[; ;main.c: 99: case 1:
-"99
-[e :U 174 ]
-[; ;main.c: 100: textSelectionCLP();
-"100
-[e ( _textSelectionCLP ..  ]
-[; ;main.c: 101: if(bordaSubidaB1()) i=0;
-"101
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 175  ]
-[e = _i -> -> 0 `i `uc ]
-[e :U 175 ]
-[; ;main.c: 102: if(bordaSubidaB3()) aux = 112;
-"102
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 176  ]
-[e = _aux -> -> 112 `i `ui ]
-[e :U 176 ]
-[; ;main.c: 103: if(B1() & B2()) aux = 10;
-"103
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 177  ]
-[e = _aux -> -> 10 `i `ui ]
-[e :U 177 ]
-[; ;main.c: 104: break;
-"104
-[e $U 168  ]
-"106
-}
-[; ;main.c: 106: }
-[e $U 168  ]
-"90
-[e :U 169 ]
-[e [\ _i , $ -> -> 0 `i `uc 170
- , $ -> -> 1 `i `uc 174
- 168 ]
-"106
-[e :U 168 ]
-[; ;main.c: 107: break;
-"107
-[e $U 147  ]
-[; ;main.c: 109: case 111:
-"109
-[e :U 178 ]
-[; ;main.c: 110: cmdLCD(0x01);
-"110
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 111: writeLCD(0,0," Enviando ");
-"111
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 3C ]
-[; ;main.c: 112: writeLCD(0,1," P/ Esteira ");
-"112
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 4C ]
-[; ;main.c: 113: slave1();
-"113
-[e ( _slave1 ..  ]
-[; ;main.c: 114: textLoading();
-"114
-[e ( _textLoading ..  ]
-[; ;main.c: 115: aux = 1;
-"115
-[e = _aux -> -> 1 `i `ui ]
-[; ;main.c: 116: break;
-"116
-[e $U 147  ]
-[; ;main.c: 118: case 112:
-"118
-[e :U 179 ]
-[; ;main.c: 119: cmdLCD(0x01);
-"119
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 120: writeLCD(0,0," Enviando ");
-"120
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 5C ]
-[; ;main.c: 121: writeLCD(0,1," P/ CLP ");
-"121
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 6C ]
-[; ;main.c: 122: master1();
-"122
-[e ( _master1 ..  ]
-[; ;main.c: 123: textLoading();
-"123
-[e ( _textLoading ..  ]
-[; ;main.c: 124: aux = 1;
-"124
-[e = _aux -> -> 1 `i `ui ]
-[; ;main.c: 125: break;
-"125
-[e $U 147  ]
-[; ;main.c: 131: case 200:
-"131
-[e :U 180 ]
-[; ;main.c: 132: cmdLCD(0x01);
-"132
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 133: writeLCD(0,0," CONFIRMA TROCA ");
-"133
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 7C ]
-[; ;main.c: 134: writeLCD(0,1,"    DE DADOS    ");
-"134
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 8C ]
-[; ;main.c: 135: aux = 210;
-"135
-[e = _aux -> -> 210 `i `ui ]
-[; ;main.c: 136: break;
-"136
-[e $U 147  ]
-[; ;main.c: 138: case 210:
-"138
-[e :U 181 ]
-[; ;main.c: 141: {
-"141
-{
-[; ;main.c: 142: cmdLCD(0x01);
-"142
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 143: writeLCD(0,0,"    TROCANDO    ");
-"143
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 9C ]
-[; ;main.c: 144: writeLCD(0,1,"   INFORMACAO   ");
-"144
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 10C ]
-"146
-[v _t `uc ~T0 @X0 1 a ]
-[; ;main.c: 146: char t = 1;
-[e = _t -> -> 1 `i `uc ]
-[; ;main.c: 148: PORTBbits.RB4 = 0;
-"148
-[e = . . _PORTBbits 0 4 -> -> 0 `i `uc ]
-[; ;main.c: 150: while(t)
-"150
-[e $U 182  ]
-[e :U 183 ]
-[; ;main.c: 151: {
-"151
-{
-[; ;main.c: 153: recebe();
-"153
-[e ( _recebe ..  ]
-[; ;main.c: 154: transmite();
-"154
-[e ( _transmite ..  ]
-"157
-}
-[e :U 182 ]
-"150
-[e $ != -> _t `i -> -> -> 0 `i `uc `i 183  ]
-[e :U 184 ]
-[; ;main.c: 157: }
-[; ;main.c: 158: PORTBbits.RB4 = 1;
-"158
-[e = . . _PORTBbits 0 4 -> -> 1 `i `uc ]
-[; ;main.c: 159: aux = 2;
-"159
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 165  ]
 [e = _aux -> -> 2 `i `ui ]
-"160
+[e :U 165 ]
+[; ;main.c: 84: if(bordaSubidaB3()) aux = 300;
+"84
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 166  ]
+[e = _aux -> -> 300 `i `ui ]
+[e :U 166 ]
+[; ;main.c: 85: if(B2() & B3()) aux = 666;
+"85
+[e $ ! != & -> ( _B2 ..  `i -> ( _B3 ..  `i -> 0 `i 167  ]
+[e = _aux -> -> 666 `i `ui ]
+[e :U 167 ]
+[; ;main.c: 86: break;
+"86
+[e $U 149  ]
+[; ;main.c: 90: case 100:
+"90
+[e :U 168 ]
+[; ;main.c: 91: cmdLCD(0x01);
+"91
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 92: writeLCD(0,0,"MODULO  DESEJADO");
+"92
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 1C ]
+[; ;main.c: 93: writeLCD(0,1,"ESTEIRA      CLP");
+"93
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 2C ]
+[; ;main.c: 94: aux = 110;
+"94
+[e = _aux -> -> 110 `i `ui ]
+[; ;main.c: 95: break;
+"95
+[e $U 149  ]
+[; ;main.c: 97: case 110:
+"97
+[e :U 169 ]
+[; ;main.c: 98: switch(i)
+"98
+[e $U 171  ]
+[; ;main.c: 99: {
+"99
+{
+[; ;main.c: 100: case 0:
+"100
+[e :U 172 ]
+[; ;main.c: 101: textSelectionEST();
+"101
+[e ( _textSelectionEST ..  ]
+[; ;main.c: 102: if(bordaSubidaB2()) i = 1;
+"102
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 173  ]
+[e = _i -> -> 1 `i `uc ]
+[e :U 173 ]
+[; ;main.c: 103: if(bordaSubidaB3()) aux = 111;
+"103
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 174  ]
+[e = _aux -> -> 111 `i `ui ]
+[e :U 174 ]
+[; ;main.c: 104: if(B1() & B2()) aux = 10;
+"104
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 175  ]
+[e = _aux -> -> 10 `i `ui ]
+[e :U 175 ]
+[; ;main.c: 105: break;
+"105
+[e $U 170  ]
+[; ;main.c: 107: case 1:
+"107
+[e :U 176 ]
+[; ;main.c: 108: textSelectionCLP();
+"108
+[e ( _textSelectionCLP ..  ]
+[; ;main.c: 109: if(bordaSubidaB1()) i=0;
+"109
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 177  ]
+[e = _i -> -> 0 `i `uc ]
+[e :U 177 ]
+[; ;main.c: 110: if(bordaSubidaB3()) aux = 112;
+"110
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 178  ]
+[e = _aux -> -> 112 `i `ui ]
+[e :U 178 ]
+[; ;main.c: 111: if(B1() & B2()) aux = 10;
+"111
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 179  ]
+[e = _aux -> -> 10 `i `ui ]
+[e :U 179 ]
+[; ;main.c: 112: break;
+"112
+[e $U 170  ]
+"114
 }
-[; ;main.c: 160: }
-[; ;main.c: 161: break;
-"161
-[e $U 147  ]
-[; ;main.c: 165: case 300:
-"165
+[; ;main.c: 114: }
+[e $U 170  ]
+"98
+[e :U 171 ]
+[e [\ _i , $ -> -> 0 `i `uc 172
+ , $ -> -> 1 `i `uc 176
+ 170 ]
+"114
+[e :U 170 ]
+[; ;main.c: 115: break;
+"115
+[e $U 149  ]
+[; ;main.c: 117: case 111:
+"117
+[e :U 180 ]
+[; ;main.c: 118: cmdLCD(0x01);
+"118
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 119: writeLCD(0,0," Enviando ");
+"119
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 3C ]
+[; ;main.c: 120: writeLCD(0,1," P/ Esteira ");
+"120
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 4C ]
+[; ;main.c: 121: slave1();
+"121
+[e ( _slave1 ..  ]
+[; ;main.c: 122: textLoading();
+"122
+[e ( _textLoading ..  ]
+[; ;main.c: 123: aux = 1;
+"123
+[e = _aux -> -> 1 `i `ui ]
+[; ;main.c: 124: break;
+"124
+[e $U 149  ]
+[; ;main.c: 126: case 112:
+"126
+[e :U 181 ]
+[; ;main.c: 127: cmdLCD(0x01);
+"127
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 128: writeLCD(0,0," Enviando ");
+"128
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 5C ]
+[; ;main.c: 129: writeLCD(0,1," P/ CLP ");
+"129
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 6C ]
+[; ;main.c: 130: master1();
+"130
+[e ( _master1 ..  ]
+[; ;main.c: 131: textLoading();
+"131
+[e ( _textLoading ..  ]
+[; ;main.c: 132: aux = 1;
+"132
+[e = _aux -> -> 1 `i `ui ]
+[; ;main.c: 133: break;
+"133
+[e $U 149  ]
+[; ;main.c: 139: case 200:
+"139
+[e :U 182 ]
+[; ;main.c: 140: cmdLCD(0x01);
+"140
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 141: writeLCD(0,0," CONFIRMA TROCA ");
+"141
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 7C ]
+[; ;main.c: 142: writeLCD(0,1,"    DE DADOS    ");
+"142
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 8C ]
+[; ;main.c: 143: aux = 210;
+"143
+[e = _aux -> -> 210 `i `ui ]
+[; ;main.c: 144: break;
+"144
+[e $U 149  ]
+[; ;main.c: 146: case 210:
+"146
+[e :U 183 ]
+[; ;main.c: 149: {
+"149
+{
+[; ;main.c: 150: cmdLCD(0x01);
+"150
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 151: writeLCD(0,0,"    TROCANDO    ");
+"151
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 9C ]
+[; ;main.c: 152: writeLCD(0,1,"   INFORMACAO   ");
+"152
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 10C ]
+"154
+[v _t `uc ~T0 @X0 1 a ]
+[; ;main.c: 154: char t = 1;
+[e = _t -> -> 1 `i `uc ]
+[; ;main.c: 156: PORTBbits.RB4 = 0;
+"156
+[e = . . _PORTBbits 0 4 -> -> 0 `i `uc ]
+[; ;main.c: 158: while(t)
+"158
+[e $U 184  ]
 [e :U 185 ]
-[; ;main.c: 166: cmdLCD(0x01);
-"166
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 167: writeLCD(0,0,"BLUETOOTH <---->");
-"167
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 11C ]
-[; ;main.c: 168: aux = 301;
-"168
-[e = _aux -> -> 301 `i `ui ]
-[; ;main.c: 169: break;
-"169
-[e $U 147  ]
-[; ;main.c: 171: case 301:
-"171
-[e :U 186 ]
-[; ;main.c: 172: writeLCD(0,1,"PAREAR      BT  ");
-"172
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 12C ]
-[; ;main.c: 173: if(bordaSubidaB1() || bordaSubidaB2()) aux = 302;
-"173
-[e $ ! || != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 187  ]
-[e = _aux -> -> 302 `i `ui ]
-[e :U 187 ]
-[; ;main.c: 174: if(bordaSubidaB3()) aux = 305;
-"174
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 188  ]
-[e = _aux -> -> 305 `i `ui ]
-[e :U 188 ]
-[; ;main.c: 175: if(B1() & B2()) aux = 30;
-"175
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 189  ]
-[e = _aux -> -> 30 `i `ui ]
+[; ;main.c: 159: {
+"159
+{
+[; ;main.c: 160: switch( errorRxEUSART() )
+"160
+[e $U 188  ]
+[; ;main.c: 161: {
+"161
+{
+[; ;main.c: 162: case 2: writeLCD(0,1, "Overrun Error");
+"162
 [e :U 189 ]
-[; ;main.c: 176: break;
-"176
-[e $U 147  ]
-[; ;main.c: 178: case 302:
-"178
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 11C ]
+[; ;main.c: 163: resetErrorRxEUSART();
+"163
+[e ( _resetErrorRxEUSART ..  ]
+[; ;main.c: 164: break;
+"164
+[e $U 187  ]
+[; ;main.c: 165: case 1: writeLCD(0,1, "Framing Error");
+"165
 [e :U 190 ]
-[; ;main.c: 179: writeLCD(0,1,"DESCONECTAR BT  ");
-"179
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 13C ]
-[; ;main.c: 180: if(bordaSubidaB1() || bordaSubidaB2()) aux = 301;
-"180
-[e $ ! || != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 191  ]
-[e = _aux -> -> 301 `i `ui ]
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 12C ]
+[; ;main.c: 166: resetErrorRxEUSART();
+"166
+[e ( _resetErrorRxEUSART ..  ]
+[; ;main.c: 167: break;
+"167
+[e $U 187  ]
+[; ;main.c: 168: default:
+"168
 [e :U 191 ]
-[; ;main.c: 181: if(bordaSubidaB3()) aux = 306;
-"181
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 192  ]
-[e = _aux -> -> 306 `i `ui ]
+[; ;main.c: 169: case 0:
+"169
 [e :U 192 ]
-[; ;main.c: 182: if(B1() & B2()) aux = 30;
-"182
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 193  ]
-[e = _aux -> -> 30 `i `ui ]
+[; ;main.c: 171: if( statusFIFO() >= 2 )
+"171
+[e $ ! >= -> ( _statusFIFO ..  `i -> 2 `i 193  ]
+[; ;main.c: 172: {
+"172
+{
+"173
+[v _a1 `uc ~T0 @X0 1 a ]
+[; ;main.c: 173: unsigned char a1 = getFIFO();
+[e = _a1 ( _getFIFO ..  ]
+"174
+[v _a2 `uc ~T0 @X0 1 a ]
+[; ;main.c: 174: unsigned char a2 = getFIFO();
+[e = _a2 ( _getFIFO ..  ]
+[; ;main.c: 175: serialOut( asciiToHex( a1, a2 ) );
+"175
+[e ( _serialOut (1 ( _asciiToHex (2 , _a1 _a2 ]
+"177
+}
 [e :U 193 ]
-[; ;main.c: 183: break;
-"183
-[e $U 147  ]
-[; ;main.c: 186: case 305:
+[; ;main.c: 177: }
+[; ;main.c: 178: break;
+"178
+[e $U 187  ]
+"179
+}
+[; ;main.c: 179: }
+[e $U 187  ]
+"160
+[e :U 188 ]
+[e [\ ( _errorRxEUSART ..  , $ -> -> 2 `i `uc 189
+ , $ -> -> 1 `i `uc 190
+ , $ -> -> 0 `i `uc 192
+ 191 ]
+"179
+[e :U 187 ]
+[; ;main.c: 181: serialOut(rhex);
+"181
+[e ( _serialOut (1 _rhex ]
+[; ;main.c: 182: transmite();
+"182
+[e ( _transmite ..  ]
+"185
+}
+[e :U 184 ]
+"158
+[e $ != -> _t `i -> -> -> 0 `i `uc `i 185  ]
+[e :U 186 ]
+[; ;main.c: 185: }
+[; ;main.c: 186: PORTBbits.RB4 = 1;
 "186
-[e :U 194 ]
-[; ;main.c: 187: cmdLCD(0x01);
+[e = . . _PORTBbits 0 4 -> -> 1 `i `uc ]
+[; ;main.c: 187: aux = 2;
 "187
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 188: writeLCD(0,0," PAREAR COM IP  ");
+[e = _aux -> -> 2 `i `ui ]
 "188
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 14C ]
-[; ;main.c: 189: writeLCD(0,1,"1 2 3 4  5 6 7 8");
+}
+[; ;main.c: 188: }
+[; ;main.c: 189: break;
 "189
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 15C ]
-[; ;main.c: 190: aux = 310;
-"190
-[e = _aux -> -> 310 `i `ui ]
-[; ;main.c: 191: break;
-"191
-[e $U 147  ]
-[; ;main.c: 193: case 306:
+[e $U 149  ]
+[; ;main.c: 193: case 300:
 "193
-[e :U 195 ]
+[e :U 194 ]
 [; ;main.c: 194: cmdLCD(0x01);
 "194
 [e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 195: writeLCD(0,0,"DESCONECTANDO   ");
+[; ;main.c: 195: writeLCD(0,0,"BLUETOOTH <---->");
 "195
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 16C ]
-[; ;main.c: 197: _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 13C ]
+[; ;main.c: 196: aux = 301;
+"196
+[e = _aux -> -> 301 `i `ui ]
+[; ;main.c: 197: break;
 "197
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
-[; ;main.c: 198: aux = 3;
-"198
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 199: break;
+[e $U 149  ]
+[; ;main.c: 199: case 301:
 "199
-[e $U 147  ]
-[; ;main.c: 202: case 310:
-"202
+[e :U 195 ]
+[; ;main.c: 200: writeLCD(0,1,"PAREAR      BT  ");
+"200
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 14C ]
+[; ;main.c: 201: if(bordaSubidaB1() || bordaSubidaB2()) aux = 302;
+"201
+[e $ ! || != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 196  ]
+[e = _aux -> -> 302 `i `ui ]
 [e :U 196 ]
-[; ;main.c: 203: switch(a)
+[; ;main.c: 202: if(bordaSubidaB3()) aux = 305;
+"202
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 197  ]
+[e = _aux -> -> 305 `i `ui ]
+[e :U 197 ]
+[; ;main.c: 203: if(B1() & B2()) aux = 30;
 "203
-[e $U 198  ]
-[; ;main.c: 204: {
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 198  ]
+[e = _aux -> -> 30 `i `ui ]
+[e :U 198 ]
+[; ;main.c: 204: break;
 "204
-{
-[; ;main.c: 205: case 0:
-"205
-[e :U 199 ]
-[; ;main.c: 206: textSelection1();
+[e $U 149  ]
+[; ;main.c: 206: case 302:
 "206
-[e ( _textSelection1 ..  ]
-[; ;main.c: 207: if(bordaSubidaB1()) a=7;
+[e :U 199 ]
+[; ;main.c: 207: writeLCD(0,1,"DESCONECTAR BT  ");
 "207
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 200  ]
-[e = _a -> -> 7 `i `uc ]
-[e :U 200 ]
-[; ;main.c: 208: if(bordaSubidaB2()) a=1;
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 15C ]
+[; ;main.c: 208: if(bordaSubidaB1() || bordaSubidaB2()) aux = 301;
 "208
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 201  ]
-[e = _a -> -> 1 `i `uc ]
-[e :U 201 ]
-[; ;main.c: 209: if(bordaSubidaB3()) aux = 311;
+[e $ ! || != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 200  ]
+[e = _aux -> -> 301 `i `ui ]
+[e :U 200 ]
+[; ;main.c: 209: if(bordaSubidaB3()) aux = 306;
 "209
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 202  ]
-[e = _aux -> -> 311 `i `ui ]
-[e :U 202 ]
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 201  ]
+[e = _aux -> -> 306 `i `ui ]
+[e :U 201 ]
 [; ;main.c: 210: if(B1() & B2()) aux = 30;
 "210
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 203  ]
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 202  ]
 [e = _aux -> -> 30 `i `ui ]
-[e :U 203 ]
+[e :U 202 ]
 [; ;main.c: 211: break;
 "211
-[e $U 197  ]
-[; ;main.c: 213: case 1:
-"213
-[e :U 204 ]
-[; ;main.c: 214: textSelection2();
+[e $U 149  ]
+[; ;main.c: 214: case 305:
 "214
-[e ( _textSelection2 ..  ]
-[; ;main.c: 215: if(bordaSubidaB1()) a=0;
+[e :U 203 ]
+[; ;main.c: 215: cmdLCD(0x01);
 "215
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 205  ]
-[e = _a -> -> 0 `i `uc ]
-[e :U 205 ]
-[; ;main.c: 216: if(bordaSubidaB2()) a=2;
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 216: writeLCD(0,0," PAREAR COM IP  ");
 "216
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 206  ]
-[e = _a -> -> 2 `i `uc ]
-[e :U 206 ]
-[; ;main.c: 217: if(bordaSubidaB3()) aux = 312;
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 16C ]
+[; ;main.c: 217: writeLCD(0,1,"1 2 3 4  5 6 7 8");
 "217
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 207  ]
-[e = _aux -> -> 312 `i `ui ]
-[e :U 207 ]
-[; ;main.c: 218: if(B1() & B2()) aux = 30;
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 1 `i `uc :s 17C ]
+[; ;main.c: 218: aux = 310;
 "218
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 208  ]
-[e = _aux -> -> 30 `i `ui ]
-[e :U 208 ]
+[e = _aux -> -> 310 `i `ui ]
 [; ;main.c: 219: break;
 "219
-[e $U 197  ]
-[; ;main.c: 221: case 2:
+[e $U 149  ]
+[; ;main.c: 221: case 306:
 "221
-[e :U 209 ]
-[; ;main.c: 222: textSelection3();
+[e :U 204 ]
+[; ;main.c: 222: cmdLCD(0x01);
 "222
-[e ( _textSelection3 ..  ]
-[; ;main.c: 223: if(bordaSubidaB1()) a=1;
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 223: writeLCD(0,0,"DESCONECTANDO   ");
 "223
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 210  ]
-[e = _a -> -> 1 `i `uc ]
-[e :U 210 ]
-[; ;main.c: 224: if(bordaSubidaB2()) a=3;
-"224
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 211  ]
-[e = _a -> -> 3 `i `uc ]
-[e :U 211 ]
-[; ;main.c: 225: if(bordaSubidaB3()) aux = 313;
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 18C ]
+[; ;main.c: 225: _delay((unsigned long)((500)*(20000000/4000.0)));
 "225
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 212  ]
-[e = _aux -> -> 313 `i `ui ]
-[e :U 212 ]
-[; ;main.c: 226: if(B1() & B2()) aux = 30;
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+[; ;main.c: 226: aux = 3;
 "226
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 213  ]
-[e = _aux -> -> 30 `i `ui ]
-[e :U 213 ]
+[e = _aux -> -> 3 `i `ui ]
 [; ;main.c: 227: break;
 "227
-[e $U 197  ]
-[; ;main.c: 229: case 3:
-"229
-[e :U 214 ]
-[; ;main.c: 230: textSelection4();
+[e $U 149  ]
+[; ;main.c: 230: case 310:
 "230
-[e ( _textSelection4 ..  ]
-[; ;main.c: 231: if(bordaSubidaB1()) a=2;
+[e :U 205 ]
+[; ;main.c: 231: switch(a)
 "231
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 215  ]
+[e $U 207  ]
+[; ;main.c: 232: {
+"232
+{
+[; ;main.c: 233: case 0:
+"233
+[e :U 208 ]
+[; ;main.c: 234: textSelection1();
+"234
+[e ( _textSelection1 ..  ]
+[; ;main.c: 235: if(bordaSubidaB1()) a=7;
+"235
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 209  ]
+[e = _a -> -> 7 `i `uc ]
+[e :U 209 ]
+[; ;main.c: 236: if(bordaSubidaB2()) a=1;
+"236
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 210  ]
+[e = _a -> -> 1 `i `uc ]
+[e :U 210 ]
+[; ;main.c: 237: if(bordaSubidaB3()) aux = 311;
+"237
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 211  ]
+[e = _aux -> -> 311 `i `ui ]
+[e :U 211 ]
+[; ;main.c: 238: if(B1() & B2()) aux = 30;
+"238
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 212  ]
+[e = _aux -> -> 30 `i `ui ]
+[e :U 212 ]
+[; ;main.c: 239: break;
+"239
+[e $U 206  ]
+[; ;main.c: 241: case 1:
+"241
+[e :U 213 ]
+[; ;main.c: 242: textSelection2();
+"242
+[e ( _textSelection2 ..  ]
+[; ;main.c: 243: if(bordaSubidaB1()) a=0;
+"243
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 214  ]
+[e = _a -> -> 0 `i `uc ]
+[e :U 214 ]
+[; ;main.c: 244: if(bordaSubidaB2()) a=2;
+"244
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 215  ]
 [e = _a -> -> 2 `i `uc ]
 [e :U 215 ]
-[; ;main.c: 232: if(bordaSubidaB2()) a=4;
-"232
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 216  ]
-[e = _a -> -> 4 `i `uc ]
+[; ;main.c: 245: if(bordaSubidaB3()) aux = 312;
+"245
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 216  ]
+[e = _aux -> -> 312 `i `ui ]
 [e :U 216 ]
-[; ;main.c: 233: if(bordaSubidaB3()) aux = 314;
-"233
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 217  ]
-[e = _aux -> -> 314 `i `ui ]
-[e :U 217 ]
-[; ;main.c: 234: if(B1() & B2()) aux = 30;
-"234
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 218  ]
+[; ;main.c: 246: if(B1() & B2()) aux = 30;
+"246
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 217  ]
 [e = _aux -> -> 30 `i `ui ]
+[e :U 217 ]
+[; ;main.c: 247: break;
+"247
+[e $U 206  ]
+[; ;main.c: 249: case 2:
+"249
 [e :U 218 ]
-[; ;main.c: 235: break;
-"235
-[e $U 197  ]
-[; ;main.c: 237: case 4:
-"237
+[; ;main.c: 250: textSelection3();
+"250
+[e ( _textSelection3 ..  ]
+[; ;main.c: 251: if(bordaSubidaB1()) a=1;
+"251
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 219  ]
+[e = _a -> -> 1 `i `uc ]
 [e :U 219 ]
-[; ;main.c: 238: textSelection5();
-"238
-[e ( _textSelection5 ..  ]
-[; ;main.c: 239: if(bordaSubidaB1()) a=3;
-"239
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 220  ]
+[; ;main.c: 252: if(bordaSubidaB2()) a=3;
+"252
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 220  ]
 [e = _a -> -> 3 `i `uc ]
 [e :U 220 ]
-[; ;main.c: 240: if(bordaSubidaB2()) a=5;
-"240
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 221  ]
-[e = _a -> -> 5 `i `uc ]
+[; ;main.c: 253: if(bordaSubidaB3()) aux = 313;
+"253
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 221  ]
+[e = _aux -> -> 313 `i `ui ]
 [e :U 221 ]
-[; ;main.c: 241: if(bordaSubidaB3()) aux = 315;
-"241
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 222  ]
-[e = _aux -> -> 315 `i `ui ]
-[e :U 222 ]
-[; ;main.c: 242: if(B1() & B2()) aux = 30;
-"242
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 223  ]
+[; ;main.c: 254: if(B1() & B2()) aux = 30;
+"254
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 222  ]
 [e = _aux -> -> 30 `i `ui ]
+[e :U 222 ]
+[; ;main.c: 255: break;
+"255
+[e $U 206  ]
+[; ;main.c: 257: case 3:
+"257
 [e :U 223 ]
-[; ;main.c: 243: break;
-"243
-[e $U 197  ]
-[; ;main.c: 245: case 5:
-"245
+[; ;main.c: 258: textSelection4();
+"258
+[e ( _textSelection4 ..  ]
+[; ;main.c: 259: if(bordaSubidaB1()) a=2;
+"259
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 224  ]
+[e = _a -> -> 2 `i `uc ]
 [e :U 224 ]
-[; ;main.c: 246: textSelection6();
-"246
-[e ( _textSelection6 ..  ]
-[; ;main.c: 247: if(bordaSubidaB1()) a=4;
-"247
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 225  ]
+[; ;main.c: 260: if(bordaSubidaB2()) a=4;
+"260
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 225  ]
 [e = _a -> -> 4 `i `uc ]
 [e :U 225 ]
-[; ;main.c: 248: if(bordaSubidaB2()) a=6;
-"248
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 226  ]
-[e = _a -> -> 6 `i `uc ]
+[; ;main.c: 261: if(bordaSubidaB3()) aux = 314;
+"261
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 226  ]
+[e = _aux -> -> 314 `i `ui ]
 [e :U 226 ]
-[; ;main.c: 249: if(bordaSubidaB3()) aux = 316;
-"249
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 227  ]
-[e = _aux -> -> 316 `i `ui ]
-[e :U 227 ]
-[; ;main.c: 250: if(B1() & B2()) aux = 30;
-"250
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 228  ]
+[; ;main.c: 262: if(B1() & B2()) aux = 30;
+"262
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 227  ]
 [e = _aux -> -> 30 `i `ui ]
+[e :U 227 ]
+[; ;main.c: 263: break;
+"263
+[e $U 206  ]
+[; ;main.c: 265: case 4:
+"265
 [e :U 228 ]
-[; ;main.c: 251: break;
-"251
-[e $U 197  ]
-[; ;main.c: 253: case 6:
-"253
+[; ;main.c: 266: textSelection5();
+"266
+[e ( _textSelection5 ..  ]
+[; ;main.c: 267: if(bordaSubidaB1()) a=3;
+"267
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 229  ]
+[e = _a -> -> 3 `i `uc ]
 [e :U 229 ]
-[; ;main.c: 254: textSelection7();
-"254
-[e ( _textSelection7 ..  ]
-[; ;main.c: 255: if(bordaSubidaB1()) a=5;
-"255
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 230  ]
+[; ;main.c: 268: if(bordaSubidaB2()) a=5;
+"268
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 230  ]
 [e = _a -> -> 5 `i `uc ]
 [e :U 230 ]
-[; ;main.c: 256: if(bordaSubidaB2()) a=7;
-"256
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 231  ]
-[e = _a -> -> 7 `i `uc ]
+[; ;main.c: 269: if(bordaSubidaB3()) aux = 315;
+"269
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 231  ]
+[e = _aux -> -> 315 `i `ui ]
 [e :U 231 ]
-[; ;main.c: 257: if(bordaSubidaB3()) aux = 317;
-"257
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 232  ]
-[e = _aux -> -> 317 `i `ui ]
-[e :U 232 ]
-[; ;main.c: 258: if(B1() & B2()) aux = 30;
-"258
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 233  ]
+[; ;main.c: 270: if(B1() & B2()) aux = 30;
+"270
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 232  ]
 [e = _aux -> -> 30 `i `ui ]
+[e :U 232 ]
+[; ;main.c: 271: break;
+"271
+[e $U 206  ]
+[; ;main.c: 273: case 5:
+"273
 [e :U 233 ]
-[; ;main.c: 259: break;
-"259
-[e $U 197  ]
-[; ;main.c: 261: case 7:
-"261
+[; ;main.c: 274: textSelection6();
+"274
+[e ( _textSelection6 ..  ]
+[; ;main.c: 275: if(bordaSubidaB1()) a=4;
+"275
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 234  ]
+[e = _a -> -> 4 `i `uc ]
 [e :U 234 ]
-[; ;main.c: 262: textSelection8();
-"262
-[e ( _textSelection8 ..  ]
-[; ;main.c: 263: if(bordaSubidaB1()) a=6;
-"263
-[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 235  ]
+[; ;main.c: 276: if(bordaSubidaB2()) a=6;
+"276
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 235  ]
 [e = _a -> -> 6 `i `uc ]
 [e :U 235 ]
-[; ;main.c: 264: if(bordaSubidaB2()) a=0;
-"264
-[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 236  ]
-[e = _a -> -> 0 `i `uc ]
-[e :U 236 ]
-[; ;main.c: 265: if(bordaSubidaB3()) aux = 318;
-"265
-[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 237  ]
-[e = _aux -> -> 318 `i `ui ]
-[e :U 237 ]
-[; ;main.c: 266: if(B1() & B2()) aux = 30;
-"266
-[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 238  ]
-[e = _aux -> -> 30 `i `ui ]
-[e :U 238 ]
-[; ;main.c: 267: break;
-"267
-[e $U 197  ]
-"268
-}
-[; ;main.c: 268: }
-[e $U 197  ]
-"203
-[e :U 198 ]
-[e [\ _a , $ -> -> 0 `i `uc 199
- , $ -> -> 1 `i `uc 204
- , $ -> -> 2 `i `uc 209
- , $ -> -> 3 `i `uc 214
- , $ -> -> 4 `i `uc 219
- , $ -> -> 5 `i `uc 224
- , $ -> -> 6 `i `uc 229
- , $ -> -> 7 `i `uc 234
- 197 ]
-"268
-[e :U 197 ]
-[; ;main.c: 269: break;
-"269
-[e $U 147  ]
-[; ;main.c: 271: case 311:
-"271
-[e :U 239 ]
-[; ;main.c: 272: cmdLCD(0x01);
-"272
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 273: writeLCD(0,0," Enviando ");
-"273
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 17C ]
-[; ;main.c: 275: textLoading();
-"275
-[e ( _textLoading ..  ]
-[; ;main.c: 276: aux = 3;
-"276
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 277: break;
+[; ;main.c: 277: if(bordaSubidaB3()) aux = 316;
 "277
-[e $U 147  ]
-[; ;main.c: 279: case 312:
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 236  ]
+[e = _aux -> -> 316 `i `ui ]
+[e :U 236 ]
+[; ;main.c: 278: if(B1() & B2()) aux = 30;
+"278
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 237  ]
+[e = _aux -> -> 30 `i `ui ]
+[e :U 237 ]
+[; ;main.c: 279: break;
 "279
-[e :U 240 ]
-[; ;main.c: 280: cmdLCD(0x01);
-"280
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 281: writeLCD(0,0," Enviando ");
+[e $U 206  ]
+[; ;main.c: 281: case 6:
 "281
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 18C ]
-[; ;main.c: 283: textLoading();
+[e :U 238 ]
+[; ;main.c: 282: textSelection7();
+"282
+[e ( _textSelection7 ..  ]
+[; ;main.c: 283: if(bordaSubidaB1()) a=5;
 "283
-[e ( _textLoading ..  ]
-[; ;main.c: 284: aux = 3;
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 239  ]
+[e = _a -> -> 5 `i `uc ]
+[e :U 239 ]
+[; ;main.c: 284: if(bordaSubidaB2()) a=7;
 "284
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 285: break;
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 240  ]
+[e = _a -> -> 7 `i `uc ]
+[e :U 240 ]
+[; ;main.c: 285: if(bordaSubidaB3()) aux = 317;
 "285
-[e $U 147  ]
-[; ;main.c: 287: case 313:
-"287
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 241  ]
+[e = _aux -> -> 317 `i `ui ]
 [e :U 241 ]
-[; ;main.c: 288: cmdLCD(0x01);
-"288
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 289: writeLCD(0,0," Enviando ");
-"289
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 19C ]
-[; ;main.c: 291: textLoading();
-"291
-[e ( _textLoading ..  ]
-[; ;main.c: 292: aux = 3;
-"292
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 293: break;
-"293
-[e $U 147  ]
-[; ;main.c: 295: case 314:
-"295
+[; ;main.c: 286: if(B1() & B2()) aux = 30;
+"286
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 242  ]
+[e = _aux -> -> 30 `i `ui ]
 [e :U 242 ]
-[; ;main.c: 296: cmdLCD(0x01);
-"296
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 297: writeLCD(0,0," Enviando ");
-"297
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 20C ]
-[; ;main.c: 299: textLoading();
-"299
-[e ( _textLoading ..  ]
-[; ;main.c: 300: aux = 3;
-"300
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 301: break;
-"301
-[e $U 147  ]
-[; ;main.c: 303: case 315:
-"303
+[; ;main.c: 287: break;
+"287
+[e $U 206  ]
+[; ;main.c: 289: case 7:
+"289
 [e :U 243 ]
-[; ;main.c: 304: cmdLCD(0x01);
-"304
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 305: writeLCD(0,0," Enviando ");
-"305
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 21C ]
-[; ;main.c: 307: textLoading();
-"307
-[e ( _textLoading ..  ]
-[; ;main.c: 308: aux = 3;
-"308
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 309: break;
-"309
-[e $U 147  ]
-[; ;main.c: 311: case 316:
-"311
+[; ;main.c: 290: textSelection8();
+"290
+[e ( _textSelection8 ..  ]
+[; ;main.c: 291: if(bordaSubidaB1()) a=6;
+"291
+[e $ ! != -> ( _bordaSubidaB1 ..  `i -> -> -> 0 `i `uc `i 244  ]
+[e = _a -> -> 6 `i `uc ]
 [e :U 244 ]
-[; ;main.c: 312: cmdLCD(0x01);
-"312
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 313: writeLCD(0,0," Enviando ");
-"313
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 22C ]
-[; ;main.c: 315: textLoading();
-"315
-[e ( _textLoading ..  ]
-[; ;main.c: 316: aux = 3;
-"316
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 317: break;
-"317
-[e $U 147  ]
-[; ;main.c: 319: case 317:
-"319
+[; ;main.c: 292: if(bordaSubidaB2()) a=0;
+"292
+[e $ ! != -> ( _bordaSubidaB2 ..  `i -> -> -> 0 `i `uc `i 245  ]
+[e = _a -> -> 0 `i `uc ]
 [e :U 245 ]
-[; ;main.c: 320: cmdLCD(0x01);
-"320
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 321: writeLCD(0,0," Enviando ");
-"321
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 23C ]
-[; ;main.c: 323: textLoading();
-"323
-[e ( _textLoading ..  ]
-[; ;main.c: 324: aux = 3;
-"324
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 325: break;
-"325
-[e $U 147  ]
-[; ;main.c: 327: case 318:
-"327
+[; ;main.c: 293: if(bordaSubidaB3()) aux = 318;
+"293
+[e $ ! != -> ( _bordaSubidaB3 ..  `i -> -> -> 0 `i `uc `i 246  ]
+[e = _aux -> -> 318 `i `ui ]
 [e :U 246 ]
-[; ;main.c: 328: cmdLCD(0x01);
-"328
-[e ( _cmdLCD (1 -> -> 1 `i `uc ]
-[; ;main.c: 329: writeLCD(0,0," Enviando ");
-"329
-[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 24C ]
-[; ;main.c: 331: textLoading();
-"331
-[e ( _textLoading ..  ]
-[; ;main.c: 332: aux = 3;
-"332
-[e = _aux -> -> 3 `i `ui ]
-[; ;main.c: 333: break;
-"333
-[e $U 147  ]
-[; ;main.c: 337: case 666:
-"337
+[; ;main.c: 294: if(B1() & B2()) aux = 30;
+"294
+[e $ ! != & -> ( _B1 ..  `i -> ( _B2 ..  `i -> 0 `i 247  ]
+[e = _aux -> -> 30 `i `ui ]
 [e :U 247 ]
-[; ;main.c: 338: easterEgg();
-"338
-[e ( _easterEgg ..  ]
-[; ;main.c: 339: aux = 0;
+[; ;main.c: 295: break;
+"295
+[e $U 206  ]
+"296
+}
+[; ;main.c: 296: }
+[e $U 206  ]
+"231
+[e :U 207 ]
+[e [\ _a , $ -> -> 0 `i `uc 208
+ , $ -> -> 1 `i `uc 213
+ , $ -> -> 2 `i `uc 218
+ , $ -> -> 3 `i `uc 223
+ , $ -> -> 4 `i `uc 228
+ , $ -> -> 5 `i `uc 233
+ , $ -> -> 6 `i `uc 238
+ , $ -> -> 7 `i `uc 243
+ 206 ]
+"296
+[e :U 206 ]
+[; ;main.c: 297: break;
+"297
+[e $U 149  ]
+[; ;main.c: 299: case 311:
+"299
+[e :U 248 ]
+[; ;main.c: 300: cmdLCD(0x01);
+"300
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 301: writeLCD(0,0," Enviando ");
+"301
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 19C ]
+[; ;main.c: 303: textLoading();
+"303
+[e ( _textLoading ..  ]
+[; ;main.c: 304: aux = 3;
+"304
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 305: break;
+"305
+[e $U 149  ]
+[; ;main.c: 307: case 312:
+"307
+[e :U 249 ]
+[; ;main.c: 308: cmdLCD(0x01);
+"308
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 309: writeLCD(0,0," Enviando ");
+"309
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 20C ]
+[; ;main.c: 311: textLoading();
+"311
+[e ( _textLoading ..  ]
+[; ;main.c: 312: aux = 3;
+"312
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 313: break;
+"313
+[e $U 149  ]
+[; ;main.c: 315: case 313:
+"315
+[e :U 250 ]
+[; ;main.c: 316: cmdLCD(0x01);
+"316
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 317: writeLCD(0,0," Enviando ");
+"317
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 21C ]
+[; ;main.c: 319: textLoading();
+"319
+[e ( _textLoading ..  ]
+[; ;main.c: 320: aux = 3;
+"320
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 321: break;
+"321
+[e $U 149  ]
+[; ;main.c: 323: case 314:
+"323
+[e :U 251 ]
+[; ;main.c: 324: cmdLCD(0x01);
+"324
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 325: writeLCD(0,0," Enviando ");
+"325
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 22C ]
+[; ;main.c: 327: textLoading();
+"327
+[e ( _textLoading ..  ]
+[; ;main.c: 328: aux = 3;
+"328
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 329: break;
+"329
+[e $U 149  ]
+[; ;main.c: 331: case 315:
+"331
+[e :U 252 ]
+[; ;main.c: 332: cmdLCD(0x01);
+"332
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 333: writeLCD(0,0," Enviando ");
+"333
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 23C ]
+[; ;main.c: 335: textLoading();
+"335
+[e ( _textLoading ..  ]
+[; ;main.c: 336: aux = 3;
+"336
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 337: break;
+"337
+[e $U 149  ]
+[; ;main.c: 339: case 316:
 "339
-[e = _aux -> -> 0 `i `ui ]
-[; ;main.c: 340: break;
+[e :U 253 ]
+[; ;main.c: 340: cmdLCD(0x01);
 "340
-[e $U 147  ]
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 341: writeLCD(0,0," Enviando ");
 "341
-}
-[; ;main.c: 341: }
-[e $U 147  ]
-"37
-[e :U 148 ]
-[e [\ _aux , $ -> -> 0 `i `ui 149
- , $ -> -> 1 `i `ui 150
- , $ -> -> 2 `i `ui 151
- , $ -> -> 3 `i `ui 152
- , $ -> -> 10 `i `ui 153
- , $ -> -> 20 `i `ui 157
- , $ -> -> 30 `i `ui 161
- , $ -> -> 100 `i `ui 166
- , $ -> -> 110 `i `ui 167
- , $ -> -> 111 `i `ui 178
- , $ -> -> 112 `i `ui 179
- , $ -> -> 200 `i `ui 180
- , $ -> -> 210 `i `ui 181
- , $ -> -> 300 `i `ui 185
- , $ -> -> 301 `i `ui 186
- , $ -> -> 302 `i `ui 190
- , $ -> -> 305 `i `ui 194
- , $ -> -> 306 `i `ui 195
- , $ -> -> 310 `i `ui 196
- , $ -> -> 311 `i `ui 239
- , $ -> -> 312 `i `ui 240
- , $ -> -> 313 `i `ui 241
- , $ -> -> 314 `i `ui 242
- , $ -> -> 315 `i `ui 243
- , $ -> -> 316 `i `ui 244
- , $ -> -> 317 `i `ui 245
- , $ -> -> 318 `i `ui 246
- , $ -> -> 666 `i `ui 247
- 147 ]
-"341
-[e :U 147 ]
-"342
-}
-[e :U 144 ]
-"35
-[e $U 145  ]
-[e :U 146 ]
-[; ;main.c: 342: }
-[; ;main.c: 343: }
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 24C ]
+[; ;main.c: 343: textLoading();
 "343
-[e :UE 143 ]
+[e ( _textLoading ..  ]
+[; ;main.c: 344: aux = 3;
+"344
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 345: break;
+"345
+[e $U 149  ]
+[; ;main.c: 347: case 317:
+"347
+[e :U 254 ]
+[; ;main.c: 348: cmdLCD(0x01);
+"348
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 349: writeLCD(0,0," Enviando ");
+"349
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 25C ]
+[; ;main.c: 351: textLoading();
+"351
+[e ( _textLoading ..  ]
+[; ;main.c: 352: aux = 3;
+"352
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 353: break;
+"353
+[e $U 149  ]
+[; ;main.c: 355: case 318:
+"355
+[e :U 255 ]
+[; ;main.c: 356: cmdLCD(0x01);
+"356
+[e ( _cmdLCD (1 -> -> 1 `i `uc ]
+[; ;main.c: 357: writeLCD(0,0," Enviando ");
+"357
+[e ( _writeLCD (3 , , -> -> 0 `i `uc -> -> 0 `i `uc :s 26C ]
+[; ;main.c: 359: textLoading();
+"359
+[e ( _textLoading ..  ]
+[; ;main.c: 360: aux = 3;
+"360
+[e = _aux -> -> 3 `i `ui ]
+[; ;main.c: 361: break;
+"361
+[e $U 149  ]
+[; ;main.c: 365: case 666:
+"365
+[e :U 256 ]
+[; ;main.c: 366: easterEgg();
+"366
+[e ( _easterEgg ..  ]
+[; ;main.c: 367: aux = 0;
+"367
+[e = _aux -> -> 0 `i `ui ]
+[; ;main.c: 368: break;
+"368
+[e $U 149  ]
+"369
 }
+[; ;main.c: 369: }
+[e $U 149  ]
+"45
+[e :U 150 ]
+[e [\ _aux , $ -> -> 0 `i `ui 151
+ , $ -> -> 1 `i `ui 152
+ , $ -> -> 2 `i `ui 153
+ , $ -> -> 3 `i `ui 154
+ , $ -> -> 10 `i `ui 155
+ , $ -> -> 20 `i `ui 159
+ , $ -> -> 30 `i `ui 163
+ , $ -> -> 100 `i `ui 168
+ , $ -> -> 110 `i `ui 169
+ , $ -> -> 111 `i `ui 180
+ , $ -> -> 112 `i `ui 181
+ , $ -> -> 200 `i `ui 182
+ , $ -> -> 210 `i `ui 183
+ , $ -> -> 300 `i `ui 194
+ , $ -> -> 301 `i `ui 195
+ , $ -> -> 302 `i `ui 199
+ , $ -> -> 305 `i `ui 203
+ , $ -> -> 306 `i `ui 204
+ , $ -> -> 310 `i `ui 205
+ , $ -> -> 311 `i `ui 248
+ , $ -> -> 312 `i `ui 249
+ , $ -> -> 313 `i `ui 250
+ , $ -> -> 314 `i `ui 251
+ , $ -> -> 315 `i `ui 252
+ , $ -> -> 316 `i `ui 253
+ , $ -> -> 317 `i `ui 254
+ , $ -> -> 318 `i `ui 255
+ , $ -> -> 666 `i `ui 256
+ 149 ]
+"369
+[e :U 149 ]
+"370
+}
+[e :U 146 ]
+"43
+[e $U 147  ]
+[e :U 148 ]
+[; ;main.c: 370: }
+[; ;main.c: 371: }
+"371
+[e :UE 145 ]
+}
+[a 11C 79 118 101 114 114 117 110 32 69 114 114 111 114 0 ]
+[a 12C 70 114 97 109 105 110 103 32 69 114 114 111 114 0 ]
 [a 2C 69 83 84 69 73 82 65 32 32 32 32 32 32 67 76 80 0 ]
 [a 1C 77 79 68 85 76 79 32 32 68 69 83 69 74 65 68 79 0 ]
-[a 11C 66 76 85 69 84 79 79 84 72 32 60 45 45 45 45 62 0 ]
-[a 15C 49 32 50 32 51 32 52 32 32 53 32 54 32 55 32 56 0 ]
+[a 13C 66 76 85 69 84 79 79 84 72 32 60 45 45 45 45 62 0 ]
+[a 17C 49 32 50 32 51 32 52 32 32 53 32 54 32 55 32 56 0 ]
 [a 3C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 5C 32 69 110 118 105 97 110 100 111 32 0 ]
-[a 17C 32 69 110 118 105 97 110 100 111 32 0 ]
-[a 18C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 19C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 20C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 21C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 22C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 23C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 24C 32 69 110 118 105 97 110 100 111 32 0 ]
+[a 25C 32 69 110 118 105 97 110 100 111 32 0 ]
+[a 26C 32 69 110 118 105 97 110 100 111 32 0 ]
 [a 4C 32 80 47 32 69 115 116 101 105 114 97 32 0 ]
 [a 6C 32 80 47 32 67 76 80 32 0 ]
 [a 7C 32 67 79 78 70 73 82 77 65 32 84 82 79 67 65 32 0 ]
-[a 13C 68 69 83 67 79 78 69 67 84 65 82 32 66 84 32 32 0 ]
-[a 12C 80 65 82 69 65 82 32 32 32 32 32 32 66 84 32 32 0 ]
-[a 14C 32 80 65 82 69 65 82 32 67 79 77 32 73 80 32 32 0 ]
-[a 16C 68 69 83 67 79 78 69 67 84 65 78 68 79 32 32 32 0 ]
+[a 15C 68 69 83 67 79 78 69 67 84 65 82 32 66 84 32 32 0 ]
+[a 14C 80 65 82 69 65 82 32 32 32 32 32 32 66 84 32 32 0 ]
+[a 16C 32 80 65 82 69 65 82 32 67 79 77 32 73 80 32 32 0 ]
+[a 18C 68 69 83 67 79 78 69 67 84 65 78 68 79 32 32 32 0 ]
 [a 10C 32 32 32 73 78 70 79 82 77 65 67 65 79 32 32 32 0 ]
 [a 8C 32 32 32 32 68 69 32 68 65 68 79 83 32 32 32 32 0 ]
 [a 9C 32 32 32 32 84 82 79 67 65 78 68 79 32 32 32 32 0 ]

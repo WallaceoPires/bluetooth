@@ -2088,14 +2088,15 @@ extern unsigned char __resetbits;
 extern __bit __powerdown;
 extern __bit __timeout;
 
-# 12 "Serial.h"
+# 10 "Serial.h"
+char rhex = 0;
+
 void initSerial(void);
 void serialOut (unsigned char d);
 unsigned char serialIn (void);
-void convHexToAnsc (char dado);
+void hexToAscii (char dado);
 void transmite (void);
-void convAsciToHex (void);
-void recebe (void);
+char asciiToHex( unsigned char a1, unsigned char a2 );
 
 
 # 5 "config.h"
@@ -2133,7 +2134,7 @@ unsigned char statusFIFO( void );
 # 7 "Serial.c"
 char tuni;
 char tdez;
-char rhex = 0;
+
 
 void initSerial(void)
 {
@@ -2181,7 +2182,7 @@ PORTBbits.RB2 = 1;
 return(dado);
 }
 
-void convHexToAnsc (char dado)
+void hexToAscii (char dado)
 {
 char dez;
 char uni;
@@ -2213,32 +2214,27 @@ serial = serialIn();
 
 if(serial != comp)
 {
-convHexToAnsc(serialIn());
+hexToAscii(serialIn());
 writeEUSART(tdez);
 writeEUSART(tuni);
 comp = serial;
 }
 }
 
-void convAsciToHex (void)
+
+
+char asciiToHex( unsigned char a1, unsigned char a2 )
 {
 char dez;
 char uni;
 
-if (RCIF)
-putFIFO(RCREG);
-dez = readEUSART();
+dez = a1;
+uni = a2;
 
 if(dez > 0x40)
 dez -= 0x37;
 else
 dez -= 0x30;
-
-
-
-if (RCIF)
-putFIFO(RCREG);
-uni = readEUSART();
 
 if(uni > 0x40)
 uni -= 0x37;
@@ -2249,15 +2245,7 @@ dez<<=4;
 
 rhex = dez | uni;
 
+return (rhex);
+
 }
 
-void recebe (void)
-{
-if (RCIF)
-{
-
-convAsciToHex();
-serialOut(rhex);
-RCIF = 0;
-}
-}

@@ -2088,69 +2088,6 @@ extern unsigned char __resetbits;
 extern __bit __powerdown;
 extern __bit __timeout;
 
-# 4 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\__size_t.h"
-typedef unsigned size_t;
-
-# 7 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\stdarg.h"
-typedef void * va_list[1];
-
-#pragma intrinsic(__va_start)
-extern void * __va_start(void);
-
-#pragma intrinsic(__va_arg)
-extern void * __va_arg(void *, ...);
-
-# 43 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\stdio.h"
-struct __prbuf
-{
-char * ptr;
-void (* func)(char);
-};
-
-# 29 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\errno.h"
-extern int errno;
-
-# 12 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\conio.h"
-extern void init_uart(void);
-
-extern char getch(void);
-extern char getche(void);
-extern void putch(char);
-extern void ungetch(char);
-
-extern __bit kbhit(void);
-
-# 23
-extern char * cgets(char *);
-extern void cputs(const char *);
-
-# 88 "C:\Program Files (x86)\Microchip\xc8\v1.41\include\stdio.h"
-extern int cprintf(char *, ...);
-#pragma printf_check(cprintf)
-
-
-
-extern int _doprnt(struct __prbuf *, const register char *, register va_list);
-
-
-# 180
-#pragma printf_check(vprintf) const
-#pragma printf_check(vsprintf) const
-
-extern char * gets(char *);
-extern int puts(const char *);
-extern int scanf(const char *, ...) __attribute__((unsupported("scanf() is not supported by this compiler")));
-extern int sscanf(const char *, const char *, ...) __attribute__((unsupported("sscanf() is not supported by this compiler")));
-extern int vprintf(const char *, va_list) __attribute__((unsupported("vprintf() is not supported by this compiler")));
-extern int vsprintf(char *, const char *, va_list) __attribute__((unsupported("vsprintf() is not supported by this compiler")));
-extern int vscanf(const char *, va_list ap) __attribute__((unsupported("vscanf() is not supported by this compiler")));
-extern int vsscanf(const char *, const char *, va_list) __attribute__((unsupported("vsscanf() is not supported by this compiler")));
-
-#pragma printf_check(printf) const
-#pragma printf_check(sprintf) const
-extern int sprintf(char *, const char *, ...);
-extern int printf(const char *, ...);
-
 # 5 "bds.h"
 void initBT ( void );
 char B1 ( void );
@@ -2259,21 +2196,40 @@ void modulo6(void);
 void modulo7(void);
 void modulo8(void);
 
-# 12 "Serial.h"
+# 10 "Serial.h"
+char rhex = 0;
+
 void initSerial(void);
 void serialOut (unsigned char d);
 unsigned char serialIn (void);
-void convHexToAnsc (char dado);
+void hexToAscii (char dado);
 void transmite (void);
-void convAsciToHex (void);
-void recebe (void);
+char asciiToHex( unsigned char a1, unsigned char a2 );
 
 # 4 "fifo.h"
 void putFIFO( unsigned char c );
 unsigned char getFIFO( void );
 unsigned char statusFIFO( void );
 
-# 22 "main.c"
+# 12 "main.c"
+void __interrupt() geral( void )
+{
+INTCONbits.GIE = 0;
+
+if( PIE1bits.RCIE && PIR1bits.RCIF )
+{
+interrupt_EUSART_RX();
+}
+
+if( INTCONbits.T0IE && INTCONbits.T0IF )
+{
+INTCONbits.T0IF = 0;
+intt0_1ms();
+}
+
+INTCONbits.GIE = 1;
+}
+
 void main(void)
 {
 initBT();
@@ -2379,7 +2335,7 @@ textLoading();
 aux = 1;
 break;
 
-# 131
+# 139
 case 200:
 cmdLCD(0x01);
 writeLCD(0,0," CONFIRMA TROCA ");
@@ -2401,8 +2357,28 @@ PORTBbits.RB4 = 0;
 
 while(t)
 {
+switch( errorRxEUSART() )
+{
+case 2: writeLCD(0,1, "Overrun Error");
+resetErrorRxEUSART();
+break;
+case 1: writeLCD(0,1, "Framing Error");
+resetErrorRxEUSART();
+break;
+default:
+case 0:
 
-recebe();
+if( statusFIFO() >= 2 )
+{
+unsigned char a1 = getFIFO();
+unsigned char a2 = getFIFO();
+serialOut( asciiToHex( a1, a2 ) );
+
+}
+break;
+}
+
+serialOut(rhex);
 transmite();
 
 
