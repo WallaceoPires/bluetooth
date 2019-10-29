@@ -25,7 +25,7 @@ void slave1(void)
     writeString("AT+UART=9600,0,0\r\n");
     writeString("AT+RMAAD\r\n");                            //Exclua todos os dispositivos autenticados na lista de pares
     __delay_ms(100);
-    writeString("AT+ROLE=0\r\n");                           //Definir função do módulo como escravo
+    writeString("AT+ROLE=2\r\n");                           //Definir função do módulo como escravo
     __delay_ms(100);
     writeString("AT+CMODE=1\r\n");                          //Conecta o modulo a qualquer bluetooth
     __delay_ms(100);
