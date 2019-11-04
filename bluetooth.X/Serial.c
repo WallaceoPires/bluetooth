@@ -83,7 +83,7 @@ char serial = 0;
 void transmite (void)
 { 
     serial = serialIn();
-    
+    __delay_ms(10);
     if(serial != comp)
     {
         hexToAscii(serialIn());
@@ -120,10 +120,3 @@ char asciiToHex( unsigned char a1, unsigned char a2 )
     return (rhex);
     
 }
-
-
-//void recebe (void)
-//{    
-//    convAsciToHex();
-//    serialOut(rhex);     
-//}

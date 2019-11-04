@@ -186,10 +186,12 @@ void easterEgg (void)
     writeLCD(0,0,"                ");
     writeLCD(0,0,"GUI. RIBEIRO    ");__delay_ms(1000);
     writeLCD(0,1,"                ");
-    writeLCD(0,1,"GABRIEL GENU     ");__delay_ms(1000);
+    writeLCD(0,1,"GABRIEL GENU    ");__delay_ms(1000);
     writeLCD(0,0,"                ");
-    writeLCD(0,0,"LINCON NOVAIS   ");__delay_ms(1000);
-    writeLCD(0,1,"                ");__delay_ms(300);
+    writeLCD(0,0,"ERIC SANTOS     ");__delay_ms(1000);
+    writeLCD(0,1,"                ");
+    writeLCD(0,1,"LINCON NOVAIS   ");__delay_ms(1000);
+    writeLCD(0,0,"                ");__delay_ms(300);
     
     cmdLCD(LCD_CLEAR);__delay_ms(200);
     writeLCD(0,0,"      ARRI      ");__delay_ms(500);

@@ -36,7 +36,7 @@ void main(void)
     initSerial();
     
     
-    unsigned int aux = 210;                                                       // Variavel de modelo Interiro.
+    unsigned int aux = 0;                                                       // Variavel de modelo Interiro.
     unsigned char a  = 0;                                                       // Variavel de modelo Char.
     unsigned char i  = 0;                                                       // Variavel de modelo Char.
     
@@ -144,8 +144,8 @@ void main(void)
                 break;
                     
             case 210:
-//                if(B1() & B2()) aux = 20;
-//                if(bordaSubidaB3())
+                if(B1() & B2()) aux = 20;
+                if(bordaSubidaB3())
                 {
                     cmdLCD(LCD_CLEAR);
                     writeLCD(0,0,"    TROCANDO    ");
@@ -172,7 +172,7 @@ void main(void)
                                 {
                                     unsigned char a1 = getFIFO();
                                     unsigned char a2 = getFIFO();
-                                   serialOut( asciiToHex( a1, a2 ) );
+                                    serialOut( asciiToHex( a1, a2 ) );
                                     
                                 }
                             break;
@@ -181,7 +181,7 @@ void main(void)
                         serialOut(rhex);
                         transmite();
                         
-//                        if(B1() & B2()) t = 0;
+                        if(B1() & B2()) t = 0;
                     }
                     PORTBbits.RB4 = 1;
                     aux = 2;

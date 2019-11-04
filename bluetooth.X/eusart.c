@@ -35,7 +35,7 @@ typedef union
         unsigned int u16;
     };
 } SPBRbits_t;
-extern volatile SPBRbits_t SPBRbits @ 0x099;
+extern volatile SPBRbits_t SPBRbits __at (0x099);
 
 
 

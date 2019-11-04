@@ -14,11 +14,7 @@ void serialOut (unsigned char d);
 unsigned char serialIn (void);
 void hexToAscii (char dado);
 void transmite (void);
-char asciiToHex( unsigned char a1, unsigned char a2 );
-//void recebe (void);
-
-
-
+char asciiToHex( unsigned char a1, unsigned char a2 ); 
 
 #endif	
 
