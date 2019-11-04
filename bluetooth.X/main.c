@@ -299,7 +299,7 @@ void main(void)
             case 311:
                 cmdLCD(LCD_CLEAR);
                 writeLCD(0,0," Enviando ");
-                //master1();
+                modulo2();
                 textLoading();
                 aux = 3;  
                 break;
@@ -307,7 +307,7 @@ void main(void)
             case 312:
                 cmdLCD(LCD_CLEAR);
                 writeLCD(0,0," Enviando ");
-                //master1();
+                modulo2();
                 textLoading();
                 aux = 3;  
                 break;
