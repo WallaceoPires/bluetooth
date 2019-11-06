@@ -129,3 +129,11 @@ void modulo8(void)
 //   writeString("AT+BIND=            \r\n");               //Define o endereço do modulo
 //   __delay_ms(100);
 }
+
+void desconectar(void)
+{
+   initEUSART(9600);
+   writeString("AT+DISC\r\n");
+   __delay_ms(100);
+    
+}

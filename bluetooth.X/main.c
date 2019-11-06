@@ -221,7 +221,8 @@ void main(void)
             case 306:
                 cmdLCD(LCD_CLEAR);
                 writeLCD(0,0,"DESCONECTANDO   ");
-                //writeLCD(0,1,"");
+                desconectar();
+                textLoading();
                 __delay_ms(500);
                 aux = 3;
                 break;

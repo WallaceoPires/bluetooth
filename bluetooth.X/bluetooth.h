@@ -11,7 +11,8 @@ void modulo4(void);
 void modulo5(void); 
 void modulo6(void); 
 void modulo7(void); 
-void modulo8(void); 
+void modulo8(void);
+void desconectar(void);
 
 #endif	
 

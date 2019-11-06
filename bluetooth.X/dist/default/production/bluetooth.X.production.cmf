@@ -11,76 +11,79 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\18175259\AppData\Local\Temp\s75k.o
+$C:\Users\walla\AppData\Local\Temp\sfok.obj
 reset_vec CODE 0 0 0 3 2
-end_init CODE 0 10 10 3 2
+end_init CODE 0 12 12 3 2
 config CONFIG 0 2007 2007 2 2
-$dist/default/production\bluetooth.X.production.o
-cinit CODE 0 13 13 14 2
-text1 CODE 0 1325 1325 3A 2
-text2 CODE 0 1096 1096 19 2
-text3 CODE 0 1294 1294 2D 2
-text4 CODE 0 144C 144C 55 2
-text5 CODE 0 13F7 13F7 55 2
-text6 CODE 0 599 599 63 2
-text7 CODE 0 A9E A9E 63 2
-text8 CODE 0 A3B A3B 63 2
-text9 CODE 0 179D 179D 63 2
-text10 CODE 0 173A 173A 63 2
-text11 CODE 0 16D7 16D7 63 2
-text12 CODE 0 1674 1674 63 2
-text13 CODE 0 1611 1611 63 2
-text14 CODE 0 1016 1016 7 2
-text15 CODE 0 1FF9 1FF9 7 2
-text16 CODE 0 1556 1556 5B 2
+$dist/default/production\bluetooth.X.production.obj
+cinit CODE 0 15 15 14 2
+text1 CODE 0 5BF 5BF 3A 2
+text2 CODE 0 1FCD 1FCD 19 2
+text3 CODE 0 11DE 11DE 2D 2
+text4 CODE 0 138E 138E 55 2
+text5 CODE 0 1339 1339 55 2
+text6 CODE 0 A9E A9E 63 2
+text7 CODE 0 A3B A3B 63 2
+text8 CODE 0 179D 179D 63 2
+text9 CODE 0 173A 173A 63 2
+text10 CODE 0 16D7 16D7 63 2
+text11 CODE 0 1674 1674 63 2
+text12 CODE 0 1611 1611 63 2
+text13 CODE 0 15AE 15AE 63 2
+text14 CODE 0 5F9 5F9 7 2
+text15 CODE 0 1F46 1F46 7 2
+text16 CODE 0 14F3 14F3 5B 2
 text17 CODE 0 D06 D06 FD 2
-text18 CODE 0 11AF 11AF 20 2
-text19 CODE 0 118F 118F 20 2
-text20 CODE 0 116F 116F 20 2
-text21 CODE 0 1133 1133 1C 2
+text18 CODE 0 10F3 10F3 20 2
+text19 CODE 0 10D3 10D3 20 2
+text20 CODE 0 10B3 10B3 20 2
+text21 CODE 0 1077 1077 1C 2
 text22 CODE 0 C4C C4C BA 2
-text23 CODE 0 1269 1269 2B 2
-text24 CODE 0 B01 B01 A1 2
-text25 CODE 0 1240 1240 29 2
-text26 CODE 0 1FE5 1FE5 6 2
-text27 CODE 0 14FB 14FB 5B 2
-text28 CODE 0 15B1 15B1 60 2
-text29 CODE 0 BA2 BA2 AA 2
-text30 CODE 0 1118 1118 1B 2
-text31 CODE 0 1FF2 1FF2 7 2
-text32 CODE 0 104F 104F 16 2
-text33 CODE 0 107D 107D 19 2
-text34 CODE 0 12F1 12F1 34 2
-text35 CODE 0 1025 1025 B 2
-text36 CODE 0 1217 1217 29 2
-text37 CODE 0 13AA 13AA 4D 2
-text38 CODE 0 1030 1030 C 2
-text39 CODE 0 E03 E03 1FD 2
-text40 CODE 0 A09 A09 32 2
-text41 CODE 0 12C1 12C1 30 2
-text42 CODE 0 1065 1065 18 2
-text43 CODE 0 14A1 14A1 5A 2
-text44 CODE 0 10E3 10E3 1A 2
-text45 CODE 0 1FE0 1FE0 5 2
-text46 CODE 0 10C9 10C9 1A 2
-text47 CODE 0 1FEB 1FEB 7 2
-text48 CODE 0 10AF 10AF 1A 2
-text49 CODE 0 1FDB 1FDB 5 2
-text50 CODE 0 11F2 11F2 25 2
-text51 CODE 0 11CF 11CF 23 2
-text52 CODE 0 10FD 10FD 1B 2
-text53 CODE 0 103C 103C 13 2
-text54 CODE 0 114F 114F 20 2
-text55 CODE 0 135F 135F 4B 2
-maintext CODE 0 27 27 572 2
+text23 CODE 0 11B3 11B3 2B 2
+text24 CODE 0 1498 1498 5B 2
+text25 CODE 0 B01 B01 A1 2
+text26 CODE 0 BA2 BA2 AA 2
+text27 CODE 0 105C 105C 1B 2
+text28 CODE 0 1F3F 1F3F 7 2
+text29 CODE 0 1F86 1F86 16 2
+text30 CODE 0 1FB4 1FB4 19 2
+text31 CODE 0 126D 126D 34 2
+text32 CODE 0 1F55 1F55 B 2
+text33 CODE 0 118A 118A 29 2
+text34 CODE 0 12EC 12EC 4D 2
+text35 CODE 0 1001 1001 C 2
+text36 CODE 0 E03 E03 1FD 2
+text37 CODE 0 123B 123B 32 2
+text38 CODE 0 120B 120B 30 2
+text39 CODE 0 1F9C 1F9C 18 2
+text40 CODE 0 13E3 13E3 5A 2
+text41 CODE 0 1F73 1F73 13 2
+text42 CODE 0 1027 1027 1A 2
+text43 CODE 0 1F2D 1F2D 5 2
+text44 CODE 0 100D 100D 1A 2
+text45 CODE 0 1F38 1F38 7 2
+text46 CODE 0 1161 1161 29 2
+text47 CODE 0 1138 1138 29 2
+text48 CODE 0 1F32 1F32 6 2
+text49 CODE 0 143D 143D 5B 2
+text50 CODE 0 154E 154E 60 2
+text51 CODE 0 1FE6 1FE6 1A 2
+text52 CODE 0 1F28 1F28 5 2
+text53 CODE 0 A16 A16 25 2
+text54 CODE 0 1113 1113 25 2
+text55 CODE 0 1041 1041 1B 2
+text56 CODE 0 1F60 1F60 13 2
+text57 CODE 0 1093 1093 20 2
+text58 CODE 0 12A1 12A1 4B 2
+maintext CODE 0 29 29 596 2
 cstackCOMMON COMMON 1 70 70 C 1
-cstackBANK0 BANK0 1 20 20 28 1
-intentry CODE 0 4 4 C 2
-bssBANK0 BANK0 1 48 48 D 1
+cstackBANK0 BANK0 1 20 20 29 1
+intentry CODE 0 4 4 E 2
+bssBANK0 BANK0 1 49 49 D 1
 bssBANK1 BANK1 1 A0 A0 1E 1
-stringtext STRCODE 0 600 600 409 2
-strings STRING 0 1000 1000 12 2
-clrtext CODE 0 101D 101D 8 2
+stringtext STRCODE 0 600 600 413 2
+strings STRING 0 1800 1800 12 2
+clrtext CODE 0 1F4D 1F4D 8 2
 bssCOMMON COMMON 1 7C 7C 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -88,28 +91,28 @@ bssCOMMON COMMON 1 7C 7C 1 1
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 55-6F 1
+RAM 56-6F 1
 RAM BE-EF 1
 RAM 110-16F 1
 RAM 190-1EF 1
-BANK0 55-6F 1
+BANK0 56-6F 1
 BANK1 BE-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
 CONST 3-3 2
-CONST 5FC-5FF 2
-CONST 1012-1015 2
-CONST 1800-1FDA 2
+CONST A13-A15 2
+CONST 1000-1000 2
+CONST 1812-1F27 2
 ENTRY 3-3 2
-ENTRY 5FC-5FF 2
-ENTRY 1012-1015 2
-ENTRY 1800-1FDA 2
+ENTRY A13-A15 2
+ENTRY 1000-1000 2
+ENTRY 1812-1F27 2
 IDLOC 2000-2003 2
 STACK 110-16F 1
 CODE 3-3 2
-CODE 5FC-5FF 2
-CODE 1012-1015 2
-CODE 1800-1FDA 2
+CODE A13-A15 2
+CODE 1000-1000 2
+CODE 1812-1F27 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-10F 1
@@ -117,13 +120,13 @@ SFR3 180-18F 1
 COMMON 7D-7D 1
 EEDATA 2100-21FF 2
 STRCODE 3-3 2
-STRCODE 5FC-5FF 2
-STRCODE 1012-1015 2
-STRCODE 1800-1FDA 2
+STRCODE A13-A15 2
+STRCODE 1000-1000 2
+STRCODE 1812-1F27 2
 STRING 3-3 2
-STRING 5FC-5FF 2
-STRING 1012-1015 2
-STRING 1800-1FDA 2
+STRING A13-A15 2
+STRING 1000-1000 2
+STRING 1812-1F27 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -137,673 +140,702 @@ STRING 1800-1FDA 2
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$dist/default/production\bluetooth.X.production.o
-13 cinit CODE >3204:C:\Users\18175259\AppData\Local\Temp\s75k.
-13 cinit CODE >3207:C:\Users\18175259\AppData\Local\Temp\s75k.
-13 cinit CODE >3275:C:\Users\18175259\AppData\Local\Temp\s75k.
-14 cinit CODE >3278:C:\Users\18175259\AppData\Local\Temp\s75k.
-15 cinit CODE >3279:C:\Users\18175259\AppData\Local\Temp\s75k.
-16 cinit CODE >3280:C:\Users\18175259\AppData\Local\Temp\s75k.
-17 cinit CODE >3281:C:\Users\18175259\AppData\Local\Temp\s75k.
-18 cinit CODE >3282:C:\Users\18175259\AppData\Local\Temp\s75k.
-1D cinit CODE >3285:C:\Users\18175259\AppData\Local\Temp\s75k.
-1E cinit CODE >3286:C:\Users\18175259\AppData\Local\Temp\s75k.
-1F cinit CODE >3287:C:\Users\18175259\AppData\Local\Temp\s75k.
-20 cinit CODE >3288:C:\Users\18175259\AppData\Local\Temp\s75k.
-23 cinit CODE >3294:C:\Users\18175259\AppData\Local\Temp\s75k.
-23 cinit CODE >3296:C:\Users\18175259\AppData\Local\Temp\s75k.
-24 cinit CODE >3297:C:\Users\18175259\AppData\Local\Temp\s75k.
-4 intentry CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-135F text55 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-135F text55 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1360 text55 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1362 text55 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1367 text55 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1369 text55 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-136B text55 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1370 text55 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1374 text55 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1376 text55 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1378 text55 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-137F text55 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1383 text55 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1384 text55 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-138C text55 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1392 text55 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1399 text55 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-139D text55 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13A0 text55 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13A5 text55 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-114F text54 CODE >17:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1150 text54 CODE >19:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1158 text54 CODE >20:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-116E text54 CODE >21:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-103C text53 CODE >183:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-103C text53 CODE >185:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1040 text53 CODE >187:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1041 text53 CODE >188:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1042 text53 CODE >189:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1044 text53 CODE >191:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1045 text53 CODE >192:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1046 text53 CODE >194:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-104A text53 CODE >196:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-104D text53 CODE >197:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-104E text53 CODE >198:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-10FD text52 CODE >9:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-10FD text52 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1101 text52 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1113 text52 CODE >15:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-11CF text51 CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11CF text51 CODE >14:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11D0 text51 CODE >16:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11D8 text51 CODE >18:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11DD text51 CODE >21:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11E0 text51 CODE >23:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11E1 text51 CODE >24:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11E6 text51 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11E7 text51 CODE >28:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11F2 text50 CODE >98:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-11F5 text50 CODE >103:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-11F9 text50 CODE >104:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-11FD text50 CODE >106:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1201 text50 CODE >107:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1203 text50 CODE >109:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1205 text50 CODE >111:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1209 text50 CODE >112:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-120B text50 CODE >114:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-120D text50 CODE >116:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1210 text50 CODE >118:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1215 text50 CODE >120:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1FDB text49 CODE >17:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1FDB text49 CODE >19:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10AF text48 CODE >34:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10AF text48 CODE >39:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10B9 text48 CODE >41:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10BF text48 CODE >42:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10C2 text48 CODE >44:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10C3 text48 CODE >45:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10C7 text48 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1FEB text47 CODE >21:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1FEB text47 CODE >23:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10C9 text46 CODE >51:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10C9 text46 CODE >56:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10D3 text46 CODE >58:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10D9 text46 CODE >59:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10DC text46 CODE >61:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10DD text46 CODE >62:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10E1 text46 CODE >63:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1FE0 text45 CODE >25:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1FE0 text45 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10E3 text44 CODE >68:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10E3 text44 CODE >73:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10ED text44 CODE >75:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10F3 text44 CODE >76:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10F6 text44 CODE >78:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10F7 text44 CODE >79:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-10FB text44 CODE >80:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-14A1 text43 CODE >7:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14A4 text43 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14A8 text43 CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14A9 text43 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14B1 text43 CODE >14:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14B2 text43 CODE >16:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14B9 text43 CODE >17:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14C5 text43 CODE >19:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14CC text43 CODE >21:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14CF text43 CODE >24:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14D3 text43 CODE >26:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14D4 text43 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14DC text43 CODE >28:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14DD text43 CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14E4 text43 CODE >31:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14F0 text43 CODE >33:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-14F7 text43 CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1065 text42 CODE >59:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1068 text42 CODE >61:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-107C text42 CODE >62:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12C1 text41 CODE >39:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12C4 text41 CODE >42:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12C8 text41 CODE >44:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12C9 text41 CODE >45:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12D1 text41 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12D2 text41 CODE >47:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12D9 text41 CODE >48:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12DC text41 CODE >51:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12DD text41 CODE >52:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12E5 text41 CODE >53:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12E6 text41 CODE >54:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12ED text41 CODE >55:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12F0 text41 CODE >57:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-A09 text40 CODE >64:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-A0C text40 CODE >66:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-A16 text40 CODE >67:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-A24 text40 CODE >68:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-A3A text40 CODE >67:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-E03 text39 CODE >179:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E03 text39 CODE >182:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E09 text39 CODE >184:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E25 text39 CODE >185:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E42 text39 CODE >186:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E4F text39 CODE >187:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E6B text39 CODE >188:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E79 text39 CODE >189:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E96 text39 CODE >190:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-EA3 text39 CODE >191:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-EBF text39 CODE >192:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-ECD text39 CODE >193:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-EEA text39 CODE >194:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F05 text39 CODE >196:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F19 text39 CODE >197:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F35 text39 CODE >198:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F51 text39 CODE >199:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F65 text39 CODE >200:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F72 text39 CODE >201:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F8F text39 CODE >202:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-F9C text39 CODE >203:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FB9 text39 CODE >204:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FC6 text39 CODE >205:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FE3 text39 CODE >206:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FF7 text39 CODE >208:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FFC text39 CODE >209:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-FFF text39 CODE >211:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1030 text38 CODE >72:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1030 text38 CODE >74:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1034 text38 CODE >75:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1036 text38 CODE >76:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1038 text38 CODE >77:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-103A text38 CODE >79:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-13AA text37 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13AA text37 CODE >12:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13AD text37 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13AF text37 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13B4 text37 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13B6 text37 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13B8 text37 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13BD text37 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13C1 text37 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13C3 text37 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13C5 text37 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13CC text37 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13D0 text37 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13D1 text37 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13D9 text37 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13DF text37 CODE >28:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13E6 text37 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13EA text37 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13ED text37 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-13F2 text37 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awmod.c
-1217 text36 CODE >23:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1217 text36 CODE >25:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-121A text36 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-121E text36 CODE >29:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1226 text36 CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-123E text36 CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1025 text35 CODE >4:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1025 text35 CODE >7:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1028 text35 CODE >8:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-1029 text35 CODE >9:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-102A text35 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-102D text35 CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-102E text35 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-102F text35 CODE >15:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bds.c
-12F1 text34 CODE >71:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12F1 text34 CODE >73:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12F5 text34 CODE >74:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12F6 text34 CODE >75:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12F7 text34 CODE >76:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-12FA text34 CODE >78:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1308 text34 CODE >79:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-130E text34 CODE >80:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1314 text34 CODE >81:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-131A text34 CODE >82:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1320 text34 CODE >83:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-1324 text34 CODE >84:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\lcd.c
-107D text33 CODE >22:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1080 text33 CODE >24:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1084 text33 CODE >25:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1085 text33 CODE >26:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1088 text33 CODE >28:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1089 text33 CODE >29:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-108D text33 CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-108F text33 CODE >31:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-108F text33 CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1090 text33 CODE >33:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1092 text33 CODE >34:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1093 text33 CODE >26:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1094 text33 CODE >36:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1095 text33 CODE >38:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-104F text32 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-104F text32 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1052 text32 CODE >14:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1056 text32 CODE >15:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1059 text32 CODE >16:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-105D text32 CODE >18:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1060 text32 CODE >19:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1064 text32 CODE >20:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1FF2 text31 CODE >29:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1FF2 text31 CODE >31:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1FF8 text31 CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1118 text30 CODE >38:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1118 text30 CODE >41:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1119 text30 CODE >43:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-111C text30 CODE >44:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-111F text30 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1120 text30 CODE >48:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1121 text30 CODE >49:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1122 text30 CODE >50:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1123 text30 CODE >51:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1124 text30 CODE >53:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1125 text30 CODE >55:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1129 text30 CODE >57:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1130 text30 CODE >59:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1131 text30 CODE >60:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1132 text30 CODE >63:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-BA2 text29 CODE >8:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-BA2 text29 CODE >10:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-BA8 text29 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-BC3 text29 CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-BDE text29 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-BF9 text29 CODE >14:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-C14 text29 CODE >15:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-C2F text29 CODE >16:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-C4B text29 CODE >17:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-15B1 text28 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15B1 text28 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15BB text28 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15C1 text28 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15C3 text28 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15C5 text28 CODE >17:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15CE text28 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15D2 text28 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15D3 text28 CODE >21:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15DC text28 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15EC text28 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15FA text28 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-15FB text28 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-1604 text28 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-1608 text28 CODE >29:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\__lldiv.c
-14FB text27 CODE >155:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-14FB text27 CODE >159:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1537 text27 CODE >161:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1538 text27 CODE >162:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-153B text27 CODE >163:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-153E text27 CODE >165:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1541 text27 CODE >166:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1544 text27 CODE >167:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1547 text27 CODE >169:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-154A text27 CODE >170:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-154B text27 CODE >171:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-154E text27 CODE >172:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-154F text27 CODE >174:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1552 text27 CODE >176:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1553 text27 CODE >177:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1554 text27 CODE >178:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1555 text27 CODE >180:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1FE5 text26 CODE >113:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1FE8 text26 CODE >115:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1FEA text26 CODE >116:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1240 text25 CODE >136:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1240 text25 CODE >138:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-124E text25 CODE >140:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-124E text25 CODE >141:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1252 text25 CODE >142:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1262 text25 CODE >143:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1268 text25 CODE >138:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-B01 text24 CODE >5:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B01 text24 CODE >7:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B10 text24 CODE >8:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B1B text24 CODE >9:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B26 text24 CODE >10:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B34 text24 CODE >11:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B3F text24 CODE >12:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B4D text24 CODE >13:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B58 text24 CODE >14:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B66 text24 CODE >15:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B71 text24 CODE >16:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B7F text24 CODE >17:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B8A text24 CODE >18:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-B98 text24 CODE >19:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-BA1 text24 CODE >20:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-1269 text23 CODE >88:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1269 text23 CODE >92:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-126D text23 CODE >94:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-126E text23 CODE >95:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-127C text23 CODE >96:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-127F text23 CODE >98:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1281 text23 CODE >100:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1282 text23 CODE >101:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-1290 text23 CODE >102:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\eusart.c
-C4C text22 CODE >22:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C4C text22 CODE >24:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C5B text22 CODE >25:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C66 text22 CODE >26:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C71 text22 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C7F text22 CODE >28:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C8A text22 CODE >29:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-C98 text22 CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CA3 text22 CODE >31:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CB1 text22 CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CBC text22 CODE >33:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CCA text22 CODE >34:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CD5 text22 CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CE3 text22 CODE >36:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CEE text22 CODE >37:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-CFC text22 CODE >38:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-D05 text22 CODE >40:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\bluetooth.c
-1133 text21 CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-1133 text21 CODE >37:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\fifo.c
-116F text20 CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-116F text20 CODE >34:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1175 text20 CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1182 text20 CODE >36:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-118E text20 CODE >37:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-118F text19 CODE >25:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-118F text19 CODE >27:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1195 text19 CODE >28:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11A2 text19 CODE >29:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11AE text19 CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11AF text18 CODE >18:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11AF text18 CODE >20:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11B5 text18 CODE >21:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11C2 text18 CODE >22:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-11CE text18 CODE >23:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D06 text17 CODE >156:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D06 text17 CODE >158:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D13 text17 CODE >159:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D22 text17 CODE >160:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D2F text17 CODE >161:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D3E text17 CODE >162:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D4B text17 CODE >163:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D5A text17 CODE >164:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D67 text17 CODE >165:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D76 text17 CODE >166:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D83 text17 CODE >167:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D92 text17 CODE >168:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-D9F text17 CODE >169:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DAE text17 CODE >171:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DBB text17 CODE >172:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DCA text17 CODE >173:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DD7 text17 CODE >174:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DE6 text17 CODE >175:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-DF3 text17 CODE >176:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-E02 text17 CODE >177:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1556 text16 CODE >5:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1556 text16 CODE >13:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1559 text16 CODE >14:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-155B text16 CODE >15:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1560 text16 CODE >16:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1562 text16 CODE >18:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1564 text16 CODE >19:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1569 text16 CODE >20:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-156D text16 CODE >22:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-156F text16 CODE >23:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1573 text16 CODE >24:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1575 text16 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1577 text16 CODE >26:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-157E text16 CODE >27:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1582 text16 CODE >25:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1583 text16 CODE >30:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-158A text16 CODE >31:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1592 text16 CODE >32:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1598 text16 CODE >33:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1599 text16 CODE >35:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-15A0 text16 CODE >36:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-15A4 text16 CODE >38:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-15A7 text16 CODE >39:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-15AC text16 CODE >40:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c90\common\awdiv.c
-1FF9 text15 CODE >24:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1FF9 text15 CODE >26:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1016 text14 CODE >33:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1016 text14 CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\timer0.c
-1611 text13 CODE >39:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1611 text13 CODE >41:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-161F text13 CODE >42:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-162D text13 CODE >43:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-165A text13 CODE >44:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1667 text13 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1674 text12 CODE >50:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1674 text12 CODE >52:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1682 text12 CODE >53:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1690 text12 CODE >54:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16BD text12 CODE >55:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16CA text12 CODE >57:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16D7 text11 CODE >60:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16D7 text11 CODE >62:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16E5 text11 CODE >63:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-16F3 text11 CODE >64:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1720 text11 CODE >65:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-172D text11 CODE >67:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-173A text10 CODE >70:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-173A text10 CODE >72:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1748 text10 CODE >73:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1756 text10 CODE >74:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1783 text10 CODE >75:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1790 text10 CODE >77:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-179D text9 CODE >80:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-179D text9 CODE >82:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-17AB text9 CODE >83:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-17B9 text9 CODE >84:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-17E6 text9 CODE >85:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-17F3 text9 CODE >87:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A3B text8 CODE >90:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A3B text8 CODE >92:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A49 text8 CODE >93:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A57 text8 CODE >94:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A84 text8 CODE >95:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A91 text8 CODE >97:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A9E text7 CODE >100:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-A9E text7 CODE >102:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-AAC text7 CODE >103:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-ABA text7 CODE >104:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-AE7 text7 CODE >105:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-AF4 text7 CODE >107:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-599 text6 CODE >110:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-599 text6 CODE >112:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-5A7 text6 CODE >113:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-5B5 text6 CODE >114:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-5E2 text6 CODE >115:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-5EF text6 CODE >117:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-13F7 text5 CODE >128:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-13F7 text5 CODE >130:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1405 text5 CODE >131:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1432 text5 CODE >132:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-143F text5 CODE >134:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-144C text4 CODE >120:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-144C text4 CODE >122:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-145A text4 CODE >123:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1487 text4 CODE >124:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1494 text4 CODE >126:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\auxiliar.c
-1294 text3 CODE >57:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1297 text3 CODE >62:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-129C text3 CODE >63:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12A1 text3 CODE >64:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12A4 text3 CODE >66:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12A8 text3 CODE >67:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12AA text3 CODE >69:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12AE text3 CODE >71:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12B2 text3 CODE >72:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12B4 text3 CODE >74:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12B8 text3 CODE >76:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12BC text3 CODE >77:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-12C0 text3 CODE >78:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1096 text2 CODE >40:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1096 text2 CODE >42:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-109C text2 CODE >43:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-109D text2 CODE >44:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-109E text2 CODE >45:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-109F text2 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10A2 text2 CODE >48:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10A3 text2 CODE >49:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10A5 text2 CODE >50:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10A9 text2 CODE >51:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10AB text2 CODE >52:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10AC text2 CODE >46:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-10AD text2 CODE >54:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1325 text1 CODE >83:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1325 text1 CODE >85:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-132F text1 CODE >86:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-133A text1 CODE >87:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1340 text1 CODE >89:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-134A text1 CODE >90:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1352 text1 CODE >91:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-1358 text1 CODE >92:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\Serial.c
-27 maintext CODE >30:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-27 maintext CODE >32:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2C maintext CODE >33:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-31 maintext CODE >34:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-36 maintext CODE >35:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-45 maintext CODE >36:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4A maintext CODE >39:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4E maintext CODE >40:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4F maintext CODE >41:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-50 maintext CODE >45:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-51 maintext CODE >48:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-57 maintext CODE >53:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-5C maintext CODE >54:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-5E maintext CODE >58:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-63 maintext CODE >59:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-65 maintext CODE >63:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-6A maintext CODE >64:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-6C maintext CODE >70:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-7A maintext CODE >71:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-88 maintext CODE >72:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-92 maintext CODE >76:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-A0 maintext CODE >77:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-AE maintext CODE >78:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-B8 maintext CODE >82:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-C6 maintext CODE >83:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-D4 maintext CODE >84:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-E2 maintext CODE >85:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-F8 maintext CODE >91:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-FE maintext CODE >92:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-10B maintext CODE >93:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-119 maintext CODE >94:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-11B maintext CODE >101:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-120 maintext CODE >102:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-12C maintext CODE >103:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-136 maintext CODE >108:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-13B maintext CODE >109:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-146 maintext CODE >110:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-154 maintext CODE >111:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-168 maintext CODE >114:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-178 maintext CODE >115:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-179 maintext CODE >118:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-17F maintext CODE >119:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-18C maintext CODE >120:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-19A maintext CODE >121:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1A0 maintext CODE >127:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1A6 maintext CODE >128:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1B3 maintext CODE >129:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1C1 maintext CODE >130:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1C6 maintext CODE >131:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1CB maintext CODE >132:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1CD maintext CODE >140:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1D3 maintext CODE >141:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1E0 maintext CODE >142:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1EE maintext CODE >143:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-1F0 maintext CODE >147:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-206 maintext CODE >148:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-20E maintext CODE >150:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-214 maintext CODE >151:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-221 maintext CODE >152:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-22F maintext CODE >154:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-233 maintext CODE >156:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-234 maintext CODE >158:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-235 maintext CODE >162:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-241 maintext CODE >163:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-246 maintext CODE >164:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-247 maintext CODE >165:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-255 maintext CODE >166:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-25A maintext CODE >167:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-25B maintext CODE >171:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-267 maintext CODE >173:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-271 maintext CODE >174:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-27B maintext CODE >175:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-28A maintext CODE >179:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2A4 maintext CODE >181:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2AC maintext CODE >182:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2B1 maintext CODE >184:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2C3 maintext CODE >158:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2C6 maintext CODE >186:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2C7 maintext CODE >187:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2C9 maintext CODE >194:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2CF maintext CODE >195:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2DC maintext CODE >196:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2DE maintext CODE >200:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-2EA maintext CODE >201:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-300 maintext CODE >202:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-30A maintext CODE >207:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-316 maintext CODE >208:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-32C maintext CODE >209:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-336 maintext CODE >215:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-33C maintext CODE >216:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-349 maintext CODE >217:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-357 maintext CODE >218:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-35D maintext CODE >222:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-363 maintext CODE >223:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-370 maintext CODE >225:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-380 maintext CODE >234:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-385 maintext CODE >235:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-393 maintext CODE >236:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-39F maintext CODE >237:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3A9 maintext CODE >242:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3AE maintext CODE >243:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3B9 maintext CODE >244:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3C7 maintext CODE >245:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3D1 maintext CODE >250:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3D6 maintext CODE >251:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3E2 maintext CODE >252:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3F0 maintext CODE >253:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3FA maintext CODE >258:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-3FF maintext CODE >259:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-40D maintext CODE >260:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-41B maintext CODE >261:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-425 maintext CODE >266:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-42A maintext CODE >267:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-438 maintext CODE >268:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-446 maintext CODE >269:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-450 maintext CODE >274:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-455 maintext CODE >275:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-463 maintext CODE >276:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-471 maintext CODE >277:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-47B maintext CODE >282:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-480 maintext CODE >283:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-48E maintext CODE >284:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-49C maintext CODE >285:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4A6 maintext CODE >290:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4AB maintext CODE >291:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4B9 maintext CODE >292:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4C4 maintext CODE >293:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4D2 maintext CODE >294:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-4E6 maintext CODE >296:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-508 maintext CODE >297:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >300:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >308:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >316:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >324:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >332:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >340:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >348:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-509 maintext CODE >356:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-50F maintext CODE >357:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-51C maintext CODE >359:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-521 maintext CODE >360:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-527 maintext CODE >361:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-528 maintext CODE >366:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-52D maintext CODE >367:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-531 maintext CODE >369:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-598 maintext CODE >370:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
-101D clrtext CODE >3262:C:\Users\18175259\AppData\Local\Temp\s75k.
-101D clrtext CODE >3263:C:\Users\18175259\AppData\Local\Temp\s75k.
-101E clrtext CODE >3264:C:\Users\18175259\AppData\Local\Temp\s75k.
-101E clrtext CODE >3265:C:\Users\18175259\AppData\Local\Temp\s75k.
-101F clrtext CODE >3266:C:\Users\18175259\AppData\Local\Temp\s75k.
-1020 clrtext CODE >3267:C:\Users\18175259\AppData\Local\Temp\s75k.
-1021 clrtext CODE >3268:C:\Users\18175259\AppData\Local\Temp\s75k.
-1022 clrtext CODE >3269:C:\Users\18175259\AppData\Local\Temp\s75k.
-1023 clrtext CODE >3270:C:\Users\18175259\AppData\Local\Temp\s75k.
-1024 clrtext CODE >3271:C:\Users\18175259\AppData\Local\Temp\s75k.
-0 text0 CODE >3546:C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic16f887.h
+$dist/default/production\bluetooth.X.production.obj
+15 cinit CODE >3005:C:\Users\walla\AppData\Local\Temp\sfok.
+15 cinit CODE >3008:C:\Users\walla\AppData\Local\Temp\sfok.
+15 cinit CODE >3076:C:\Users\walla\AppData\Local\Temp\sfok.
+16 cinit CODE >3079:C:\Users\walla\AppData\Local\Temp\sfok.
+17 cinit CODE >3080:C:\Users\walla\AppData\Local\Temp\sfok.
+18 cinit CODE >3081:C:\Users\walla\AppData\Local\Temp\sfok.
+19 cinit CODE >3082:C:\Users\walla\AppData\Local\Temp\sfok.
+1A cinit CODE >3083:C:\Users\walla\AppData\Local\Temp\sfok.
+1F cinit CODE >3086:C:\Users\walla\AppData\Local\Temp\sfok.
+20 cinit CODE >3087:C:\Users\walla\AppData\Local\Temp\sfok.
+21 cinit CODE >3088:C:\Users\walla\AppData\Local\Temp\sfok.
+22 cinit CODE >3089:C:\Users\walla\AppData\Local\Temp\sfok.
+25 cinit CODE >3095:C:\Users\walla\AppData\Local\Temp\sfok.
+25 cinit CODE >3097:C:\Users\walla\AppData\Local\Temp\sfok.
+26 cinit CODE >3098:C:\Users\walla\AppData\Local\Temp\sfok.
+4 intentry CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+12A1 text58 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12A1 text58 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12A2 text58 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12A4 text58 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12A9 text58 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12AB text58 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12AD text58 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12B2 text58 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12B6 text58 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12B8 text58 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12BA text58 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12C1 text58 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12C5 text58 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12C6 text58 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12CE text58 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12D4 text58 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12DB text58 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12DF text58 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12E2 text58 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12E7 text58 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1093 text57 CODE >17:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1094 text57 CODE >19:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+109C text57 CODE >20:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+10B2 text57 CODE >21:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1F60 text56 CODE >183:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F60 text56 CODE >185:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F64 text56 CODE >187:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F65 text56 CODE >188:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F66 text56 CODE >189:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F68 text56 CODE >191:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F69 text56 CODE >192:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F6A text56 CODE >194:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F6E text56 CODE >196:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F71 text56 CODE >197:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F72 text56 CODE >198:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1041 text55 CODE >9:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1041 text55 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1045 text55 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1057 text55 CODE >15:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1113 text54 CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1113 text54 CODE >14:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1114 text54 CODE >16:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+111C text54 CODE >18:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1121 text54 CODE >21:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1124 text54 CODE >23:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1125 text54 CODE >24:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+112A text54 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+112B text54 CODE >28:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+A16 text53 CODE >98:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A19 text53 CODE >103:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A1D text53 CODE >104:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A21 text53 CODE >106:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A25 text53 CODE >107:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A27 text53 CODE >109:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A29 text53 CODE >111:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A2D text53 CODE >112:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A2F text53 CODE >114:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A31 text53 CODE >116:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A34 text53 CODE >118:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+A39 text53 CODE >120:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F28 text52 CODE >17:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F28 text52 CODE >19:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FE6 text51 CODE >34:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FE6 text51 CODE >39:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FF0 text51 CODE >41:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FF6 text51 CODE >42:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FF9 text51 CODE >44:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FFA text51 CODE >45:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1FFE text51 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+154E text50 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+154E text50 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1558 text50 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+155E text50 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1560 text50 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1562 text50 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+156B text50 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+156F text50 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1570 text50 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1579 text50 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1589 text50 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1597 text50 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+1598 text50 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+15A1 text50 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+15A5 text50 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lldiv.c
+143D text49 CODE >155:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+143D text49 CODE >159:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1479 text49 CODE >161:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+147A text49 CODE >162:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+147D text49 CODE >163:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1480 text49 CODE >165:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1483 text49 CODE >166:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1486 text49 CODE >167:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1489 text49 CODE >169:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+148C text49 CODE >170:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+148D text49 CODE >171:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1490 text49 CODE >172:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1491 text49 CODE >174:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1494 text49 CODE >176:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1495 text49 CODE >177:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1496 text49 CODE >178:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1497 text49 CODE >180:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F32 text48 CODE >113:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F35 text48 CODE >115:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1F37 text48 CODE >116:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1138 text47 CODE >136:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1138 text47 CODE >138:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1146 text47 CODE >140:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1146 text47 CODE >141:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+114A text47 CODE >142:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+115A text47 CODE >143:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1160 text47 CODE >138:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1161 text46 CODE >133:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1161 text46 CODE >135:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1170 text46 CODE >136:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+117B text46 CODE >137:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1189 text46 CODE >139:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1F38 text45 CODE >21:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F38 text45 CODE >23:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+100D text44 CODE >51:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+100D text44 CODE >56:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1017 text44 CODE >58:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+101D text44 CODE >59:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1020 text44 CODE >61:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1021 text44 CODE >62:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1025 text44 CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F2D text43 CODE >25:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F2D text43 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1027 text42 CODE >68:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1027 text42 CODE >73:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1031 text42 CODE >75:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1037 text42 CODE >76:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+103A text42 CODE >78:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+103B text42 CODE >79:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+103F text42 CODE >80:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F73 text41 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F76 text41 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F77 text41 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F79 text41 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F7D text41 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F7F text41 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F81 text41 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+1F84 text41 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\Umul8.c
+13E3 text40 CODE >7:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13E6 text40 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13EA text40 CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13EB text40 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13F3 text40 CODE >14:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13F4 text40 CODE >16:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+13FB text40 CODE >17:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1407 text40 CODE >19:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+140E text40 CODE >21:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1411 text40 CODE >24:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1415 text40 CODE >26:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1416 text40 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+141E text40 CODE >28:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+141F text40 CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1426 text40 CODE >31:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1432 text40 CODE >33:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1439 text40 CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1F9C text39 CODE >59:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1F9F text39 CODE >61:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1FB3 text39 CODE >62:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+120B text38 CODE >39:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+120E text38 CODE >42:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1212 text38 CODE >44:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1213 text38 CODE >45:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+121B text38 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+121C text38 CODE >47:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1223 text38 CODE >48:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1226 text38 CODE >51:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1227 text38 CODE >52:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+122F text38 CODE >53:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1230 text38 CODE >54:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1237 text38 CODE >55:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+123A text38 CODE >57:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+123B text37 CODE >64:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+123E text37 CODE >66:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1248 text37 CODE >67:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1256 text37 CODE >68:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+126C text37 CODE >67:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+E03 text36 CODE >179:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E03 text36 CODE >182:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E09 text36 CODE >184:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E25 text36 CODE >185:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E42 text36 CODE >186:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E4F text36 CODE >187:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E6B text36 CODE >188:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E79 text36 CODE >189:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E96 text36 CODE >190:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+EA3 text36 CODE >191:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+EBF text36 CODE >192:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+ECD text36 CODE >193:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+EEA text36 CODE >194:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F05 text36 CODE >196:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F19 text36 CODE >197:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F35 text36 CODE >198:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F51 text36 CODE >199:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F65 text36 CODE >200:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F72 text36 CODE >201:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F8F text36 CODE >202:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+F9C text36 CODE >203:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FB9 text36 CODE >204:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FC6 text36 CODE >205:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FE3 text36 CODE >206:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FF7 text36 CODE >208:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FFC text36 CODE >209:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+FFF text36 CODE >211:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1001 text35 CODE >72:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1001 text35 CODE >74:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1005 text35 CODE >75:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1007 text35 CODE >76:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+1009 text35 CODE >77:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+100B text35 CODE >79:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+12EC text34 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12EC text34 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12EF text34 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12F1 text34 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12F6 text34 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12F8 text34 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12FA text34 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+12FF text34 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1303 text34 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1305 text34 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1307 text34 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+130E text34 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1312 text34 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1313 text34 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+131B text34 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1321 text34 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1328 text34 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+132C text34 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+132F text34 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+1334 text34 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awmod.c
+118A text33 CODE >23:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+118A text33 CODE >25:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+118D text33 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1191 text33 CODE >29:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1199 text33 CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+11B1 text33 CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1F55 text32 CODE >4:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F55 text32 CODE >7:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F58 text32 CODE >8:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F59 text32 CODE >9:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F5A text32 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F5D text32 CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F5E text32 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+1F5F text32 CODE >15:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bds.c
+126D text31 CODE >71:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+126D text31 CODE >73:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1271 text31 CODE >74:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1272 text31 CODE >75:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1273 text31 CODE >76:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1276 text31 CODE >78:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1284 text31 CODE >79:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+128A text31 CODE >80:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1290 text31 CODE >81:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1296 text31 CODE >82:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+129C text31 CODE >83:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+12A0 text31 CODE >84:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\lcd.c
+1FB4 text30 CODE >22:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FB7 text30 CODE >24:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FBB text30 CODE >25:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FBC text30 CODE >26:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FBF text30 CODE >28:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC0 text30 CODE >29:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC4 text30 CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC6 text30 CODE >31:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC6 text30 CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC7 text30 CODE >33:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FC9 text30 CODE >34:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FCA text30 CODE >26:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FCB text30 CODE >36:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FCC text30 CODE >38:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F86 text29 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F86 text29 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F89 text29 CODE >14:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F8D text29 CODE >15:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F90 text29 CODE >16:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F94 text29 CODE >18:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F97 text29 CODE >19:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F9B text29 CODE >20:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1F3F text28 CODE >29:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1F3F text28 CODE >31:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1F45 text28 CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+105C text27 CODE >38:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+105C text27 CODE >41:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+105D text27 CODE >43:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1060 text27 CODE >44:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1063 text27 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1064 text27 CODE >48:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1065 text27 CODE >49:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1066 text27 CODE >50:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1067 text27 CODE >51:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1068 text27 CODE >53:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1069 text27 CODE >55:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+106D text27 CODE >57:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1074 text27 CODE >59:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1075 text27 CODE >60:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1076 text27 CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+BA2 text26 CODE >8:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+BA2 text26 CODE >10:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+BA8 text26 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+BC3 text26 CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+BDE text26 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+BF9 text26 CODE >14:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+C14 text26 CODE >15:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+C2F text26 CODE >16:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+C4B text26 CODE >17:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+B01 text25 CODE >5:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B01 text25 CODE >7:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B10 text25 CODE >8:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B1B text25 CODE >9:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B26 text25 CODE >10:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B34 text25 CODE >11:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B3F text25 CODE >12:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B4D text25 CODE >13:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B58 text25 CODE >14:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B66 text25 CODE >15:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B71 text25 CODE >16:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B7F text25 CODE >17:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B8A text25 CODE >18:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+B98 text25 CODE >19:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+BA1 text25 CODE >20:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1498 text24 CODE >54:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1498 text24 CODE >56:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14A7 text24 CODE >57:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14B2 text24 CODE >58:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14C0 text24 CODE >59:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14CB text24 CODE >60:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14D9 text24 CODE >61:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14E4 text24 CODE >62:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+14F2 text24 CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+11B3 text23 CODE >88:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11B3 text23 CODE >92:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11B7 text23 CODE >94:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11B8 text23 CODE >95:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11C6 text23 CODE >96:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11C9 text23 CODE >98:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11CB text23 CODE >100:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11CC text23 CODE >101:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+11DA text23 CODE >102:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\eusart.c
+C4C text22 CODE >22:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C4C text22 CODE >24:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C5B text22 CODE >25:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C66 text22 CODE >26:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C71 text22 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C7F text22 CODE >28:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C8A text22 CODE >29:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+C98 text22 CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CA3 text22 CODE >31:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CB1 text22 CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CBC text22 CODE >33:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CCA text22 CODE >34:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CD5 text22 CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CE3 text22 CODE >36:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CEE text22 CODE >37:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+CFC text22 CODE >38:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+D05 text22 CODE >40:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\bluetooth.c
+1077 text21 CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+1077 text21 CODE >37:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\fifo.c
+10B3 text20 CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10B3 text20 CODE >34:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10B9 text20 CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10C6 text20 CODE >36:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10D2 text20 CODE >37:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10D3 text19 CODE >25:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10D3 text19 CODE >27:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10D9 text19 CODE >28:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10E6 text19 CODE >29:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10F2 text19 CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10F3 text18 CODE >18:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10F3 text18 CODE >20:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+10F9 text18 CODE >21:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1106 text18 CODE >22:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1112 text18 CODE >23:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D06 text17 CODE >156:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D06 text17 CODE >158:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D13 text17 CODE >159:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D22 text17 CODE >160:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D2F text17 CODE >161:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D3E text17 CODE >162:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D4B text17 CODE >163:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D5A text17 CODE >164:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D67 text17 CODE >165:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D76 text17 CODE >166:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D83 text17 CODE >167:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D92 text17 CODE >168:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+D9F text17 CODE >169:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DAE text17 CODE >171:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DBB text17 CODE >172:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DCA text17 CODE >173:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DD7 text17 CODE >174:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DE6 text17 CODE >175:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+DF3 text17 CODE >176:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+E02 text17 CODE >177:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+14F3 text16 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+14F3 text16 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+14F6 text16 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+14F8 text16 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+14FD text16 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+14FF text16 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1501 text16 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1506 text16 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+150A text16 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+150C text16 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1510 text16 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1512 text16 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1514 text16 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+151B text16 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+151F text16 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1520 text16 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1527 text16 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+152F text16 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1535 text16 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1536 text16 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+153D text16 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1541 text16 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1544 text16 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1549 text16 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\awdiv.c
+1F46 text15 CODE >24:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+1F46 text15 CODE >26:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+5F9 text14 CODE >33:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+5F9 text14 CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\timer0.c
+15AE text13 CODE >39:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+15AE text13 CODE >41:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+15BC text13 CODE >42:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+15CA text13 CODE >43:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+15F7 text13 CODE >44:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1604 text13 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1611 text12 CODE >50:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1611 text12 CODE >52:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+161F text12 CODE >53:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+162D text12 CODE >54:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+165A text12 CODE >55:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1667 text12 CODE >57:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1674 text11 CODE >60:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1674 text11 CODE >62:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1682 text11 CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1690 text11 CODE >64:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16BD text11 CODE >65:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16CA text11 CODE >67:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16D7 text10 CODE >70:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16D7 text10 CODE >72:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16E5 text10 CODE >73:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+16F3 text10 CODE >74:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1720 text10 CODE >75:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+172D text10 CODE >77:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+173A text9 CODE >80:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+173A text9 CODE >82:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1748 text9 CODE >83:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1756 text9 CODE >84:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1783 text9 CODE >85:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1790 text9 CODE >87:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+179D text8 CODE >90:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+179D text8 CODE >92:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+17AB text8 CODE >93:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+17B9 text8 CODE >94:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+17E6 text8 CODE >95:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+17F3 text8 CODE >97:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A3B text7 CODE >100:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A3B text7 CODE >102:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A49 text7 CODE >103:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A57 text7 CODE >104:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A84 text7 CODE >105:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A91 text7 CODE >107:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A9E text6 CODE >110:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+A9E text6 CODE >112:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+AAC text6 CODE >113:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+ABA text6 CODE >114:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+AE7 text6 CODE >115:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+AF4 text6 CODE >117:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1339 text5 CODE >128:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1339 text5 CODE >130:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1347 text5 CODE >131:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1374 text5 CODE >132:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+1381 text5 CODE >134:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+138E text4 CODE >120:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+138E text4 CODE >122:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+139C text4 CODE >123:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+13C9 text4 CODE >124:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+13D6 text4 CODE >126:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\auxiliar.c
+11DE text3 CODE >57:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11E1 text3 CODE >62:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11E6 text3 CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11EB text3 CODE >64:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11EE text3 CODE >66:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11F2 text3 CODE >67:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11F4 text3 CODE >69:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11F8 text3 CODE >71:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11FC text3 CODE >72:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+11FE text3 CODE >74:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1202 text3 CODE >76:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1206 text3 CODE >77:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+120A text3 CODE >78:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FCD text2 CODE >40:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FCD text2 CODE >42:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FD3 text2 CODE >43:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FD4 text2 CODE >44:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FD5 text2 CODE >45:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FD6 text2 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FD9 text2 CODE >48:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FDA text2 CODE >49:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FDC text2 CODE >50:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FE0 text2 CODE >51:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FE2 text2 CODE >52:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FE3 text2 CODE >46:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+1FE4 text2 CODE >54:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5BF text1 CODE >83:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5BF text1 CODE >85:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5C9 text1 CODE >86:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5D4 text1 CODE >87:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5DA text1 CODE >89:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5E4 text1 CODE >90:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5EC text1 CODE >91:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+5F2 text1 CODE >92:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\Serial.c
+29 maintext CODE >30:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+29 maintext CODE >32:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2E maintext CODE >33:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+33 maintext CODE >34:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+38 maintext CODE >35:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+47 maintext CODE >36:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4C maintext CODE >39:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+50 maintext CODE >40:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+51 maintext CODE >41:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52 maintext CODE >45:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+53 maintext CODE >48:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+59 maintext CODE >53:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+5E maintext CODE >54:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+60 maintext CODE >58:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+65 maintext CODE >59:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+67 maintext CODE >63:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+6C maintext CODE >64:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+6E maintext CODE >70:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+7C maintext CODE >71:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+8A maintext CODE >72:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+94 maintext CODE >76:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+A2 maintext CODE >77:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+B0 maintext CODE >78:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+BA maintext CODE >82:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+C8 maintext CODE >83:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+D6 maintext CODE >84:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+E4 maintext CODE >85:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+FA maintext CODE >91:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+100 maintext CODE >92:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+10D maintext CODE >93:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+11B maintext CODE >94:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+11D maintext CODE >101:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+122 maintext CODE >102:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+12E maintext CODE >103:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+138 maintext CODE >108:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+13D maintext CODE >109:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+148 maintext CODE >110:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+156 maintext CODE >111:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+16A maintext CODE >98:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+172 maintext CODE >115:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+173 maintext CODE >118:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+179 maintext CODE >119:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+186 maintext CODE >120:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+194 maintext CODE >121:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+19A maintext CODE >127:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1A0 maintext CODE >128:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1AD maintext CODE >129:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1BB maintext CODE >130:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1C0 maintext CODE >131:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1C5 maintext CODE >132:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1C7 maintext CODE >140:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1CD maintext CODE >141:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1DA maintext CODE >142:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1E8 maintext CODE >143:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1EA maintext CODE >147:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+200 maintext CODE >148:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+208 maintext CODE >150:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+20E maintext CODE >151:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+21B maintext CODE >152:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+229 maintext CODE >154:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+22D maintext CODE >156:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+22E maintext CODE >158:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+22F maintext CODE >162:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+23D maintext CODE >163:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+242 maintext CODE >164:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+243 maintext CODE >165:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+251 maintext CODE >166:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+256 maintext CODE >167:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+257 maintext CODE >171:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+263 maintext CODE >173:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+26D maintext CODE >174:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+277 maintext CODE >175:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+286 maintext CODE >179:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+287 maintext CODE >160:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+296 maintext CODE >181:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+29E maintext CODE >182:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2A3 maintext CODE >184:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2B5 maintext CODE >158:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2B8 maintext CODE >186:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2B9 maintext CODE >187:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2BB maintext CODE >194:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2C1 maintext CODE >195:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2CE maintext CODE >196:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2D0 maintext CODE >200:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2DC maintext CODE >201:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2F2 maintext CODE >202:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+2FC maintext CODE >207:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+308 maintext CODE >208:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+31E maintext CODE >209:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+328 maintext CODE >215:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+32E maintext CODE >216:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+33B maintext CODE >217:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+349 maintext CODE >218:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+34F maintext CODE >222:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+355 maintext CODE >223:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+362 maintext CODE >224:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+367 maintext CODE >225:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+36C maintext CODE >226:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+37C maintext CODE >235:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+381 maintext CODE >236:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+38F maintext CODE >237:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+39B maintext CODE >238:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3A5 maintext CODE >243:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3AA maintext CODE >244:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3B5 maintext CODE >245:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3C3 maintext CODE >246:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3CD maintext CODE >251:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3D2 maintext CODE >252:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3DE maintext CODE >253:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3EC maintext CODE >254:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3F6 maintext CODE >259:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+3FB maintext CODE >260:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+409 maintext CODE >261:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+417 maintext CODE >262:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+421 maintext CODE >267:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+426 maintext CODE >268:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+434 maintext CODE >269:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+442 maintext CODE >270:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+44C maintext CODE >275:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+451 maintext CODE >276:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+45F maintext CODE >277:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+46D maintext CODE >278:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+477 maintext CODE >283:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+47C maintext CODE >284:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+48A maintext CODE >285:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+498 maintext CODE >286:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4A2 maintext CODE >291:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4A7 maintext CODE >292:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4B5 maintext CODE >293:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4C0 maintext CODE >294:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4CE maintext CODE >295:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4E2 maintext CODE >232:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4FC maintext CODE >298:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+4FD maintext CODE >301:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+503 maintext CODE >302:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+510 maintext CODE >303:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+516 maintext CODE >309:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+51C maintext CODE >310:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+529 maintext CODE >311:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >317:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >325:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >333:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >341:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >349:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+52F maintext CODE >357:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+535 maintext CODE >358:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+542 maintext CODE >360:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+547 maintext CODE >361:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+54D maintext CODE >362:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+54E maintext CODE >367:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+553 maintext CODE >368:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+557 maintext CODE >45:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+5BE maintext CODE >43:C:\Users\walla\OneDrive\Documentos\Projeto\bluetooth\bluetooth.X\main.c
+1F4D clrtext CODE >3063:C:\Users\walla\AppData\Local\Temp\sfok.
+1F4D clrtext CODE >3064:C:\Users\walla\AppData\Local\Temp\sfok.
+1F4E clrtext CODE >3065:C:\Users\walla\AppData\Local\Temp\sfok.
+1F4E clrtext CODE >3066:C:\Users\walla\AppData\Local\Temp\sfok.
+1F4F clrtext CODE >3067:C:\Users\walla\AppData\Local\Temp\sfok.
+1F50 clrtext CODE >3068:C:\Users\walla\AppData\Local\Temp\sfok.
+1F51 clrtext CODE >3069:C:\Users\walla\AppData\Local\Temp\sfok.
+1F52 clrtext CODE >3070:C:\Users\walla\AppData\Local\Temp\sfok.
+1F53 clrtext CODE >3071:C:\Users\walla\AppData\Local\Temp\sfok.
+1F54 clrtext CODE >3072:C:\Users\walla\AppData\Local\Temp\sfok.
+0 text0 CODE >3468:C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f887.h
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -816,177 +848,182 @@ FE maintext CODE >92:X:\4-PRO\Bluetooth\bluetooth\bluetooth.X\main.c
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___latbits 2 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-bordaSubidaB1@resp 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-___awdiv@counter 2A 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-gotoxy@x 2A 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-gotoxy@y 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_statusT0limite 203A 0 CODE 0 text14 dist/default/production\bluetooth.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+bordaSubidaB1@resp 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+___awdiv@counter 2B 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+gotoxy@x 2B 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+gotoxy@y 28 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_statusT0limite C00 0 CODE 0 text14 dist/default/production\bluetooth.X.production.obj
 __Hspace_0 2009 0 ABS 0 - -
 __Hspace_1 BE 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
-_textSelectionCLP 27EE 0 CODE 0 text5 dist/default/production\bluetooth.X.production.o
-_textSelectionEST 2898 0 CODE 0 text4 dist/default/production\bluetooth.X.production.o
+_textSelectionCLP 2672 0 CODE 0 text5 dist/default/production\bluetooth.X.production.obj
+_textSelectionEST 271C 0 CODE 0 text4 dist/default/production\bluetooth.X.production.obj
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-?_statusT0limite 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-_hexToAscii 2528 0 CODE 0 text3 dist/default/production\bluetooth.X.production.o
-_B1 3FB6 0 CODE 0 text49 dist/default/production\bluetooth.X.production.o
-_B2 3FD6 0 CODE 0 text47 dist/default/production\bluetooth.X.production.o
-_B3 3FC0 0 CODE 0 text45 dist/default/production\bluetooth.X.production.o
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+?_statusT0limite 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+_hexToAscii 23BC 0 CODE 0 text3 dist/default/production\bluetooth.X.production.obj
+_B1 3E50 0 CODE 0 text52 dist/default/production\bluetooth.X.production.obj
+_B2 3E70 0 CODE 0 text45 dist/default/production\bluetooth.X.production.obj
+_B3 3E5A 0 CODE 0 text43 dist/default/production\bluetooth.X.production.obj
 __Lstringtext 0 0 ABS 0 stringtext -
-main@a 45 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-main@i 44 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-main@t 43 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
+main@a 46 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+main@i 45 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+main@t 44 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
 __Hstrings 0 0 ABS 0 strings -
-_TMR0 1 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\18175259\AppData\Local\Temp\s75k.o
-_comp 51 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_fifo A0 0 BANK1 1 bssBANK1 dist/default/production\bluetooth.X.production.o
-_logo 1744 0 CODE 0 text29 dist/default/production\bluetooth.X.production.o
-_main 4E 0 CODE 0 maintext dist/default/production\bluetooth.X.production.o
-_rhex 54 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_tdez 52 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_tuni 53 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-btemp 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-start 20 0 CODE 0 init C:\Users\18175259\AppData\Local\Temp\s75k.o
-__size_of___awdiv 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of___awmod 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_logo 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_main 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of___lldiv 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_resetErrorRxEUSART 2528 0 CODE 0 text23 dist/default/production\bluetooth.X.production.o
+_TMR0 1 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\walla\AppData\Local\Temp\sfok.obj
+_comp 52 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_fifo A0 0 BANK1 1 bssBANK1 dist/default/production\bluetooth.X.production.obj
+_logo 1744 0 CODE 0 text26 dist/default/production\bluetooth.X.production.obj
+_main 52 0 CODE 0 maintext dist/default/production\bluetooth.X.production.obj
+_rhex 55 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_tdez 53 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_tuni 54 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+start 24 0 CODE 0 init C:\Users\walla\AppData\Local\Temp\sfok.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of___awmod 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_logo 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of___lldiv 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_resetErrorRxEUSART 23BC 0 CODE 0 text23 dist/default/production\bluetooth.X.production.obj
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
-_getFIFO 242E 0 CODE 0 text36 dist/default/production\bluetooth.X.production.o
-asciiToHex@a1 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-asciiToHex@a2 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-_textLoading 1A0C 0 CODE 0 text17 dist/default/production\bluetooth.X.production.o
-_OPTION_REGbits 81 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_textSelection1 2CE8 0 CODE 0 text13 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection2 2DAE 0 CODE 0 text12 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection3 2E74 0 CODE 0 text11 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection4 2F3A 0 CODE 0 text10 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection5 3000 0 CODE 0 text9 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection6 153C 0 CODE 0 text8 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection7 1602 0 CODE 0 text7 dist/default/production\bluetooth.X.production.o
-__end_of_textSelection8 BF8 0 CODE 0 text6 dist/default/production\bluetooth.X.production.o
-_statusT0 3FF2 0 CODE 0 text15 dist/default/production\bluetooth.X.production.o
-putLCD@c 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
+_getFIFO 2314 0 CODE 0 text33 dist/default/production\bluetooth.X.production.obj
+asciiToHex@a1 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+asciiToHex@a2 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+_textLoading 1A0C 0 CODE 0 text17 dist/default/production\bluetooth.X.production.obj
+_OPTION_REGbits 81 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection1 2C22 0 CODE 0 text13 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection2 2CE8 0 CODE 0 text12 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection3 2DAE 0 CODE 0 text11 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection4 2E74 0 CODE 0 text10 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection5 2F3A 0 CODE 0 text9 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection6 3000 0 CODE 0 text8 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection7 153C 0 CODE 0 text7 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelection8 1602 0 CODE 0 text6 dist/default/production\bluetooth.X.production.obj
+_statusT0 3E8C 0 CODE 0 text15 dist/default/production\bluetooth.X.production.obj
+putLCD@c 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
 __Hpowerup 0 0 CODE 0 powerup -
-___awmod@sign 29 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_statusT0 4000 0 CODE 0 text15 dist/default/production\bluetooth.X.production.o
-__size_of_initSerial 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\18175259\AppData\Local\Temp\s75k.o
+___awmod@sign 2A 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_statusT0 3E9A 0 CODE 0 text15 dist/default/production\bluetooth.X.production.obj
+__size_of_initSerial 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
+intlevel1 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
+intlevel2 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
+intlevel3 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
+intlevel4 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
+intlevel5 0 0 CODE 0 functab C:\Users\walla\AppData\Local\Temp\sfok.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
-writeString@str 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-cmdLCD@cmd 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_writeLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_initTimer0 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-wtemp0 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__Hfunctab 0 0 ENTRY 0 functab -
-_resetErrorRxEUSART 24D2 0 CODE 0 text23 dist/default/production\bluetooth.X.production.o
-_writeEUSART 3FCA 0 CODE 0 text26 dist/default/production\bluetooth.X.production.o
-__end_of_setT0limite 3FF2 0 CODE 0 text31 dist/default/production\bluetooth.X.production.o
-getFIFO@aux 2E 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-___awdiv@sign 2B 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
+writeString@str 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+cmdLCD@cmd 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+___bmul@multiplicand 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_writeLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_initTimer0 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+_resetErrorRxEUSART 2366 0 CODE 0 text23 dist/default/production\bluetooth.X.production.obj
+_writeEUSART 3E64 0 CODE 0 text48 dist/default/production\bluetooth.X.production.obj
+__end_of_setT0limite 3E8C 0 CODE 0 text28 dist/default/production\bluetooth.X.production.obj
+getFIFO@aux 2F 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+___awdiv@sign 2C 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
 __Hclrtext 0 0 ABS 0 clrtext -
-bordaSubidaB1@estadoAtualB1 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_hexToAscii 2582 0 CODE 0 text3 dist/default/production\bluetooth.X.production.o
-_asciiToHex 23E4 0 CODE 0 text50 dist/default/production\bluetooth.X.production.o
-_ANSELH 189 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___awdiv@dividend 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_textSelectionCLP 2898 0 CODE 0 text5 dist/default/production\bluetooth.X.production.o
-__end_of_textSelectionEST 2942 0 CODE 0 text4 dist/default/production\bluetooth.X.production.o
-__size_of_initLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-serialIn@dado 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-i1___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-main@aux 46 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_textSelectionCLP 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelectionEST 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_ofi1___awmod 2754 0 CODE 0 text55 dist/default/production\bluetooth.X.production.o
+bordaSubidaB1@estadoAtualB1 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_hexToAscii 2416 0 CODE 0 text3 dist/default/production\bluetooth.X.production.obj
+_asciiToHex 142C 0 CODE 0 text53 dist/default/production\bluetooth.X.production.obj
+_ANSELH 189 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___awdiv@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelectionCLP 271C 0 CODE 0 text5 dist/default/production\bluetooth.X.production.obj
+__end_of_textSelectionEST 27C6 0 CODE 0 text4 dist/default/production\bluetooth.X.production.obj
+__size_of_initLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+serialIn@dado 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of___bmul 3F0C 0 CODE 0 text41 dist/default/production\bluetooth.X.production.obj
+i1___awmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+main@aux 47 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_textSelectionCLP 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelectionEST 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_ofi1___awmod 25D8 0 CODE 0 text58 dist/default/production\bluetooth.X.production.obj
 __Lmaintext 0 0 ABS 0 maintext -
-___awdiv@divisor 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_ofi1___awmod 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of___awdiv 2B62 0 CODE 0 text16 dist/default/production\bluetooth.X.production.o
-__end_of___awmod 27EE 0 CODE 0 text37 dist/default/production\bluetooth.X.production.o
-__end_of___lldiv 2C22 0 CODE 0 text28 dist/default/production\bluetooth.X.production.o
-setT0limite@c 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_cmdLCD 29F6 0 CODE 0 text43 dist/default/production\bluetooth.X.production.o
-_writeLCD 1412 0 CODE 0 text40 dist/default/production\bluetooth.X.production.o
-_BAUDCTLbits 187 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_geral 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_writeLCD 1476 0 CODE 0 text40 dist/default/production\bluetooth.X.production.o
-_writeString 2480 0 CODE 0 text25 dist/default/production\bluetooth.X.production.o
-i1___awmod 26BE 0 CODE 0 text55 dist/default/production\bluetooth.X.production.o
-__end_of_gotoxy 20FA 0 CODE 0 text42 dist/default/production\bluetooth.X.production.o
-__size_of_master1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___lldiv@counter 30 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_initBT 2060 0 CODE 0 text35 dist/default/production\bluetooth.X.production.o
-start_initialization 26 0 CODE 0 cinit dist/default/production\bluetooth.X.production.o
-__end_of_asciiToHex 242E 0 CODE 0 text50 dist/default/production\bluetooth.X.production.o
-_TRISAbits 85 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_TRISCbits 87 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___lldiv@dividend 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_B1 3FC0 0 CODE 0 text49 dist/default/production\bluetooth.X.production.o
-__end_of_B2 3FE4 0 CODE 0 text47 dist/default/production\bluetooth.X.production.o
-__end_of_B3 3FCA 0 CODE 0 text45 dist/default/production\bluetooth.X.production.o
-hexToAscii@dez 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-hexToAscii@uni 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-clear_ram0 203A 0 CODE 0 clrtext dist/default/production\bluetooth.X.production.o
-__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-?_statusT0 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-bordaSubidaB2@resp1 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-serialOut@d 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-serialOut@i 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_putLCD 25E2 0 CODE 0 text41 dist/default/production\bluetooth.X.production.o
-__size_of_putFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_initLCD 264A 0 CODE 0 text34 dist/default/production\bluetooth.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\18175259\AppData\Local\Temp\s75k.o
-__end_of_slave1 1A0C 0 CODE 0 text22 dist/default/production\bluetooth.X.production.o
+___bmul@multiplier 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+___awdiv@divisor 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_ofi1___awmod 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of___awdiv 2A9C 0 CODE 0 text16 dist/default/production\bluetooth.X.production.obj
+__end_of___awmod 2672 0 CODE 0 text34 dist/default/production\bluetooth.X.production.obj
+__end_of___lldiv 2B5C 0 CODE 0 text50 dist/default/production\bluetooth.X.production.obj
+setT0limite@c 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_cmdLCD 287A 0 CODE 0 text40 dist/default/production\bluetooth.X.production.obj
+_writeLCD 2476 0 CODE 0 text37 dist/default/production\bluetooth.X.production.obj
+_BAUDCTLbits 187 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_geral 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_writeLCD 24DA 0 CODE 0 text37 dist/default/production\bluetooth.X.production.obj
+_writeString 2270 0 CODE 0 text47 dist/default/production\bluetooth.X.production.obj
+i1___awmod 2542 0 CODE 0 text58 dist/default/production\bluetooth.X.production.obj
+__end_of_gotoxy 3F68 0 CODE 0 text39 dist/default/production\bluetooth.X.production.obj
+__size_of_master1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_desconectar 22C2 0 CODE 0 text46 dist/default/production\bluetooth.X.production.obj
+___lldiv@counter 31 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_initBT 3EC0 0 CODE 0 text32 dist/default/production\bluetooth.X.production.obj
+start_initialization 2A 0 CODE 0 cinit dist/default/production\bluetooth.X.production.obj
+__end_of_asciiToHex 1476 0 CODE 0 text53 dist/default/production\bluetooth.X.production.obj
+_TRISAbits 85 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_TRISCbits 87 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___lldiv@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_B1 3E5A 0 CODE 0 text52 dist/default/production\bluetooth.X.production.obj
+__end_of_B2 3E7E 0 CODE 0 text45 dist/default/production\bluetooth.X.production.obj
+__end_of_B3 3E64 0 CODE 0 text43 dist/default/production\bluetooth.X.production.obj
+hexToAscii@dez 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+hexToAscii@uni 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+clear_ram0 3E9A 0 CODE 0 clrtext dist/default/production\bluetooth.X.production.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+?_statusT0 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+bordaSubidaB2@resp1 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+serialOut@d 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+serialOut@i 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_putLCD 2476 0 CODE 0 text38 dist/default/production\bluetooth.X.production.obj
+__size_of_putFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_initLCD 2542 0 CODE 0 text31 dist/default/production\bluetooth.X.production.obj
+___int_sp 0 0 STACK 2 stack C:\Users\walla\AppData\Local\Temp\sfok.obj
+__end_of_slave1 1A0C 0 CODE 0 text22 dist/default/production\bluetooth.X.production.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
 __Hbank3 0 0 ABS 0 bank3 -
-__Hcinit 4E 0 CODE 0 cinit -
+__Hcinit 52 0 CODE 0 cinit -
 __Hidloc 0 0 IDLOC 0 idloc -
 __Hstack 0 0 STACK 2 stack -
-__stringbase 2024 0 STRING 0 strings dist/default/production\bluetooth.X.production.o
+__stringbase 3024 0 STRING 0 strings dist/default/production\bluetooth.X.production.obj
 __Hmaintext 0 0 ABS 0 maintext -
-putFIFO@c 7B 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
+__size_of_modulo2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+putFIFO@c 7B 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 4012 0 CONFIG 0 config -
-__size_of_setT0limite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__size_of_setT0limite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Lbank0 0 0 ABS 0 bank0 -
 __Lbank1 0 0 ABS 0 bank1 -
 __Lbank2 0 0 ABS 0 bank2 -
 __Lbank3 0 0 ABS 0 bank3 -
-__Lcinit 26 0 CODE 0 cinit -
-__size_of_statusT0limite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__Lcinit 2A 0 CODE 0 cinit -
+__size_of_statusT0limite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Lidloc 0 0 IDLOC 0 idloc -
 __Lstack 0 0 STACK 2 stack -
-bordaSubidaB3@estadoAtualB3 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-_bordaSubidaB1 215E 0 CODE 0 text48 dist/default/production\bluetooth.X.production.o
-_bordaSubidaB2 2192 0 CODE 0 text46 dist/default/production\bluetooth.X.production.o
-_bordaSubidaB3 21C6 0 CODE 0 text44 dist/default/production\bluetooth.X.production.o
-_SPBRbits 99 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_B1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_B2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_B3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_serialOut 212C 0 CODE 0 text33 dist/default/production\bluetooth.X.production.o
-_PORTBbits 6 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_PORTCbits 7 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_INTCONbits B 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_serialOut 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_textConfig 235E 0 CODE 0 text18 dist/default/production\bluetooth.X.production.o
+bordaSubidaB3@estadoAtualB3 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+_bordaSubidaB1 3FCC 0 CODE 0 text51 dist/default/production\bluetooth.X.production.obj
+_bordaSubidaB2 201A 0 CODE 0 text44 dist/default/production\bluetooth.X.production.obj
+_bordaSubidaB3 204E 0 CODE 0 text42 dist/default/production\bluetooth.X.production.obj
+_SPBRbits 99 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_B1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_B2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_B3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_serialOut 3F9A 0 CODE 0 text30 dist/default/production\bluetooth.X.production.obj
+_PORTBbits 6 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_PORTCbits 7 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_serialOut 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_textConfig 21E6 0 CODE 0 text18 dist/default/production\bluetooth.X.production.obj
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
-__Hinit 20 0 CODE 0 init -
+__Hinit 24 0 CODE 0 init -
 __Hsfr0 0 0 ABS 0 sfr0 -
 __Hsfr1 0 0 ABS 0 sfr1 -
 __Hsfr2 0 0 ABS 0 sfr2 -
@@ -994,273 +1031,283 @@ __Hsfr3 0 0 ABS 0 sfr3 -
 __Htext 0 0 ABS 0 text -
 __Labs1 0 0 ABS 0 abs1 -
 __Lcode 0 0 ABS 0 code -
-__Linit 20 0 CODE 0 init -
+__Linit 24 0 CODE 0 init -
 __Lsfr0 0 0 ABS 0 sfr0 -
 __Lsfr1 0 0 ABS 0 sfr1 -
 __Lsfr2 0 0 ABS 0 sfr2 -
 __Lsfr3 0 0 ABS 0 sfr3 -
 __Ltext 0 0 ABS 0 text -
+___bmul 3EE6 0 CODE 0 text41 dist/default/production\bluetooth.X.production.obj
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-__end_of_textLoading 1C06 0 CODE 0 text17 dist/default/production\bluetooth.X.production.o
-__end_of_master1 1744 0 CODE 0 text24 dist/default/production\bluetooth.X.production.o
-_LCD 8 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__end_of_textLoading 1C06 0 CODE 0 text17 dist/default/production\bluetooth.X.production.obj
+__end_of_master1 1744 0 CODE 0 text25 dist/default/production\bluetooth.X.production.obj
+_LCD 8 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __S0 2009 0 ABS 0 - -
 __S1 BE 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
-__size_of_hexToAscii 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_t0final 4A 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_statusFIFO 2266 0 CODE 0 text21 dist/default/production\bluetooth.X.production.o
-_serialOut 20FA 0 CODE 0 text33 dist/default/production\bluetooth.X.production.o
-saved_w 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_cmdLCD 2942 0 CODE 0 text43 dist/default/production\bluetooth.X.production.o
-__size_of_resetErrorRxEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-initEUSART@baudRate 31 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_textSelection1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection4 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection5 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection6 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection7 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textSelection8 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_getFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_gotoxy 20CA 0 CODE 0 text42 dist/default/production\bluetooth.X.production.o
-_initEUSART 29F6 0 CODE 0 text27 dist/default/production\bluetooth.X.production.o
+__size_of_hexToAscii 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__CFG_BOR4V$BOR40V 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_t0final 4B 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_statusFIFO 20EE 0 CODE 0 text21 dist/default/production\bluetooth.X.production.obj
+_serialOut 3F68 0 CODE 0 text30 dist/default/production\bluetooth.X.production.obj
+saved_w 7E 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_cmdLCD 27C6 0 CODE 0 text40 dist/default/production\bluetooth.X.production.obj
+__size_of_resetErrorRxEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+initEUSART@baudRate 32 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection4 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection5 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection6 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection7 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textSelection8 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_getFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_gotoxy 3F38 0 CODE 0 text39 dist/default/production\bluetooth.X.production.obj
+_initEUSART 287A 0 CODE 0 text49 dist/default/production\bluetooth.X.production.obj
 __Lintentry 8 0 CODE 0 intentry -
-___lldiv@divisor 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__end_of_writeEUSART 3FD6 0 CODE 0 text26 dist/default/production\bluetooth.X.production.o
-__stringtab 2000 0 STRING 0 strings dist/default/production\bluetooth.X.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\18175259\AppData\Local\Temp\s75k.o
-_estadoAnteriorB1 4F 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_estadoAnteriorB2 4E 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_estadoAnteriorB3 4D 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_initBT 204A 0 CODE 0 text35 dist/default/production\bluetooth.X.production.o
-__end_of_putFIFO 22DE 0 CODE 0 text54 dist/default/production\bluetooth.X.production.o
-_errorRxEUSART 2060 0 CODE 0 text38 dist/default/production\bluetooth.X.production.o
+___lldiv@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__end_of_writeEUSART 3E70 0 CODE 0 text48 dist/default/production\bluetooth.X.production.obj
+__stringtab 3000 0 STRING 0 strings dist/default/production\bluetooth.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\walla\AppData\Local\Temp\sfok.obj
+_estadoAnteriorB1 50 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_estadoAnteriorB2 4F 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_estadoAnteriorB3 4E 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_initBT 3EAA 0 CODE 0 text32 dist/default/production\bluetooth.X.production.obj
+__end_of_putFIFO 2166 0 CODE 0 text57 dist/default/production\bluetooth.X.production.obj
+_errorRxEUSART 2002 0 CODE 0 text35 dist/default/production\bluetooth.X.production.obj
+__size_of___bmul 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
-__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___awmod@counter 28 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-_RCSTAbits 18 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_PIE1bits 8C 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-i1___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-__end_of_textConfig 239E 0 CODE 0 text18 dist/default/production\bluetooth.X.production.o
-i1___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-__ptext10 2E74 0 CODE 0 text10 dist/default/production\bluetooth.X.production.o
-__ptext11 2DAE 0 CODE 0 text11 dist/default/production\bluetooth.X.production.o
-__ptext12 2CE8 0 CODE 0 text12 dist/default/production\bluetooth.X.production.o
-__ptext13 2C22 0 CODE 0 text13 dist/default/production\bluetooth.X.production.o
-__ptext14 202C 0 CODE 0 text14 dist/default/production\bluetooth.X.production.o
-__ptext15 3FF2 0 CODE 0 text15 dist/default/production\bluetooth.X.production.o
-__ptext16 2AAC 0 CODE 0 text16 dist/default/production\bluetooth.X.production.o
-__ptext17 1A0C 0 CODE 0 text17 dist/default/production\bluetooth.X.production.o
-__ptext18 235E 0 CODE 0 text18 dist/default/production\bluetooth.X.production.o
-__ptext19 231E 0 CODE 0 text19 dist/default/production\bluetooth.X.production.o
-__ptext20 22DE 0 CODE 0 text20 dist/default/production\bluetooth.X.production.o
-__ptext21 2266 0 CODE 0 text21 dist/default/production\bluetooth.X.production.o
-__ptext22 1898 0 CODE 0 text22 dist/default/production\bluetooth.X.production.o
-__ptext23 24D2 0 CODE 0 text23 dist/default/production\bluetooth.X.production.o
-__ptext24 1602 0 CODE 0 text24 dist/default/production\bluetooth.X.production.o
-__ptext25 2480 0 CODE 0 text25 dist/default/production\bluetooth.X.production.o
-__ptext26 3FCA 0 CODE 0 text26 dist/default/production\bluetooth.X.production.o
-__ptext27 29F6 0 CODE 0 text27 dist/default/production\bluetooth.X.production.o
-__ptext28 2B62 0 CODE 0 text28 dist/default/production\bluetooth.X.production.o
-__ptext29 1744 0 CODE 0 text29 dist/default/production\bluetooth.X.production.o
-__ptext30 2230 0 CODE 0 text30 dist/default/production\bluetooth.X.production.o
-__ptext31 3FE4 0 CODE 0 text31 dist/default/production\bluetooth.X.production.o
-__ptext32 209E 0 CODE 0 text32 dist/default/production\bluetooth.X.production.o
-__ptext33 20FA 0 CODE 0 text33 dist/default/production\bluetooth.X.production.o
-__ptext34 25E2 0 CODE 0 text34 dist/default/production\bluetooth.X.production.o
-__ptext35 204A 0 CODE 0 text35 dist/default/production\bluetooth.X.production.o
-__ptext36 242E 0 CODE 0 text36 dist/default/production\bluetooth.X.production.o
-__ptext37 2754 0 CODE 0 text37 dist/default/production\bluetooth.X.production.o
-__ptext38 2060 0 CODE 0 text38 dist/default/production\bluetooth.X.production.o
-__ptext39 1C06 0 CODE 0 text39 dist/default/production\bluetooth.X.production.o
-__ptext40 1412 0 CODE 0 text40 dist/default/production\bluetooth.X.production.o
-__ptext41 2582 0 CODE 0 text41 dist/default/production\bluetooth.X.production.o
-__ptext42 20CA 0 CODE 0 text42 dist/default/production\bluetooth.X.production.o
-__ptext43 2942 0 CODE 0 text43 dist/default/production\bluetooth.X.production.o
-__ptext44 21C6 0 CODE 0 text44 dist/default/production\bluetooth.X.production.o
-__ptext45 3FC0 0 CODE 0 text45 dist/default/production\bluetooth.X.production.o
-__ptext46 2192 0 CODE 0 text46 dist/default/production\bluetooth.X.production.o
-__ptext47 3FD6 0 CODE 0 text47 dist/default/production\bluetooth.X.production.o
-__ptext48 215E 0 CODE 0 text48 dist/default/production\bluetooth.X.production.o
-__ptext49 3FB6 0 CODE 0 text49 dist/default/production\bluetooth.X.production.o
-__ptext50 23E4 0 CODE 0 text50 dist/default/production\bluetooth.X.production.o
-__ptext51 239E 0 CODE 0 text51 dist/default/production\bluetooth.X.production.o
-__ptext52 21FA 0 CODE 0 text52 dist/default/production\bluetooth.X.production.o
-__ptext53 2078 0 CODE 0 text53 dist/default/production\bluetooth.X.production.o
-__ptext54 229E 0 CODE 0 text54 dist/default/production\bluetooth.X.production.o
-__ptext55 26BE 0 CODE 0 text55 dist/default/production\bluetooth.X.production.o
-___awdiv 2AAC 0 CODE 0 text16 dist/default/production\bluetooth.X.production.o
-___awmod 2754 0 CODE 0 text37 dist/default/production\bluetooth.X.production.o
-__size_of_cmdLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___lldiv 2B62 0 CODE 0 text28 dist/default/production\bluetooth.X.production.o
-writeEUSART@d 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_serialIn 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__pmaintext 4E 0 CODE 0 maintext dist/default/production\bluetooth.X.production.o
-writeLCD@ptr 2C 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_interrupt_EUSART_RX 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_asciiToHex 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__CFG_FCMEN$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___awmod@counter 29 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+_RCSTAbits 18 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_PIE1bits 8C 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+i1___awmod@sign 76 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+__end_of_textConfig 2226 0 CODE 0 text18 dist/default/production\bluetooth.X.production.obj
+i1___awmod@dividend 72 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+__end_of_modulo2 29E6 0 CODE 0 text24 dist/default/production\bluetooth.X.production.obj
+__ptext10 2DAE 0 CODE 0 text10 dist/default/production\bluetooth.X.production.obj
+__ptext11 2CE8 0 CODE 0 text11 dist/default/production\bluetooth.X.production.obj
+__ptext12 2C22 0 CODE 0 text12 dist/default/production\bluetooth.X.production.obj
+__ptext13 2B5C 0 CODE 0 text13 dist/default/production\bluetooth.X.production.obj
+__ptext14 BF2 0 CODE 0 text14 dist/default/production\bluetooth.X.production.obj
+__ptext15 3E8C 0 CODE 0 text15 dist/default/production\bluetooth.X.production.obj
+__ptext16 29E6 0 CODE 0 text16 dist/default/production\bluetooth.X.production.obj
+__ptext17 1A0C 0 CODE 0 text17 dist/default/production\bluetooth.X.production.obj
+__ptext18 21E6 0 CODE 0 text18 dist/default/production\bluetooth.X.production.obj
+__ptext19 21A6 0 CODE 0 text19 dist/default/production\bluetooth.X.production.obj
+__ptext20 2166 0 CODE 0 text20 dist/default/production\bluetooth.X.production.obj
+__ptext21 20EE 0 CODE 0 text21 dist/default/production\bluetooth.X.production.obj
+__ptext22 1898 0 CODE 0 text22 dist/default/production\bluetooth.X.production.obj
+__ptext23 2366 0 CODE 0 text23 dist/default/production\bluetooth.X.production.obj
+__ptext24 2930 0 CODE 0 text24 dist/default/production\bluetooth.X.production.obj
+__ptext25 1602 0 CODE 0 text25 dist/default/production\bluetooth.X.production.obj
+__ptext26 1744 0 CODE 0 text26 dist/default/production\bluetooth.X.production.obj
+__ptext27 20B8 0 CODE 0 text27 dist/default/production\bluetooth.X.production.obj
+__ptext28 3E7E 0 CODE 0 text28 dist/default/production\bluetooth.X.production.obj
+__ptext29 3F0C 0 CODE 0 text29 dist/default/production\bluetooth.X.production.obj
+__ptext30 3F68 0 CODE 0 text30 dist/default/production\bluetooth.X.production.obj
+__ptext31 24DA 0 CODE 0 text31 dist/default/production\bluetooth.X.production.obj
+__ptext32 3EAA 0 CODE 0 text32 dist/default/production\bluetooth.X.production.obj
+__ptext33 2314 0 CODE 0 text33 dist/default/production\bluetooth.X.production.obj
+__ptext34 25D8 0 CODE 0 text34 dist/default/production\bluetooth.X.production.obj
+__ptext35 2002 0 CODE 0 text35 dist/default/production\bluetooth.X.production.obj
+__ptext36 1C06 0 CODE 0 text36 dist/default/production\bluetooth.X.production.obj
+__ptext37 2476 0 CODE 0 text37 dist/default/production\bluetooth.X.production.obj
+__ptext38 2416 0 CODE 0 text38 dist/default/production\bluetooth.X.production.obj
+__ptext39 3F38 0 CODE 0 text39 dist/default/production\bluetooth.X.production.obj
+__ptext40 27C6 0 CODE 0 text40 dist/default/production\bluetooth.X.production.obj
+__ptext41 3EE6 0 CODE 0 text41 dist/default/production\bluetooth.X.production.obj
+__ptext42 204E 0 CODE 0 text42 dist/default/production\bluetooth.X.production.obj
+__ptext43 3E5A 0 CODE 0 text43 dist/default/production\bluetooth.X.production.obj
+__ptext44 201A 0 CODE 0 text44 dist/default/production\bluetooth.X.production.obj
+__ptext45 3E70 0 CODE 0 text45 dist/default/production\bluetooth.X.production.obj
+__ptext46 22C2 0 CODE 0 text46 dist/default/production\bluetooth.X.production.obj
+__ptext47 2270 0 CODE 0 text47 dist/default/production\bluetooth.X.production.obj
+__ptext48 3E64 0 CODE 0 text48 dist/default/production\bluetooth.X.production.obj
+__ptext49 287A 0 CODE 0 text49 dist/default/production\bluetooth.X.production.obj
+__ptext50 2A9C 0 CODE 0 text50 dist/default/production\bluetooth.X.production.obj
+__ptext51 3FCC 0 CODE 0 text51 dist/default/production\bluetooth.X.production.obj
+__ptext52 3E50 0 CODE 0 text52 dist/default/production\bluetooth.X.production.obj
+__ptext53 142C 0 CODE 0 text53 dist/default/production\bluetooth.X.production.obj
+__ptext54 2226 0 CODE 0 text54 dist/default/production\bluetooth.X.production.obj
+__ptext55 2082 0 CODE 0 text55 dist/default/production\bluetooth.X.production.obj
+__ptext56 3EC0 0 CODE 0 text56 dist/default/production\bluetooth.X.production.obj
+__ptext57 2126 0 CODE 0 text57 dist/default/production\bluetooth.X.production.obj
+__ptext58 2542 0 CODE 0 text58 dist/default/production\bluetooth.X.production.obj
+___awdiv 29E6 0 CODE 0 text16 dist/default/production\bluetooth.X.production.obj
+___awmod 25D8 0 CODE 0 text34 dist/default/production\bluetooth.X.production.obj
+__size_of_cmdLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___lldiv 2A9C 0 CODE 0 text50 dist/default/production\bluetooth.X.production.obj
+writeEUSART@d 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_serialIn 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__pmaintext 52 0 CODE 0 maintext dist/default/production\bluetooth.X.production.obj
+writeLCD@ptr 2D 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_interrupt_EUSART_RX 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_asciiToHex 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 400E 0 CONFIG 0 config -
-__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_putLCD 2582 0 CODE 0 text41 dist/default/production\bluetooth.X.production.o
-__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_statusFIFO 229E 0 CODE 0 text21 dist/default/production\bluetooth.X.production.o
-__size_of_bordaSubidaB1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_bordaSubidaB2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_bordaSubidaB3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_t0cont 48 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_gotoxy 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_serial 50 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-_slave1 1898 0 CODE 0 text22 dist/default/production\bluetooth.X.production.o
-hexToAscii@dado 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-bordaSubidaB3@resp2 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-putLCD@nibble 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_initBT 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-serialIn@i 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-stackhi 0 0 ABS 0 - C:\Users\18175259\AppData\Local\Temp\s75k.o
-stacklo 0 0 ABS 0 - C:\Users\18175259\AppData\Local\Temp\s75k.o
-writeLCD@x 2F 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-writeLCD@y 2B 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-_initSerial 209E 0 CODE 0 text32 dist/default/production\bluetooth.X.production.o
-__end_of_initEUSART 2AAC 0 CODE 0 text27 dist/default/production\bluetooth.X.production.o
-__end_of__stringtab 2024 0 STRING 0 strings dist/default/production\bluetooth.X.production.o
-__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_writeString 24D2 0 CODE 0 text25 dist/default/production\bluetooth.X.production.o
-_initTimer0 2230 0 CODE 0 text30 dist/default/production\bluetooth.X.production.o
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_putLCD 2416 0 CODE 0 text38 dist/default/production\bluetooth.X.production.obj
+__CFG_IESO$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_statusFIFO 2126 0 CODE 0 text21 dist/default/production\bluetooth.X.production.obj
+__size_of_bordaSubidaB1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_bordaSubidaB2 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_bordaSubidaB3 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_t0cont 49 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_gotoxy 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_serial 51 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+_slave1 1898 0 CODE 0 text22 dist/default/production\bluetooth.X.production.obj
+hexToAscii@dado 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+bordaSubidaB3@resp2 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+putLCD@nibble 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_initBT 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+serialIn@i 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+stackhi 0 0 ABS 0 - C:\Users\walla\AppData\Local\Temp\sfok.obj
+stacklo 0 0 ABS 0 - C:\Users\walla\AppData\Local\Temp\sfok.obj
+writeLCD@x 30 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+writeLCD@y 2C 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+_initSerial 3F0C 0 CODE 0 text29 dist/default/production\bluetooth.X.production.obj
+__end_of_initEUSART 2930 0 CODE 0 text49 dist/default/production\bluetooth.X.production.obj
+__end_of__stringtab 3024 0 STRING 0 strings dist/default/production\bluetooth.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_writeString 22C2 0 CODE 0 text47 dist/default/production\bluetooth.X.production.obj
+_initTimer0 20B8 0 CODE 0 text27 dist/default/production\bluetooth.X.production.obj
+__end_of_desconectar 2314 0 CODE 0 text46 dist/default/production\bluetooth.X.production.obj
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
-main@a1 41 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-main@a2 42 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/production\bluetooth.X.production.o
-asciiToHex@dez 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-asciiToHex@uni 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
+main@a1 42 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+main@a2 43 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__pbssCOMMON 7C 0 COMMON 1 bssCOMMON dist/default/production\bluetooth.X.production.obj
+asciiToHex@dez 28 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+asciiToHex@uni 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
-_PIR1bits C 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__Lend_init 20 0 CODE 0 end_init -
-__end_of_getFIFO 2480 0 CODE 0 text36 dist/default/production\bluetooth.X.production.o
+_PIR1bits C 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__Lend_init 24 0 CODE 0 end_init -
+__end_of_getFIFO 2366 0 CODE 0 text33 dist/default/production\bluetooth.X.production.obj
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-__end_of_bordaSubidaB1 2192 0 CODE 0 text48 dist/default/production\bluetooth.X.production.o
-__end_of_bordaSubidaB2 21C6 0 CODE 0 text46 dist/default/production\bluetooth.X.production.o
-__end_of_bordaSubidaB3 21FA 0 CODE 0 text44 dist/default/production\bluetooth.X.production.o
-end_of_initialization 46 0 CODE 0 cinit dist/default/production\bluetooth.X.production.o
-__Hintentry 20 0 CODE 0 intentry -
-_interrupt_EUSART_RX 2078 0 CODE 0 text53 dist/default/production\bluetooth.X.production.o
-__size_of_putLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_serialIn 212C 0 CODE 0 text2 dist/default/production\bluetooth.X.production.o
+__end_of_bordaSubidaB1 4000 0 CODE 0 text51 dist/default/production\bluetooth.X.production.obj
+__end_of_bordaSubidaB2 204E 0 CODE 0 text44 dist/default/production\bluetooth.X.production.obj
+__end_of_bordaSubidaB3 2082 0 CODE 0 text42 dist/default/production\bluetooth.X.production.obj
+end_of_initialization 4A 0 CODE 0 cinit dist/default/production\bluetooth.X.production.obj
+__Hintentry 24 0 CODE 0 intentry -
+_interrupt_EUSART_RX 3EC0 0 CODE 0 text56 dist/default/production\bluetooth.X.production.obj
+__size_of_putLCD 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_serialIn 3F9A 0 CODE 0 text2 dist/default/production\bluetooth.X.production.obj
 __Lstrings 0 0 ABS 0 strings -
-___awdiv@quotient 2C 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-?___awdiv 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-?___awmod 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-?___lldiv 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_textLoading 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+___awdiv@quotient 2D 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+?___awdiv 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+?___awmod 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+?___lldiv 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_textLoading 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Hreset_vec 6 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __HbssBANK1 0 0 ABS 0 bssBANK1 -
-_initLCD 25E2 0 CODE 0 text34 dist/default/production\bluetooth.X.production.o
-___awmod@dividend 25 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_slave1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_setT0limite 3FE4 0 CODE 0 text31 dist/default/production\bluetooth.X.production.o
-__end_of_serialIn 215E 0 CODE 0 text2 dist/default/production\bluetooth.X.production.o
-__size_of_errorRxEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-cmdLCD@nibble 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__ptext0 0 0 CODE 0 text0 dist/default/production\bluetooth.X.production.o
-__ptext1 264A 0 CODE 0 text1 dist/default/production\bluetooth.X.production.o
-__ptext2 212C 0 CODE 0 text2 dist/default/production\bluetooth.X.production.o
-__ptext3 2528 0 CODE 0 text3 dist/default/production\bluetooth.X.production.o
-__ptext4 2898 0 CODE 0 text4 dist/default/production\bluetooth.X.production.o
-__ptext5 27EE 0 CODE 0 text5 dist/default/production\bluetooth.X.production.o
-__ptext6 B32 0 CODE 0 text6 dist/default/production\bluetooth.X.production.o
-__ptext7 153C 0 CODE 0 text7 dist/default/production\bluetooth.X.production.o
-__ptext8 1476 0 CODE 0 text8 dist/default/production\bluetooth.X.production.o
-__ptext9 2F3A 0 CODE 0 text9 dist/default/production\bluetooth.X.production.o
-__end_of_easterEgg 2000 0 CODE 0 text39 dist/default/production\bluetooth.X.production.o
+_initLCD 24DA 0 CODE 0 text31 dist/default/production\bluetooth.X.production.obj
+___awmod@dividend 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_slave1 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_setT0limite 3E7E 0 CODE 0 text28 dist/default/production\bluetooth.X.production.obj
+__end_of_serialIn 3FCC 0 CODE 0 text2 dist/default/production\bluetooth.X.production.obj
+__size_of_errorRxEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+cmdLCD@nibble 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__ptext0 0 0 CODE 0 text0 dist/default/production\bluetooth.X.production.obj
+__ptext1 B7E 0 CODE 0 text1 dist/default/production\bluetooth.X.production.obj
+__ptext2 3F9A 0 CODE 0 text2 dist/default/production\bluetooth.X.production.obj
+__ptext3 23BC 0 CODE 0 text3 dist/default/production\bluetooth.X.production.obj
+__ptext4 271C 0 CODE 0 text4 dist/default/production\bluetooth.X.production.obj
+__ptext5 2672 0 CODE 0 text5 dist/default/production\bluetooth.X.production.obj
+__ptext6 153C 0 CODE 0 text6 dist/default/production\bluetooth.X.production.obj
+__ptext7 1476 0 CODE 0 text7 dist/default/production\bluetooth.X.production.obj
+__ptext8 2F3A 0 CODE 0 text8 dist/default/production\bluetooth.X.production.obj
+__ptext9 2E74 0 CODE 0 text9 dist/default/production\bluetooth.X.production.obj
+__end_of_easterEgg 2000 0 CODE 0 text36 dist/default/production\bluetooth.X.production.obj
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-__pstringtext C00 0 STRCODE 0 stringtext dist/default/production\bluetooth.X.production.o
-__size_of_easterEgg 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_textCMdat 231E 0 CODE 0 text20 dist/default/production\bluetooth.X.production.o
-__end_of_textCMpar 235E 0 CODE 0 text19 dist/default/production\bluetooth.X.production.o
-bordaSubidaB2@estadoAtualB2 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__size_of_textCMdat 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textCMpar 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__pstringtext C00 0 STRCODE 0 stringtext dist/default/production\bluetooth.X.production.obj
+__size_of_easterEgg 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_textCMdat 21A6 0 CODE 0 text20 dist/default/production\bluetooth.X.production.obj
+__end_of_textCMpar 21E6 0 CODE 0 text19 dist/default/production\bluetooth.X.production.obj
+bordaSubidaB2@estadoAtualB2 27 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__size_of_textCMdat 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textCMpar 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Lreset_vec 0 0 CODE 0 reset_vec -
-__end_of_initSerial 20CA 0 CODE 0 text32 dist/default/production\bluetooth.X.production.o
-__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-?i1___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-__size_of_writeEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_initTimer0 2266 0 CODE 0 text30 dist/default/production\bluetooth.X.production.o
-__end_of__initialization 46 0 CODE 0 cinit dist/default/production\bluetooth.X.production.o
-_fifoHead 7C 0 COMMON 1 bssCOMMON dist/default/production\bluetooth.X.production.o
-_fifoTail 4C 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-___awmod@divisor 23 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__Lfunctab 0 0 ENTRY 0 functab -
-__end_of_transmite 26BE 0 CODE 0 text1 dist/default/production\bluetooth.X.production.o
-_master1 1602 0 CODE 0 text24 dist/default/production\bluetooth.X.production.o
-__end_of_errorRxEUSART 2078 0 CODE 0 text38 dist/default/production\bluetooth.X.production.o
-_easterEgg 1C06 0 CODE 0 text39 dist/default/production\bluetooth.X.production.o
-__size_of_transmite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__end_of_initSerial 3F38 0 CODE 0 text29 dist/default/production\bluetooth.X.production.obj
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+?i1___awmod 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+__size_of_writeEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_initTimer0 20EE 0 CODE 0 text27 dist/default/production\bluetooth.X.production.obj
+__end_of__initialization 4A 0 CODE 0 cinit dist/default/production\bluetooth.X.production.obj
+_fifoHead 7C 0 COMMON 1 bssCOMMON dist/default/production\bluetooth.X.production.obj
+_fifoTail 4D 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+___awmod@divisor 24 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__Lfunctab 0 0 CODE 0 functab -
+__end_of_transmite BF2 0 CODE 0 text1 dist/default/production\bluetooth.X.production.obj
+_master1 1602 0 CODE 0 text25 dist/default/production\bluetooth.X.production.obj
+__end_of_errorRxEUSART 201A 0 CODE 0 text35 dist/default/production\bluetooth.X.production.obj
+_easterEgg 1C06 0 CODE 0 text36 dist/default/production\bluetooth.X.production.obj
+__size_of_transmite 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Lclrtext 0 0 ABS 0 clrtext -
-_textCMdat 22DE 0 CODE 0 text20 dist/default/production\bluetooth.X.production.o
-_textCMpar 231E 0 CODE 0 text19 dist/default/production\bluetooth.X.production.o
-__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-___lldiv@quotient 2C 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.o
-__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-_TXSTAbits 98 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_statusT0limite 202C 0 CODE 0 text14 dist/default/production\bluetooth.X.production.o
-__Hend_init 26 0 CODE 0 end_init -
-__end_of_intt0_1ms 2230 0 CODE 0 text52 dist/default/production\bluetooth.X.production.o
-_transmite 264A 0 CODE 0 text1 dist/default/production\bluetooth.X.production.o
-__end_of_logo 1898 0 CODE 0 text29 dist/default/production\bluetooth.X.production.o
-__end_of_main B32 0 CODE 0 maintext dist/default/production\bluetooth.X.production.o
-__size_of_intt0_1ms 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__size_of_textConfig 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_ANSEL 188 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__end_of_geral 23E4 0 CODE 0 text51 dist/default/production\bluetooth.X.production.o
-_PORTB 6 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_RCREG 1A 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_TRISB 86 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_TRISD 88 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_TXREG 19 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+_textCMdat 2166 0 CODE 0 text20 dist/default/production\bluetooth.X.production.obj
+_textCMpar 21A6 0 CODE 0 text19 dist/default/production\bluetooth.X.production.obj
+__CFG_PWRTE$ON 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+___lldiv@quotient 2D 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+_TXSTAbits 98 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_statusT0limite BF2 0 CODE 0 text14 dist/default/production\bluetooth.X.production.obj
+__Hend_init 2A 0 CODE 0 end_init -
+__end_of_intt0_1ms 20B8 0 CODE 0 text55 dist/default/production\bluetooth.X.production.obj
+_transmite B7E 0 CODE 0 text1 dist/default/production\bluetooth.X.production.obj
+__end_of_logo 1898 0 CODE 0 text26 dist/default/production\bluetooth.X.production.obj
+__end_of_main B7E 0 CODE 0 maintext dist/default/production\bluetooth.X.production.obj
+__size_of_intt0_1ms 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__size_of_textConfig 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_ANSEL 188 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__end_of_geral 2270 0 CODE 0 text54 dist/default/production\bluetooth.X.production.obj
+_PORTB 6 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_RCREG 1A 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_TRISB 86 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_TRISD 88 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_TXREG 19 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-interrupt_function 8 0 CODE 0 intentry dist/default/production\bluetooth.X.production.o
-_geral 239E 0 CODE 0 text51 dist/default/production\bluetooth.X.production.o
-__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_putFIFO 229E 0 CODE 0 text54 dist/default/production\bluetooth.X.production.o
-__end_of_interrupt_EUSART_RX 209E 0 CODE 0 text53 dist/default/production\bluetooth.X.production.o
-_SSPSTATbits 94 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_CCP1CON 17 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__pintentry 8 0 CODE 0 intentry dist/default/production\bluetooth.X.production.o
-__size_of_statusFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-_intt0_1ms 21FA 0 CODE 0 text52 dist/default/production\bluetooth.X.production.o
-__initialization 26 0 CODE 0 cinit dist/default/production\bluetooth.X.production.o
-__pbssBANK0 48 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.o
-__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\bluetooth.X.production.o
-__size_of_writeString 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+interrupt_function 8 0 CODE 0 intentry dist/default/production\bluetooth.X.production.obj
+_geral 2226 0 CODE 0 text54 dist/default/production\bluetooth.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_putFIFO 2126 0 CODE 0 text57 dist/default/production\bluetooth.X.production.obj
+__end_of_interrupt_EUSART_RX 3EE6 0 CODE 0 text56 dist/default/production\bluetooth.X.production.obj
+_SSPSTATbits 94 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_CCP1CON 17 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/default/production\bluetooth.X.production.obj
+__size_of_statusFIFO 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_intt0_1ms 2082 0 CODE 0 text55 dist/default/production\bluetooth.X.production.obj
+__initialization 2A 0 CODE 0 cinit dist/default/production\bluetooth.X.production.obj
+___bmul@product 26 0 BANK0 1 cstackBANK0 dist/default/production\bluetooth.X.production.obj
+__pbssBANK0 49 0 BANK0 1 bssBANK0 dist/default/production\bluetooth.X.production.obj
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\bluetooth.X.production.obj
+__size_of_writeString 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 __Hstringtext 0 0 ABS 0 stringtext -
-__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-__pstrings 2000 0 STRING 0 strings dist/default/production\bluetooth.X.production.o
-_textSelection1 2C22 0 CODE 0 text13 dist/default/production\bluetooth.X.production.o
-_textSelection2 2CE8 0 CODE 0 text12 dist/default/production\bluetooth.X.production.o
-_textSelection3 2DAE 0 CODE 0 text11 dist/default/production\bluetooth.X.production.o
-_textSelection4 2E74 0 CODE 0 text10 dist/default/production\bluetooth.X.production.o
-_textSelection5 2F3A 0 CODE 0 text9 dist/default/production\bluetooth.X.production.o
-_textSelection6 1476 0 CODE 0 text8 dist/default/production\bluetooth.X.production.o
-_textSelection7 153C 0 CODE 0 text7 dist/default/production\bluetooth.X.production.o
-_textSelection8 B32 0 CODE 0 text6 dist/default/production\bluetooth.X.production.o
-__size_of_statusT0 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
-i1___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.o
-__size_of_initEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.o
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+__pstrings 3000 0 STRING 0 strings dist/default/production\bluetooth.X.production.obj
+__size_of_desconectar 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+_textSelection1 2B5C 0 CODE 0 text13 dist/default/production\bluetooth.X.production.obj
+_textSelection2 2C22 0 CODE 0 text12 dist/default/production\bluetooth.X.production.obj
+_textSelection3 2CE8 0 CODE 0 text11 dist/default/production\bluetooth.X.production.obj
+_textSelection4 2DAE 0 CODE 0 text10 dist/default/production\bluetooth.X.production.obj
+_textSelection5 2E74 0 CODE 0 text9 dist/default/production\bluetooth.X.production.obj
+_textSelection6 2F3A 0 CODE 0 text8 dist/default/production\bluetooth.X.production.obj
+_textSelection7 1476 0 CODE 0 text7 dist/default/production\bluetooth.X.production.obj
+_textSelection8 153C 0 CODE 0 text6 dist/default/production\bluetooth.X.production.obj
+_modulo2 2930 0 CODE 0 text24 dist/default/production\bluetooth.X.production.obj
+__size_of_statusT0 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
+i1___awmod@counter 75 0 COMMON 1 cstackCOMMON dist/default/production\bluetooth.X.production.obj
+__size_of_initEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.obj
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1286,66 +1333,68 @@ __size_of_initEUSART 0 0 ABS 0 - dist/default/production\bluetooth.X.production.
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text1 0 1325 264A 3A 2
-text2 0 1096 212C 19 2
-text3 0 1294 2528 2D 2
-text4 0 144C 2898 55 2
-text5 0 13F7 27EE 55 2
-text7 0 A9E 153C 63 2
-text8 0 A3B 1476 63 2
-text9 0 179D 2F3A 63 2
-text10 0 173A 2E74 63 2
-text11 0 16D7 2DAE 63 2
-text12 0 1674 2CE8 63 2
-text13 0 1611 2C22 63 2
-text14 0 1016 202C 7 2
-text15 0 1FF9 3FF2 7 2
-text16 0 1556 2AAC 5B 2
+text2 0 1FCD 3F9A 19 2
+text3 0 11DE 23BC 2D 2
+text4 0 138E 271C 55 2
+text5 0 1339 2672 55 2
+text6 0 A9E 153C 63 2
+text7 0 A3B 1476 63 2
+text8 0 179D 2F3A 63 2
+text9 0 173A 2E74 63 2
+text10 0 16D7 2DAE 63 2
+text11 0 1674 2CE8 63 2
+text12 0 1611 2C22 63 2
+text13 0 15AE 2B5C 63 2
+text15 0 1F46 3E8C 7 2
+text16 0 14F3 29E6 5B 2
 text17 0 D06 1A0C FD 2
-text18 0 11AF 235E 20 2
-text19 0 118F 231E 20 2
-text20 0 116F 22DE 20 2
-text21 0 1133 2266 1C 2
+text18 0 10F3 21E6 20 2
+text19 0 10D3 21A6 20 2
+text20 0 10B3 2166 20 2
+text21 0 1077 20EE 1C 2
 text22 0 C4C 1898 BA 2
-text23 0 1269 24D2 2B 2
-text24 0 B01 1602 A1 2
-text25 0 1240 2480 29 2
-text26 0 1FE5 3FCA 6 2
-text27 0 14FB 29F6 5B 2
-text28 0 15B1 2B62 60 2
-text29 0 BA2 1744 AA 2
-text30 0 1118 2230 1B 2
-text31 0 1FF2 3FE4 7 2
-text32 0 104F 209E 16 2
-text33 0 107D 20FA 19 2
-text34 0 12F1 25E2 34 2
-text35 0 1025 204A B 2
-text36 0 1217 242E 29 2
-text37 0 13AA 2754 4D 2
-text38 0 1030 2060 C 2
-text39 0 E03 1C06 1FD 2
-text40 0 A09 1412 32 2
-text41 0 12C1 2582 30 2
-text42 0 1065 20CA 18 2
-text43 0 14A1 2942 5A 2
-text44 0 10E3 21C6 1A 2
-text45 0 1FE0 3FC0 5 2
-text46 0 10C9 2192 1A 2
-text47 0 1FEB 3FD6 7 2
-text48 0 10AF 215E 1A 2
-text49 0 1FDB 3FB6 5 2
-text50 0 11F2 23E4 25 2
-text51 0 11CF 239E 23 2
-text52 0 10FD 21FA 1B 2
-text53 0 103C 2078 13 2
-text54 0 114F 229E 20 2
-text55 0 135F 26BE 4B 2
+text23 0 11B3 2366 2B 2
+text24 0 1498 2930 5B 2
+text25 0 B01 1602 A1 2
+text26 0 BA2 1744 AA 2
+text27 0 105C 20B8 1B 2
+text28 0 1F3F 3E7E 7 2
+text29 0 1F86 3F0C 16 2
+text30 0 1FB4 3F68 19 2
+text31 0 126D 24DA 34 2
+text32 0 1F55 3EAA B 2
+text33 0 118A 2314 29 2
+text34 0 12EC 25D8 4D 2
+text35 0 1001 2002 C 2
+text36 0 E03 1C06 1FD 2
+text37 0 123B 2476 32 2
+text38 0 120B 2416 30 2
+text39 0 1F9C 3F38 18 2
+text40 0 13E3 27C6 5A 2
+text41 0 1F73 3EE6 13 2
+text42 0 1027 204E 1A 2
+text43 0 1F2D 3E5A 5 2
+text44 0 100D 201A 1A 2
+text45 0 1F38 3E70 7 2
+text46 0 1161 22C2 29 2
+text47 0 1138 2270 29 2
+text48 0 1F32 3E64 6 2
+text49 0 143D 287A 5B 2
+text50 0 154E 2A9C 60 2
+text51 0 1FE6 3FCC 1A 2
+text52 0 1F28 3E50 5 2
+text53 0 A16 142C 25 2
+text54 0 1113 2226 25 2
+text55 0 1041 2082 1B 2
+text56 0 1F60 3EC0 13 2
+text57 0 1093 2126 20 2
+text58 0 12A1 2542 4B 2
 cstackCOMMON 1 70 70 D 1
-cstackBANK0 1 20 20 35 1
-intentry 0 4 8 5F8 2
+cstackBANK0 1 20 20 36 1
+intentry 0 4 8 5FC 2
 reset_vec 0 0 0 3 2
 bssBANK1 1 A0 A0 1E 1
-stringtext 0 600 C00 409 2
-strings 0 1000 2000 12 2
-clrtext 0 101D 203A 8 2
+stringtext 0 600 C00 413 2
+strings 0 1800 3000 12 2
+clrtext 0 1F4D 3E9A 8 2
 config 0 2007 400E 2 2
